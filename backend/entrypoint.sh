@@ -4,4 +4,4 @@ set -e
 python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 
-exec daphne fmp_prep.asgi:application -b 0.0.0.0 -p 8000
+exec daphne -b 0.0.0.0 -p ${PORT:-8000} fmp_prep.asgi:application
