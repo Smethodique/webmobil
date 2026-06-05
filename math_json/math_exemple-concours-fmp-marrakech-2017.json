@@ -1,0 +1,132 @@
+[
+  {
+    "id": "Q21",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Logique",
+    "question": "La valeur du nombre \\( \\ln(3) + 4\\ln(2) - \\ln(60) \\) est :",
+    "options": [
+      "A) \\( \\ln(\\frac{4}{5}) \\)",
+      "B) 0",
+      "C) \\( \\ln(\\frac{4}{3}) \\)",
+      "D) \\( \\ln(15) \\)",
+      "E) \\( \\ln(\\frac{4}{15}) \\)"
+    ]
+  },
+  {
+    "id": "Q22",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Suites",
+    "question": "\\( (u_n)_{n \\ge 1} \\) est une suite définie par : \\( u_1 = \\sqrt[3]{\\frac{3}{8}} \\) et \\( u_{n+1} = \\sqrt[3]{\\frac{1+u_n^3}{8}} \\). Alors la raison de la suite géométrique \\( (v_n)_{n \\ge 1} \\) telle que \\( v_n = u_n^3 - \\frac{1}{7} \\) est :",
+    "options": [
+      "A) \\( -\\frac{1}{8} \\)",
+      "B) \\( \\frac{1}{8} \\)",
+      "C) \\( (v_n) \\) n'est pas une suite géométrique",
+      "D) \\( -\\frac{1}{7} \\)",
+      "E) \\( \\frac{1}{7} \\)"
+    ]
+  },
+  {
+    "id": "Q23",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Domaine de définition",
+    "question": "Le domaine de définition de la fonction définie par : \\( f(x) = \\sqrt{\\ln(x^2+3x-4)} \\) est :",
+    "options": [
+      "A) \\( ]-\\infty, \\frac{-3-\\sqrt{29}}{2}] \\)",
+      "B) \\( ]\\frac{-3-\\sqrt{29}}{2}, \\frac{-3+\\sqrt{29}}{2}[ \\)",
+      "C) \\( ]-\\infty, \\frac{-3-\\sqrt{29}}{2}] \\cup [\\frac{-3+\\sqrt{29}}{2}, +\\infty[ \\)",
+      "D) \\( ]-\\infty, \\frac{-3-\\sqrt{29}}{2} [ \\cup ]\\frac{-3+\\sqrt{29}}{2}, +\\infty[ \\)",
+      "E) \\( ]\\frac{-3+\\sqrt{29}}{2}, +\\infty[ \\)"
+    ]
+  },
+  {
+    "id": "Q24",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Intégration",
+    "question": "La primitive de la fonction \\( f(x) = \\frac{\\ln x}{x^3} \\) qui prend la valeur zéro au point 1 est :",
+    "options": [
+      "A) \\( -\\frac{\\ln x}{x^2} - \\frac{1}{3x^2} + \\frac{1}{3} \\)",
+      "B) \\( -\\frac{\\ln x}{2x^2} - \\frac{1}{4x^2} + \\frac{1}{4} \\)",
+      "C) \\( -\\frac{\\ln x}{4x^2} + \\frac{1}{2x^2} - \\frac{1}{2} \\)",
+      "D) \\( -\\frac{\\ln x}{2x^2} + \\frac{1}{4x^2} - \\frac{1}{4} \\)",
+      "E) \\( -\\frac{\\ln x}{2x^2} - \\frac{1}{4x^2} + 4 \\)"
+    ]
+  },
+  {
+    "id": "Q25",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Intégration",
+    "question": "La valeur de \\( \\int_0^1 \\frac{1}{x^2-x-1} dx \\) est :",
+    "options": [
+      "A) \\( \\ln(\\frac{\\sqrt{5}-1}{\\sqrt{5}+1}) \\)",
+      "B) \\( \\frac{4}{\\sqrt{5}} \\ln(\\frac{3-\\sqrt{5}}{2}) \\)",
+      "C) \\( \\frac{2}{\\sqrt{5}} \\ln(\\frac{30}{\\sqrt{5}+1}) \\)",
+      "D) \\( -\\frac{2}{\\sqrt{5}} \\ln(\\frac{3-\\sqrt{5}}{2}) \\)",
+      "E) \\( \\frac{2}{\\sqrt{5}} \\ln(\\frac{3-\\sqrt{5}}{2}) \\)"
+    ]
+  },
+  {
+    "id": "Q26",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Probabilités",
+    "question": "On considère deux sacs S1 et S2 contenant chacun 5 boules numérotées de 1 à 5. On tire simultanément et au hasard deux boules de S1 et une boule de S2. La probabilité d'obtenir deux nombres impairs et un nombre pair est :",
+    "options": [
+      "A) \\( \\frac{3}{25} \\)",
+      "B) \\( \\frac{12}{25} \\)",
+      "C) 1",
+      "D) \\( \\frac{3}{10} \\)",
+      "E) \\( \\frac{18}{25} \\)"
+    ]
+  },
+  {
+    "id": "Q27",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Fonctions",
+    "question": "La courbe représentative de la fonction f définie par : \\( f(x) = \\frac{2x^2-3x+\\ln(x)}{x} \\) admet au voisinage de \\( +\\infty \\) une asymptote d'équation :",
+    "options": [
+      "A) \\( y = 2x - 3 \\)",
+      "B) \\( y = -2x + 3 \\)",
+      "C) \\( y = 2x \\)",
+      "D) \\( y = 2x + 3 \\)",
+      "E) \\( y = -2x - 3 \\)"
+    ]
+  },
+  {
+    "id": "Q28",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Probabilités",
+    "question": "Trois élèves, Mohamed, Ahmed et Amine, ont passé un examen. La probabilité que Mohamed réussisse est 3/4, celle d'Ahmed est 2/3 et celle d'Amine est 1/3. La probabilité que les trois élèves Mohamed, Ahmed et Amine réussissent est :",
+    "options": [
+      "A) \\( \\frac{1}{2} \\)",
+      "B) \\( \\frac{1}{6} \\)",
+      "C) \\( \\frac{2}{9} \\)",
+      "D) \\( \\frac{1}{9} \\)",
+      "E) \\( \\frac{1}{18} \\)"
+    ]
+  },
+  {
+    "id": "Q29",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Intégration",
+    "question": "Dans le plan muni d'un repère orthonormé, on considère les courbes représentatives des fonctions f et g définies par : \\( f(x) = x^3 \\) et \\( g(x) = x^2 \\) (avec x > 0). L'aire de la partie du plan délimitée par les courbes des fonctions f et g et les droites d'équations x=2 et x=0 est :",
+    "options": [
+      "A) \\( \\frac{2}{3} cm^2 \\)",
+      "B) \\( \\frac{1}{2} cm^2 \\)",
+      "C) \\( \\frac{4}{3} cm^2 \\)",
+      "D) \\( \\frac{5}{2} cm^2 \\)",
+      "E) \\( \\frac{2}{5} cm^2 \\)"
+    ]
+  },
+  {
+    "id": "Q30",
+    "source": "math_exemple-concours-fmp-marrakech-2017",
+    "subject": "Fonctions",
+    "question": "Soit h une fonction numérique définie sur \\( \\mathbb{R} \\) et \\( (C_h) \\) sa courbe représentative dans un repère orthonormé. Soit le point \\( \\Omega(1,2) \\) un centre de symétrie pour la courbe \\( (C_h) \\). Alors pour tout x de \\( \\mathbb{R} \\) :",
+    "options": [
+      "A) \\( h(x) = 2x \\)",
+      "B) \\( h(2-x) + h(x) = 4 \\)",
+      "C) \\( h(2-x) = -h(x) \\)",
+      "D) \\( h(1-x) = -h(x) + 2 \\)",
+      "E) \\( h(-x) = -h(x) \\)"
+    ]
+  }
+]

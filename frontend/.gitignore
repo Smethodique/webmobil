@@ -1,0 +1,58 @@
+# Environment
+.env
+*.local
+
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+*.iml
+
+# iOS
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/flutter_assets/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/appframework.info.plist
+
+# Android
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/src/main/assets/
+android/local.properties
+.gradle/
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.p8
+*.p12
+*.key
+*.apk
+*.aab
+
+# Web
+web/flutter_service_worker.js
+web/manifest.json
+web/assets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Generated
+lib/generated/

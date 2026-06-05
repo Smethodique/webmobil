@@ -1,0 +1,141 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    container_name: fmp_db
+    environment:
+      POSTGRES_DB: fmp_prep
+      POSTGRES_USER: fmp_user
+      POSTGRES_PASSWORD: fmp_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fmp_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - fmp_network
+
+  # Redis Cache & Message Broker
+  redis:
+    image: redis:7-alpine
+    container_name: fmp_redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - fmp_network
+
+  # Backend Django Application
+  backend:
+    build: ./backend
+    container_name: fmp_backend
+    command: sh -c "python manage.py migrate --noinput && daphne fmp_prep.asgi:application -b 0.0.0.0 -p 8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - media_data:/app/media
+      - static_data:/app/static
+    environment:
+      PYTHONUNBUFFERED: 1
+      DEBUG: 'True'
+      DB_ENGINE: django.db.backends.postgresql
+      DB_NAME: fmp_prep
+      DB_USER: fmp_user
+      DB_PASSWORD: fmp_password
+      DB_HOST: db
+      DB_PORT: 5432
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - fmp_network
+
+  # Celery Worker (for async tasks)
+  celery_worker:
+    build: ./backend
+    container_name: fmp_celery_worker
+    command: celery -A fmp_prep worker -l info
+    volumes:
+      - ./backend:/app
+      - media_data:/app/media
+    environment:
+      PYTHONUNBUFFERED: 1
+      DB_ENGINE: django.db.backends.postgresql
+      DB_NAME: fmp_prep
+      DB_USER: fmp_user
+      DB_PASSWORD: fmp_password
+      DB_HOST: db
+      DB_PORT: 5432
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+    depends_on:
+      - backend
+      - redis
+    networks:
+      - fmp_network
+
+  # Celery Beat (for scheduled tasks)
+  celery_beat:
+    build: ./backend
+    container_name: fmp_celery_beat
+    command: celery -A fmp_prep beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    volumes:
+      - ./backend:/app
+    environment:
+      PYTHONUNBUFFERED: 1
+      DB_ENGINE: django.db.backends.postgresql
+      DB_NAME: fmp_prep
+      DB_USER: fmp_user
+      DB_PASSWORD: fmp_password
+      DB_HOST: db
+      DB_PORT: 5432
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/0
+    depends_on:
+      - backend
+      - redis
+    networks:
+      - fmp_network
+
+  # Frontend Web Service (Flutter Web)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.web
+    container_name: fmp_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      BACKEND_URL: http://backend:8000
+      FLUTTER_WEB_PORT: 3000
+    depends_on:
+      - backend
+    networks:
+      - fmp_network
+
+volumes:
+  postgres_data:
+  media_data:
+  static_data:
+
+networks:
+  fmp_network:
+    driver: bridge

@@ -1,0 +1,216 @@
+{
+  "source": "FConcours-medecine-2019-CASA-Corrigé-.json",
+  "timestamp": "2026-05-18T16:46:14.477Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Le domaine de définition de la fonction \\( f \\) définie par \\( f(x) = \\frac{\\ln(4-x^2)}{\\ln(x+1)} \\) est :",
+      "options": [
+        "A) [2; +\\infty[",
+        "B) ]-1; 0[ \\cup ]0; 2[",
+        "C) ]-1; 2[",
+        "D) [0; 1[",
+        "E) [-2; -1]"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) ]-1; 0[ \\cup ]0; 2[",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "L'ensemble de solutions de l'inéquation \\( x \\ln(x+1) > 0 \\) est :",
+      "options": [
+        "A) ]-1; +\\infty[",
+        "B) ]-1; 0[",
+        "C) ]-1; 0[ \\cup ]0; +\\infty[",
+        "D) ]0; +\\infty[",
+        "E) ]-1; 1["
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) ]-1; 0[ \\cup ]0; +\\infty[",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "On a \\( \\lim_{x \\to 0^+} \\frac{e^x - x^2 - 1}{x \\sin x} \\) est égale à :",
+      "options": [
+        "A) -\\infty",
+        "B) -1",
+        "C) 0",
+        "D) +\\infty",
+        "E) 1"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) +\\infty",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "Soit \\( Z \\) un nombre complexe tel que \\( Z = \\frac{(1+i)^{21} (1+i\\sqrt{3})^{19}}{(1-i)^9} \\). Un argument du nombre complexe \\( Z \\) est égale à :",
+      "options": [
+        "A) \\pi/3",
+        "B) 11\\pi/6",
+        "C) -\\pi/6",
+        "D) \\pi",
+        "E) 2\\pi/3"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 11\\pi/6",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Soit \\( (u_n) \\) la suite définie par : \\( u_n = \\frac{2^n + n^2}{n^2 e^n + 1} \\). La limite de la suite \\( (u_n) \\) en \\( +\\infty \\) est égale à :",
+      "options": [
+        "A) 0",
+        "B) +\\infty",
+        "C) 1",
+        "D) -\\infty",
+        "E) -1"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "L'intégrale \\( \\int_1^e (\\ln x)(-x + x \\ln x) dx \\) est égale à :",
+      "options": [
+        "A) \\ln 3",
+        "B) 1",
+        "C) -1/2",
+        "D) 0",
+        "E) \\ln 3"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) -1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "La courbe de la fonction \\( f \\) définie par \\( f(x) = \\frac{\\ln(x+1)}{x + e^x} \\) admet au point \\( O(0,0) \\) une tangente d'équation :",
+      "options": [
+        "A) \\( y = x + 1 \\)",
+        "B) \\( y = x \\)",
+        "C) \\( y = 2x \\)",
+        "D) \\( y = -2x \\)",
+        "E) \\( y = x - 1 \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( y = x \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "Dans le plan complexe, l'ensemble des points M(z) vérifiant : |z-2| = |z-i| est la droite d'équation :",
+      "options": [
+        "A) -4x + 2y + 3 = 0",
+        "B) y = -2x - 1",
+        "C) y = -2x + 3",
+        "D) y = 2x - 3/2",
+        "E) y = 2x + 1"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) y = 2x - 3/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Dans l'espace muni d'un repère orthonormé, on considère les plans (P) : x - z + 1 = 0 et (Q) : x + y + 1 = 0 et M(x0; y0; z0) un point équidistant à (P) et (Q). Les coordonnées du point M vérifient :",
+      "options": [
+        "A) y0 + z0 = 0 ou 2x0 + y0 - z0 + 2 = 0",
+        "B) y0 + z0 = 0 ou y0 - z0 = 0",
+        "C) 2x0 + y0 = 0 ou y0 - z0 = 0",
+        "D) 2x0 + y0 = 0 ou y0 + z0 = 0",
+        "E) y0 - z0 = 0 ou 2x0 + y0 - z0 + 2 = 0"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) y0 + z0 = 0 ou 2x0 + y0 - z0 + 2 = 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "Une urne contient sept boules indiscernables au toucher : quatre boules rouges portant les nombres 1; 1; 2; 2 et trois boules vertes portant les nombres 1; 2. On tire successivement sans remise deux boules de l'urne. La probabilité d'avoir deux boules portant deux nombres différents sachant qu'elles sont de même couleur, est égale à :",
+      "options": [
+        "A) 5/42",
+        "B) 2/21",
+        "C) 10/42",
+        "D) 3/7",
+        "E) 2/3"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 10/42",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "Soit z un nombre complexe tel que |z| = 1. Le nombre \\( |\\sqrt{2} + z|^2 + |\\sqrt{2} - \\bar{z}|^2 \\) est égale à :",
+      "options": [
+        "A) 2\\sqrt{2}",
+        "B) -2\\sqrt{2}",
+        "C) 6",
+        "D) -\\sqrt{2}",
+        "E) \\sqrt{2}"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 6",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "La suite (un) définie par : \\( u_n = \\frac{1}{\\sqrt{1 + n^2}} \\). La suite (un) vérifie :",
+      "options": [
+        "A) (un) croissante",
+        "B) (un) minorée",
+        "C) u0 = 0",
+        "D) \\forall n \\in \\mathbb{N}; u_n \\le 1",
+        "E) \\lim_{n \\to +\\infty} u_n = 0"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\lim_{n \\to +\\infty} u_n = 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q13",
+      "question": "L'équation \\( e^x = \\frac{1}{x} \\) admet sur \\( ]0; +\\infty[ \\) :",
+      "options": [
+        "A) Une solution unique",
+        "B) Deux solutions distinctes",
+        "C) Pas de solution",
+        "D) Autre",
+        "E) Trois solutions distinctes"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) Une solution unique",
+      "correctOption": null
+    },
+    {
+      "id": "Q14",
+      "question": "La courbe de la fonction f définie par \\( f(x) = 2x + 1 + \\frac{\\sqrt{4x^2 + x - 1}}{1 - x} \\) admet au voisinage de \\( +\\infty \\) une asymptote oblique d'équation :",
+      "options": [
+        "A) y = -2x - 1",
+        "B) y = 2x + 1",
+        "C) y = 2x - 1",
+        "D) y = -2x + 2",
+        "E) y = -2x - 1"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) y = 2x - 1",
+      "correctOption": null
+    },
+    {
+      "id": "Q15",
+      "question": "La fonction f définie par \\( f(x) = -x^2 + \\ln(1+x^2) \\) vérifie :",
+      "options": [
+        "A) D = \\mathbb{R}",
+        "B) \\lim_{x \\to +\\infty} f(x) = -\\infty",
+        "C) f'(0) = 0",
+        "D) f est paire",
+        "E) f(0) = 1"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) f'(0) = 0",
+      "correctOption": null
+    }
+  ]
+}

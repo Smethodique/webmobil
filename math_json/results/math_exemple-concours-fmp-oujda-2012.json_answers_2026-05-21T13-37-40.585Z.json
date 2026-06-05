@@ -1,0 +1,188 @@
+{
+  "source": "math_exemple-concours-fmp-oujda-2012.json",
+  "timestamp": "2026-05-21T13:37:40.583Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Soit f la fonction numérique de la variable réelle x définie par : \\( f(x) = x + \\sqrt{x^2+2x} \\) et soit \\( C_f \\) sa courbe représentative dans un repère orthonormé.",
+      "options": [
+        "A) Le domaine de définition de la fonction f est \\( \\mathbb{R} \\).",
+        "B) La fonction f est dérivable à gauche de \\( x_0 = -2 \\).",
+        "C) La droite d'équation \\( y = 2x+1 \\) est une asymptote oblique à la courbe \\( C_f \\) au voisinage de \\( +\\infty \\).",
+        "D) La fonction f est strictement décroissante sur l'intervalle \\( [0, +\\infty[ \\).",
+        "E) \\( \\lim_{x \\to -\\infty} f(x) = -\\infty \\)."
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) La droite d'équation \\( y = 2x+1 \\) est une asymptote oblique à la courbe \\( C_f \\) au voisinage de \\( +\\infty \\)."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "Choisir la réponse correcte :",
+      "options": [
+        "A) La dérivée de la fonction \\( f(x) = e^{\\frac{x - 1}{2x+3}} \\) est \\( f'(x) = \\frac{5}{2x+3} e^{\\frac{x - 1}{2x+3}} \\)",
+        "B) \\( \\lim_{x \\to 1^{-}} \\frac{e^{\\frac{1}{x} + \\frac{1}{\\ln x}}}{x-1} = 0 \\)",
+        "C) \\( \\frac{\\sin x}{\\cos x - 1} = \\tan \\left( \\frac{\\pi}{2} - \\frac{x}{2} \\right) \\)",
+        "D) La solution de l'équation \\( \\arctan(x^2 - 2x) = -\\frac{\\pi}{4} \\) dans \\( \\mathbb{R} \\) est \\( x = -1 \\)",
+        "E) On pose \\( B = \\arctan 3 + \\arctan 2 \\). Le calcul de \\( \\tan B \\) donne la valeur 1."
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) \\( \\lim_{x \\to 1^{-}} \\frac{e^{\\frac{1}{x} + \\frac{1}{\\ln x}}}{x-1} = 0 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "Nombres complexes :",
+      "options": [
+        "A) \\( (1+i)^{2002} = -2^{1001} \\cdot i \\)",
+        "B) Sachant que \\( \\frac{\\sqrt{3}-i}{1-i} = z \\), alors \\( |z| = \\sqrt{2} \\)",
+        "C) \\( 1 + i^2 + i^4 + ... + i^{2006} = 0 \\)",
+        "D) La solution de l'équation \\( z^2 - 3z + 6i + z\\bar{z} = 6i \\) dans \\( \\mathbb{C} \\) est \\( z = 1 - 2i \\)",
+        "E) L'argument du nombre complexe \\( z = \\frac{1+i\\sqrt{3}}{1+i} \\) est \\( \\arg z = \\frac{3\\pi}{5} [2\\pi] \\)"
+      ],
+      "selectedIndex": [
+        1,
+        2
+      ],
+      "selectedOption": [
+        "B) Sachant que \\( \\frac{\\sqrt{3}-i}{1-i} = z \\), alors \\( |z| = \\sqrt{2} \\)",
+        "C) \\( 1 + i^2 + i^4 + ... + i^{2006} = 0 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "La fonction \\( f(x) \\) solution de l'équation différentielle \\( y'' - 2y' + y = 0 \\) qui vérifie les conditions initiales \\( f(1) = e \\) et \\( f'(2) = 0 \\) est :",
+      "options": [
+        "A) \\( f(x) = xe^x \\)",
+        "B) \\( f(x) = \\left( \\frac{3}{2} - \\frac{1}{2}x \\right) e^x \\)",
+        "C) \\( f(x) = \\left( \\frac{3}{2} + \\frac{1}{2}x \\right) e^x \\)",
+        "D) \\( f(x) = \\left( 3 - \\frac{x}{2} \\right) e^x \\)",
+        "E) \\( f(x) = \\left( \\frac{x-3}{2} \\right) e^x \\)"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) \\( f(x) = \\left( \\frac{3}{2} - \\frac{1}{2}x \\right) e^x \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Un sac contient neuf jetons indiscernables au toucher : deux jetons rouges portant le numéro 1, trois jetons blancs portant les numéros 2, 2, 1 et quatre jetons noirs portant les numéros 1, 1, 2, 2. On tire au hasard et simultanément trois jetons du sac.",
+      "options": [
+        "A) La probabilité de l'événement X \"Les trois jetons tirés sont de couleurs différentes (un jeton de chaque couleur)\" est \\( \\frac{1}{6} \\)",
+        "B) La probabilité de l'événement Y \"Les trois jetons tirés portent le même numéro\" est \\( \\frac{2}{7} \\)",
+        "C) La probabilité de l'événement Z \"Parmi les jetons tirés se trouve au moins un jeton blanc\" est \\( \\frac{16}{21} \\)",
+        "D) La probabilité de l'événement \\( X \\cap Y \\) est \\( \\frac{5}{21} \\)",
+        "E) La probabilité de l'événement \\( X \\cap Y \\) est \\( \\frac{16}{21} \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) La probabilité de l'événement Z \"Parmi les jetons tirés se trouve au moins un jeton blanc\" est \\( \\frac{16}{21} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "On considère la suite numérique \\( (u_n) \\) définie par : \\( u_n = \\int_0^{\\frac{\\pi}{2}} (\\sin x)^n dx \\).",
+      "options": [
+        "A) La suite \\( (u_n) \\) est croissante",
+        "B) \\( u_2 = \\frac{\\pi}{2} \\)",
+        "C) \\( \\lim_{n \\to +\\infty} \\frac{u_{n+1}}{u_n} = \\frac{1}{2} \\)",
+        "D) \\( u_{n+2} = \\frac{n+1}{n+2} u_n \\)",
+        "E) \\( \\lim_{n \\to +\\infty} (\\sqrt{n} u_n) = \\frac{1}{2} \\)"
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) \\( u_{n+2} = \\frac{n+1}{n+2} u_n \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "La valeur de \\( I = \\int_0^2 \\frac{2x^2-x-2}{2x^2+3x+1} dx \\) est :",
+      "options": [
+        "A) 2",
+        "B) \\( \\ln 2 \\)",
+        "C) -2",
+        "D) \\( 2 - \\ln 15 \\)",
+        "E) \\( 2 - \\ln 2 \\)"
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) \\( 2 - \\ln 15 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "On considère la fonction : \\( f(x) = x + \\frac{1}{x} - (\\ln x)^2 \\) et soit \\( C_f \\) sa courbe représentative dans un repère orthonormé. L'aire de la partie du plan délimitée par la courbe \\( C_f \\), l'axe des abscisses et les droites d'équations : \\( x = 1 \\) et \\( x = e \\) est :",
+      "options": [
+        "A) \\( \\frac{1}{2}(e^2 - 6e + 9) u_a \\) où \\( u_a \\) est l'unité d'aire.",
+        "B) \\( \\frac{1}{3}(e+3)^2 u_a \\) où \\( u_a \\) est l'unité d'aire.",
+        "C) \\( (e-3)^2 u_a \\) où \\( u_a \\) est l'unité d'aire.",
+        "D) \\( (e+3)^2 u_a \\) où \\( u_a \\) est l'unité d'aire.",
+        "E) \\( \\frac{1}{2}(e-3)^2 u_a \\) où \\( u_a \\) est l'unité d'aire."
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\( \\frac{1}{2}(e^2 - 6e + 9) u_a \\) où \\( u_a \\) est l'unité d'aire."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Fonctions exponentielles :",
+      "options": [
+        "A) L'unique solution de l'équation \\( 3(e^{-x} - 4) = e^x \\) est \\( x = 0 \\)",
+        "B) Dans \\( \\mathbb{R} \\), la solution de l'inéquation \\( e^{x^2} \\le e^{x+2} \\) est \\( S = [-2, 3] \\)",
+        "C) La suite \\( (u_n) \\) définie par : \\( u_0 = 1 \\) et \\( u_{n+1} = u_n e^{-u_n} \\) est bornée.",
+        "D) \\( \\lim_{x \\to 0} \\frac{\\sin x}{1 - e^{-x}} = -1 \\)",
+        "E) \\( \\int_0^1 \\sin x e^{\\cos x} dx = \\frac{1}{e} - e \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) La suite \\( (u_n) \\) définie par : \\( u_0 = 1 \\) et \\( u_{n+1} = u_n e^{-u_n} \\) est bornée."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "On considère dans l'espace rapporté à un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\) les points \\( A(1, 2, -2) \\), \\( B(0, 3, -3) \\), \\( C(1, 1, 1) \\) et le plan \\( (P) \\) d'équation \\( x+y-z+3=0 \\).",
+      "options": [
+        "A) La distance du point \\( \\Omega(0, 1, -1) \\) au plan \\( (P) \\) est \\( \\frac{1}{\\sqrt{2}} \\)",
+        "B) L'équation cartésienne de la sphère \\( (S) \\) de centre \\( \\Omega(0, 1, -1) \\) et tangente au plan \\( (P) \\) est : \\( x^2 + y^2 + z^2 - 2y - 2z = 0 \\)",
+        "C) Les points A, B et C sont alignés.",
+        "D) La sphère \\( (S) \\) n'est pas tangente au plan \\( (ABC) \\).",
+        "E) Le point de contact de \\( (S) \\) et du plan \\( (ABC) \\) est C."
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) La sphère \\( (S) \\) n'est pas tangente au plan \\( (ABC) \\)."
+      ],
+      "correctOption": null
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "source": "FCorrection concours  médecine 2025 PUB.json",
+  "timestamp": "2026-05-19T20:42:53.725Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Soit \\( I = \\int_0^\\pi |\\cos x| dx \\). Quelle est la valeur de \\( I \\) ?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 2",
+        "D) \\( \\pi \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 2",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "Quelle est la valeur de l'intégrale définie suivante : \\( J = \\int_0^1 \\frac{1-x^2}{(1+x^2)^2} dx \\)",
+      "options": [
+        "A) 1/2",
+        "B) \\( \\pi/4 \\)",
+        "C) 1/4",
+        "D) 0",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "Soit la suite \\( (U_n) \\) définie par : \\( U_1 = 1 \\) and pour tout \\( n \\ge 1 \\), \\( U_{n+1} = \\sqrt{2+U_n} \\). Quelle est la limite de la suite \\( (U_n) \\) ?",
+      "options": [
+        "A) \\( \\sqrt{2} \\)",
+        "B) \\( 1+\\sqrt{2} \\)",
+        "C) la suite est divergente",
+        "D) 2",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 2",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "Soient \\( a \\) and \\( b \\) deux nombres complexes tels que : \\( a \\ne b \\) and \\( |a| = 1 \\). Quelle est la valeur de : \\( |\\frac{a-b}{1-\\bar{a}b}| \\)",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 2",
+        "D) \\( \\sqrt{2} \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 1",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Soit \\( C = 1 + \\cos\\frac{\\pi}{5} + \\cos\\frac{2\\pi}{5} + \\dots + \\cos\\frac{9\\pi}{5} \\) and \\( S = \\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5} + \\dots + \\sin\\frac{9\\pi}{5} \\). Quelle est la valeur de \\( z = C + iS \\).",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) -1",
+        "D) 0",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "On définit la fonction : \\( f(x) = \\begin{cases} \\frac{\\sqrt{1+x}-1}{x} & x \\ne 0 \\\\ a & x = 0 \\end{cases} \\). Pour quelle valeur de \\( a \\) la fonction \\( f \\) est-elle continue en \\( x = 0 \\) ?",
+      "options": [
+        "A) 0",
+        "B) 1/2",
+        "C) 1",
+        "D) -1",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Soit la fonction \\( f(x) = \\sin x + \\cos x \\). Quelle est la valeur maximale de \\( f(x) \\) sur \\( \\mathbb{R} \\) ?",
+      "options": [
+        "A) 1",
+        "B) \\( \\sqrt{2}+1 \\)",
+        "C) 2",
+        "D) \\( \\sqrt{2} \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( \\sqrt{2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "Résoudre dans \\( \\mathbb{R} \\) l'équation : \\( \\frac{e^{2x-1}}{\\sqrt{e^{2x+4}}} = e^{-x} \\). Quelle est la bonne réponse ?",
+      "options": [
+        "A) \\( x = 1 \\)",
+        "B) \\( x = 0 \\)",
+        "C) \\( x = 3/2 \\)",
+        "D) \\( x = -1 \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( x = 3/2 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Une urne U contient 9 boules : 5 rouges (1-5) and 4 noires (1-4). On tire simultanément deux boules. A : \"les deux boules tirées sont de même couleur\", B : \"les deux boules tirées portent un numéro pair\". Calculer \\( P_{\\bar{A}}(B) \\)?",
+      "options": [
+        "A) 1/18",
+        "B) 17/18",
+        "C) 2/9",
+        "D) 1/5",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 1/5",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "On lance deux dés équilibrés à 6 faces. Quelle est la probabilité d'obtenir au moins un 6 ?",
+      "options": [
+        "A) 1/6",
+        "B) 11/36",
+        "C) 5/36",
+        "D) 25/36",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 11/36",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "Soient les points A(1, 1, -2), B(0, 5, 5), C(6, -3, -5), D(1, 2, 0). Existe-t-il des réels x and y tels que : \\( \\vec{AD} = x\\vec{AB} + y\\vec{AC} \\)?",
+      "options": [
+        "A) Oui, pour x = 1/4, y = 1/8",
+        "B) Oui, pour x = 5/16, y = 1/16",
+        "C) Oui, pour x = 1/2, y = 1/2",
+        "D) Non, car le vecteur \\( \\vec{AD} \\) n'est pas une combinaison linéaire de \\( \\vec{AB} \\) and \\( \\vec{AC} \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) Oui, pour x = 5/16, y = 1/16",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "Soient \\( \\vec{u}(1, 2, -1), \\vec{v}(3, 6, -3), \\vec{w}(0, 1, 1) \\). Quelle est la valeur de ce produit \\( (\\vec{u} \\wedge \\vec{v}) \\cdot \\vec{w} \\)?",
+      "options": [
+        "A) 0",
+        "B) 3",
+        "C) -1",
+        "D) 2",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q13",
+      "question": "La fonction \\( f: f(x) = \\frac{\\ln(x+1)}{x+e^x} \\) admet au point O(0,0) une tangente d'équation :",
+      "options": [
+        "A) y = x",
+        "B) y = x + 1",
+        "C) y = -2x",
+        "D) y = x - 1",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) y = x",
+      "correctOption": null
+    },
+    {
+      "id": "Q14",
+      "question": "On considère le nombre complexe : \\( z = (1 + i)^{20} \\). Quelle est la partie imaginaire de \\( z \\) ?",
+      "options": [
+        "A) \\( 2^{10} \\)",
+        "B) \\( -2^{10} \\)",
+        "C) 0",
+        "D) \\( \\sqrt{2} \\)",
+        "E) Aucune des réponses n'est juste"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 0",
+      "correctOption": null
+    }
+  ]
+}

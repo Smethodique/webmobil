@@ -1,0 +1,193 @@
+{
+  "source": "math_exemple-concours-fmp-oujda-2015.json",
+  "timestamp": "2026-05-21T14:47:54.285Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "On considère le nombre complexe \\( z = \\frac{\\sqrt{3}-i}{1-i} \\).",
+      "options": [
+        "A) \\( z = \\frac{\\sqrt{3}+1}{2} + i \\frac{\\sqrt{3}-1}{2} \\)",
+        "B) \\( z = \\sqrt{2} ( \\cos \\frac{\\pi}{6} + i \\sin \\frac{\\pi}{6} ) \\)",
+        "C) \\( z = \\frac{\\sqrt{3}-1}{2} + i \\frac{\\sqrt{3}+1}{2} \\)",
+        "D) \\( \\sin \\frac{\\pi}{12} = \\frac{\\sqrt{6}-\\sqrt{2}}{4} \\)",
+        "E) \\( z = \\sqrt{2} ( \\cos (-\\frac{5\\pi}{4}) + i \\sin (-\\frac{5\\pi}{4}) ) \\)"
+      ],
+      "selectedIndex": [
+        0,
+        3
+      ],
+      "selectedOption": [
+        "A) \\( z = \\frac{\\sqrt{3}+1}{2} + i \\frac{\\sqrt{3}-1}{2} \\)",
+        "D) \\( \\sin \\frac{\\pi}{12} = \\frac{\\sqrt{6}-\\sqrt{2}}{4} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "On considère la suite complexe définie par : \\( u_0 = 1 \\) et \\( u_{n+1} = ( \\frac{1+i\\sqrt{3}}{4} ) u_n \\).",
+      "options": [
+        "A) \\( u_4 = \\frac{1}{32}(1+i\\sqrt{3}) \\)",
+        "B) \\( |u_n| = 2^{n} \\)",
+        "C) \\( \\lim_{n \\to +\\infty} |u_n| = 2 \\)",
+        "D) La valeur de n pour laquelle \\( u_n \\) est réel est \\( n=3k+1 \\) avec \\( k \\in \\mathbb{N} \\).",
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "On considère les suites suivantes : \\( u_n = \\sum_{p=0}^{n-1} \\frac{2}{3^p} \\), \\( v_n = -5 \\cdot (\\sqrt{2})^n \\).",
+      "options": [
+        "A) \\( u_n = 2 \\cdot (1-3^{-n}) \\)",
+        "B) \\( \\lim_{n \\to +\\infty} v_n = 0 \\)",
+        "C) \\( \\lim_{n \\to +\\infty} u_n = 3 \\)",
+        "D) \\( \\lim_{n \\to +\\infty} v_n = -5 \\)",
+        "E) \\( \\lim_{n \\to +\\infty} u_n = +\\infty \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( \\lim_{n \\to +\\infty} u_n = 3 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "D'après une étude sur l'affluence dans un stade de sport, on a remarqué que 80 % des abonnés renouvellent chaque année leur abonnement et qu'il y a 4000 nouveaux abonnés par an. On note \\( V_n \\) le nombre d'abonnés à la fin de l'année n et on a \\( V_0 = 7000 \\). On pose \\( u_n = 2 \\cdot 10^4 - V_n \\).",
+      "options": [
+        "A) \\( V_{n+1} = 11000 + 0.8 V_n \\)",
+        "B) \\( V_{n+1} = 7000 + 0.8 V_n \\)",
+        "C) \\( u_n \\) est une suite arithmétique.",
+        "D) \\( u_n = 13000 \\cdot (0.8)^n \\)",
+        "E) \\( u_n = 13000 \\cdot (0.8)^{n+1} \\)"
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) \\( u_n = 13000 \\cdot (0.8)^n \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "On considère la fonction numérique de la variable réelle x définie par : \\( g(x) = \\frac{x}{2} \\sqrt{x^2+4} + \\frac{x^2}{2} \\).",
+      "options": [
+        "A) Le domaine de définition de la fonction \\( g(x) \\) est \\( D_g = ]-\\infty, -2] \\cup [2, +\\infty[ \\).",
+        "B) Sur un intervalle déterminé : \\( g^{-1}(x) = \\frac{x}{2\\sqrt{x}+1} \\).",
+        "C) \\( (g^{-1})'(0) = 1 \\).",
+        "D) \\( g'(0) = 0 \\).",
+        "E) \\( g'(0) = 2 \\).",
+        "E) \\( \\lim_{x \\to +\\infty} g(x) = 2 \\)."
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( (g^{-1})'(0) = 1 \\)."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "Choisir la réponse correcte :",
+      "options": [
+        "A) Si la diagonale d'une face d'un cube est \\( 4\\sqrt{2} \\text{ cm} \\), alors son volume est \\( 8 \\text{ cm}^3 \\).",
+        "B) Il faut multiplier le rayon d'une sphère par \\( \\sqrt[3]{3} \\) pour que son volume triple.",
+        "C) Si \\( x^2 + y^2 = 208 \\) et \\( xy = 58 \\) alors \\( x+y = 16 \\).",
+        "D) Le produit de trois entiers consécutifs est 990. La somme des deux plus petits de ces nombres est 21.",
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) Il faut multiplier le rayon d'une sphère par \\( \\sqrt[3]{3} \\) pour que son volume triple."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Soit \\( f(x) \\) la fonction définie sur \\( \\mathbb{R} \\) par : \\( f(x) = 2x + \\sin(2x) \\) et \\( C_f \\) sa courbe représentative dans un repère orthonormé.",
+      "options": [
+        "A) La fonction \\( f(x) \\) est paire.",
+        "B) Le point O n'est pas le centre de symétrie de \\( C_f \\).",
+        "C) \\( C_f \\) est au-dessus de la droite d'équation \\( y=2x+1 \\).",
+        "D) La période de la fonction \\( f(x) \\) est \\( \\pi \\).",
+        "E) \\( \\lim_{x \\to 0} \\frac{f(x)}{x} = 4 \\)"
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) \\( \\lim_{x \\to 0} \\frac{f(x)}{x} = 4 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "On considère la fonction numérique \\( f(x) = 2 \\cdot \\frac{\\sqrt{\\ln(1-x)}}{1-x} \\) et \\( I_n = \\int_0^{\\frac{\\pi}{2}} e^{-nx} \\sin x dx \\), \\( J_n = \\int_0^{\\frac{\\pi}{2}} e^{-nx} \\cos x dx \\).",
+      "options": [
+        "A) \\( \\lim_{x \\to -\\infty} f(x) = 2 \\).",
+        "B) Pour \\( f(x) \\), la valeur \\( x = -\\sqrt{e} \\) vérifie \\( f'(x) = 0 \\).",
+        "C) \\( J_n - n I_n = e^{-\\frac{n\\pi}{2}} \\).",
+        "D) \\( I_n = \\frac{1 - n e^{-\\frac{n\\pi}{2}}}{n^2+1} \\).",
+        "E) \\( J_n = \\frac{1 + n e^{-\\frac{n\\pi}{2}}}{n^2+1} \\)."
+      ],
+      "selectedIndex": [
+        2,
+        3,
+        4
+      ],
+      "selectedOption": [
+        "C) \\( J_n - n I_n = e^{-\\frac{n\\pi}{2}} \\).",
+        "D) \\( I_n = \\frac{1 - n e^{-\\frac{n\\pi}{2}}}{n^2+1} \\).",
+        "E) \\( J_n = \\frac{1 + n e^{-\\frac{n\\pi}{2}}}{n^2+1} \\)."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Soient : \\( I = \\int_0^a \\frac{\\cos x}{1+2\\sin x} dx \\) et \\( J = \\int_0^a \\frac{\\sin 2x}{1+2\\sin x} dx \\).",
+      "options": [
+        "A) \\( I = 1 - \\ln(1-\\sin a) \\).",
+        "B) \\( I = 1 - \\ln(1-2\\sin a) \\).",
+        "C) \\( J = \\sin a + \\ln(1+2\\sin a) \\).",
+        "D) \\( J = \\sin a + \\ln \\frac{1}{\\sqrt{1+2\\sin a}} \\).",
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) \\( J = \\sin a + \\ln \\frac{1}{\\sqrt{1+2\\sin a}} \\)."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "Soit \\( I_n = \\int_0^a x^n e^{-x} dx \\) avec \\( n \\ge 1 \\).",
+      "options": [
+        "A) \\( I_1 = 1 + \\frac{a+1}{e^a} \\).",
+        "B) La suite \\( I_n \\) est croissante (avec \\( a=1 \\)).",
+        "C) \\( \\lim_{n \\to +\\infty} I_n = +\\infty \\).",
+        "D) \\( I_n = n I_{n-1} + a^n e^{-a} \\).",
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) Toutes les réponses proposées sont fausses."
+      ],
+      "correctOption": null
+    }
+  ]
+}

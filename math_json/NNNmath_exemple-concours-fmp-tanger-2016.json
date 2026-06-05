@@ -1,0 +1,210 @@
+[
+  {
+    "id": "Q1",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Probabilités",
+    "question": "Soient A et B deux événements tels que P(A) = 0.7, P(B) = 0.9 et P(A ∪ B) = 1. Alors P(A ∩ B) est :",
+    "options": [
+      "A) 0.5",
+      "B) 0.6",
+      "C) 0.7",
+      "D) 0.8",
+      "E) 0.9"
+    ]
+  },
+{
+    "id": "Q2",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Probabilités",
+    "question": "Soit X une variable aléatoire dont la loi de probabilité est donnée par le tableau suivant :\n\n$$\\begin{array}{|c|c|c|c|c|}\n\\hline\nx_i & -1 & 0 & 2 & 4 \\\\\n\\hline\nP(X=x_i) & \\frac{3}{10} & \\frac{2}{10} & \\frac{4}{10} & \\frac{1}{10} \\\\\n\\hline\n\\end{array}$$\n\nLa variance \\( V(X) \\) est :",
+    "options": [
+        "A) 1.89",
+        "B) 2.34",
+        "C) 3.25",
+        "D) 1.54",
+        "E) 2.69"
+    ]
+},
+  {
+    "id": "Q3",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Géométrie",
+    "question": "L'espace est rapporté à un repère orthonormé (O, i, j, k). La distance du point O à la droite passant par A(2;0;1) et B(2;2;1) est :",
+    "options": [
+      "A) 1",
+      "B) √2",
+      "C) √3",
+      "D) √5",
+      "E) 2"
+    ]
+  },
+  {
+    "id": "Q4",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Fonctions",
+    "question": "L'espace est rapporté à un repère orthonormé \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\). L'intersection de la sphère de centre O et de rayon \\( \\sqrt{2} \\) avec le plan d'équation \\( 2x-2y+z+6=0 \\) est :",
+    "options": [
+      "A) L'ensemble vide",
+      "B) un cercle",
+      "C) une droite",
+      "D) un point unique",
+      "E) un ensemble composé de deux points"
+    ]
+  },
+  {
+    "id": "Q5",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Fonctions",
+    "question": "On considère la fonction f qui vérifie l'équation différentielle \\( y'' - 6y' + 9y = 0 \\) et dont la courbe admet au point d'abscisse 0 une tangente d'équation \\( y = -x+3 \\), elle est :",
+    "options": [
+      "A) \\( f(x) = 10e^{3x} - 7e^{-2x} \\)",
+      "B) \\( f(x) = (-10x+3)e^{3x} \\)",
+      "C) \\( f(x) = e^{3x} - 2e^{-2x} \\)",
+      "D) \\( f(x) = (-x+11)e^{3x} \\)",
+      "E) \\( f(x) = e^{3x}(3\\cos 2x + \\sin 2x) \\)"
+    ]
+  },
+  {
+    "id": "Q6",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Intégration",
+    "question": "\\( \\int_0^{\\pi/2} \\frac{\\cos x}{2\\sqrt{2+\\sin x}} dx = \\)",
+    "options": [
+      "A) \\( \\sqrt{\\pi}-1 \\)",
+      "B) \\( 2(\\sqrt{5}-\\sqrt{3}) \\)",
+      "C) 1",
+      "D) \\( \\sqrt{3}-\\sqrt{2} \\)",
+      "E) \\( 2\\sqrt{2} \\)"
+    ]
+  },
+  {
+    "id": "Q7",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Intégration",
+    "question": "Soit f la fonction numérique définie par \\( f(x) = \\sin x \\). Le volume du solide engendré par la rotation de la courbe de la fonction f sur le segment \\( [0, \\pi] \\) autour de l'axe des abscisses est :",
+    "options": [
+      "A) 4",
+      "B) \\( \\pi^{3/2} \\)",
+      "C) \\( 2\\pi \\)",
+      "D) \\( \\pi^2/2 \\)",
+      "E) \\( \\pi^3 - \\pi \\)"
+    ]
+  },
+  {
+    "id": "Q8",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Nombres complexes",
+    "question": "Le nombre complexe \\( (\\frac{1}{2} + i\\frac{\\sqrt{3}}{2})^9 \\) est égal à :",
+    "options": [
+      "A) \\( \\frac{1}{2} + i\\frac{\\sqrt{3}}{2} \\)",
+      "B) i",
+      "C) -1",
+      "D) \\( \\frac{1}{2} - i\\frac{\\sqrt{3}}{2} \\)",
+      "E) -i"
+    ]
+  },
+  {
+    "id": "Q9",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Nombres complexes",
+    "question": "Soit \\( \\theta \\in ]0, \\pi[ \\). Le module du nombre complexe \\( \\frac{1-e^{i2\\theta}}{1-e^{i\\theta}} \\) est :",
+    "options": [
+      "A) \\( 2\\cos \\frac{\\theta}{2} \\)",
+      "B) \\( 2\\sin \\frac{\\theta}{2} \\)",
+      "C) \\( \\tan \\frac{\\theta}{2} \\)",
+      "D) \\( \\cos \\theta \\)",
+      "E) 1"
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Limites",
+    "question": "\\( \\lim_{n \\to \\infty} (\\frac{1}{n} + 1)^{n^2} = \\)",
+    "options": [
+      "A) 1",
+      "B) 0",
+      "C) \\( +\\infty \\)",
+      "D) e",
+      "E) La suite n'admet pas de limite"
+    ]
+  },
+  {
+    "id": "Q11",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Suites",
+    "question": "Soit \\( (u_n) \\) la suite numérique définie par : \\( u_0 = 4 \\) et \\( u_{n+1} = \\frac{2u_n+1}{u_n-2} \\).",
+    "options": [
+      "A) \\( (u_n) \\) est strictement croissante",
+      "B) \\( (u_n) \\) est strictement décroissante",
+      "C) \\( \\lim u_n = 2 \\)",
+      "D) \\( \\lim u_n = +\\infty \\)",
+      "E) La suite n'admet pas de limite"
+    ]
+  },
+  {
+    "id": "Q12",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Fonctions",
+    "question": "Soit f la fonction numérique définie par : \\( f(x) = \\frac{\\cos(\\frac{\\pi}{2}x)}{x-1} \\) si \\( x \\neq 1 \\) et \\( f(1) = a \\). La valeur de a pour laquelle f est continue en 1 est :",
+    "options": [
+      "A) \\( 3\\pi/2 \\)",
+      "B) \\( -\\pi \\)",
+      "C) \\( -\\pi/2 \\)",
+      "D) \\( 2\\pi \\)",
+      "E) -1"
+    ]
+  },
+  {
+    "id": "Q13",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Fonctions",
+    "question": "L'équation \\( x^5 - 5x - 1 = 0 \\) admet :",
+    "options": [
+      "A) cinq solutions dans \\( \\mathbb{R} \\)",
+      "B) quatre solutions dans \\( \\mathbb{R} \\)",
+      "C) une solution unique dans \\( [-2, 2] \\)",
+      "D) trois solutions dans \\( \\mathbb{R} \\)",
+      "E) deux solutions dans \\( \\mathbb{R} \\)"
+    ]
+  },
+  {
+    "id": "Q14",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Dérivées",
+    "question": "Soit f la fonction numérique définie par \\( f(x) = |x^3-8| \\).",
+    "options": [
+      "A) dérivable sur \\( \\mathbb{R} \\)",
+      "B) une fonction strictement décroissante",
+      "C) non dérivable en 0",
+      "D) non dérivable en 2",
+      "E) une fonction strictement croissante"
+    ]
+  },
+  {
+    "id": "Q15",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Dérivées",
+    "question": "Soit f la fonction numérique définie par \\( f(x) = e^{\\sqrt{x^2+1}} \\).",
+    "options": [
+      "A) \\( f'(x) = e^{\\sqrt{x^2+1}} \\)",
+      "B) \\( f'(x) = 2x e^{\\sqrt{x^2+1}} \\)",
+      "C) \\( f'(x) = \\frac{1}{2\\sqrt{x^2+1}} e^{\\sqrt{x^2+1}} \\)",
+      "D) \\( f'(x) = \\frac{x}{\\sqrt{x^2+1}} e^{\\sqrt{x^2+1}} \\)",
+      "E) \\( f'(x) = \\frac{2x+1}{2\\sqrt{x^2+1}} e^{\\sqrt{x^2+1}} \\)"
+    ]
+  },
+  {
+    "id": "Q16",
+    "source": "NNNmath_exemple-concours-fmp-tanger-2016",
+    "subject": "Fonctions",
+    "question": "Soit f une fonction définie sur \\( \\mathbb{R} \\). La droite \\( x=a \\) est un axe de symétrie de la courbe de f si, pour tout x de \\( \\mathbb{R} \\) :",
+    "options": [
+      "A) \\( f(x) = f(2a-x) \\)",
+      "B) \\( f(x) = f(2a+x) \\)",
+      "C) \\( f(x) = f(x-a) \\)",
+      "D) \\( f(x) = -f(x-2a) \\)",
+      "E) \\( f(x) = f(a+x) \\)"
+    ]
+  }
+]

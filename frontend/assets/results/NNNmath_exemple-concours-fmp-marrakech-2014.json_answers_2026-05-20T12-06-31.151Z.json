@@ -1,0 +1,146 @@
+{
+  "source": "NNNmath_exemple-concours-fmp-marrakech-2014.json",
+  "timestamp": "2026-05-20T12:06:31.141Z",
+  "answers": [
+    {
+      "id": "Q21",
+      "question": "L'ensemble des solutions de l'équation \\( \\ln(x+3) + \\ln(x+2) = \\ln(x+11) \\) dans \\( \\mathbb{R} \\) est :",
+      "options": [
+        "A) \\( \\{1, -5\\} \\)",
+        "B) \\( \\{0, -2\\} \\)",
+        "C) \\( \\{1\\} \\)",
+        "D) \\( \\emptyset \\)",
+        "E) \\( \\{-3, -11\\} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( \\{1\\} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q22",
+      "question": "La valeur de \\( S_{2014} = 1 + i + i^2 + i^3 + ... + i^{2014} \\) est :",
+      "options": [
+        "A) \\( i \\)",
+        "B) 1",
+        "C) -1",
+        "D) \\( -i \\)",
+        "E) Les réponses ci-dessus sont incorrectes"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( i \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q23",
+      "question": "Dans le plan complexe rapporté à un repère orthonormé direct, l'ensemble des points M d'affixe z tels que \\( (1-z)(i+\\bar{z}) \\in i\\mathbb{R} \\) est :",
+      "options": [
+        "A) une demi-droite",
+        "B) une droite",
+        "C) un cercle",
+        "D) un demi-cercle",
+        "E) \\( \\{0\\} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) un cercle",
+      "correctOption": null
+    },
+    {
+      "id": "Q24",
+      "question": "\\( (u_n)_{n \\geq 1} \\) est une suite définie par : \\( u_1 = 1 \\) et \\( u_{n+1} = \\frac{5u_n}{3u_n+5} \\). Alors la raison de la suite arithmétique \\( (v_n)_{n \\geq 1} \\) telle que \\( v_n = \\frac{5}{u_n} \\) est :",
+      "options": [
+        "A) \\( -1/3 \\)",
+        "B) \\( 1/3 \\)",
+        "C) n'est pas une suite arithmétique",
+        "D) 3",
+        "E) 1/2"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 3",
+      "correctOption": null
+    },
+    {
+      "id": "Q25",
+      "question": "Le domaine de définition de la fonction \\( f(x) = \\sqrt{\\frac{x^3}{x^2-1}} \\) est :",
+      "options": [
+        "A) \\( \\mathbb{R} \\)",
+        "B) \\( \\mathbb{R} \\setminus \\{-1, 1\\} \\)",
+        "C) \\( ]-1, 0] \\cup ]1, +\\infty[ \\)",
+        "D) \\( ]-1, 1[ \\)",
+        "E) \\( ]-\\infty, -1[ \\cup \\{0\\} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( ]-1, 0] \\cup ]1, +\\infty[ \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q26",
+      "question": "Soit g la fonction définie par : \\( g(x) = x + \\frac{\\sin(\\pi x)}{x-1} \\) si \\( x \\neq 1 \\) et \\( g(1) = a \\). La valeur de a pour que g soit continue au point \\( x_0 = 1 \\) est :",
+      "options": [
+        "A) \\( \\pi/2 \\)",
+        "B) \\( \\pi-1 \\)",
+        "C) 1",
+        "D) \\( 1-\\pi \\)",
+        "E) 0"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( 1-\\pi \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q27",
+      "question": "Soit f une fonction numérique définie et dérivable sur \\( I = [-1, 1] \\) et \\( g(x) = f(\\sin(\\frac{\\pi}{2}x)) \\). L'équation de la droite tangente à la courbe de la fonction g au point d'abscisse \\( x_0 = 1 \\) est :",
+      "options": [
+        "A) \\( y = (x-1)f'(1) + f(1) \\)",
+        "B) \\( y = (x+1)f'(1) + f(1) \\)",
+        "C) \\( y = f(1) \\)",
+        "D) \\( y = f(0) \\)",
+        "E) \\( y = f'(1) \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( y = f(1) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q28",
+      "question": "L'aire de la partie du plan délimitée par les courbes des fonctions f et g et les droites d'équations \\( x=0 \\) et \\( x=2 \\) où \\( f(x) = x^3 \\) et \\( g(x) = x^2 \\) est :",
+      "options": [
+        "A) \\( \\frac{1}{2} \\text{ cm}^2 \\)",
+        "B) \\( \\frac{1}{2} \\text{ cm}^2 \\)",
+        "C) \\( \\frac{3}{2} \\text{ cm}^2 \\)",
+        "D) \\( \\frac{5}{2} \\text{ cm}^2 \\)",
+        "E) \\( \\frac{2}{3} \\text{ cm}^2 \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( \\frac{3}{2} \\text{ cm}^2 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q29",
+      "question": "Le centre de symétrie de la courbe de la fonction \\( f(x) = \\frac{x + \\sqrt{x^2+4}}{x} \\) est le point \\( \\Omega(a, b) \\) tel que :",
+      "options": [
+        "A) \\( \\Omega(1, 0) \\)",
+        "B) \\( \\Omega(1, -1) \\)",
+        "C) \\( \\Omega(0, 0) \\)",
+        "D) \\( \\Omega(0, 2) \\)",
+        "E) \\( \\Omega(0, 1) \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( \\Omega(0, 1) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q30",
+      "question": "On lance un dé cubique truqué dont les six faces sont numérotées de 1 à 6. Soit \\( p_k \\) la probabilité d'obtenir la face k. Supposons que \\( p_1, p_2, p_3, p_4, p_5, p_6 \\) sont les premiers termes d'une suite géométrique de raison \\( q = 1/2 \\). Alors son premier terme \\( p_1 \\) est :",
+      "options": [
+        "A) -1/31",
+        "B) 5/64",
+        "C) 1/6",
+        "D) 32/63",
+        "E) Les réponses ci-dessus sont incorrectes"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 32/63",
+      "correctOption": null
+    }
+  ]
+}

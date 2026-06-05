@@ -1,0 +1,260 @@
+[
+  {
+    "id": "Q01",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Limites",
+    "question": "\\( \\lim_{x \\to 0} \\frac{\\sqrt{\\ln(e+x)} - 1}{\\sqrt{x+1} - 1} \\) est égale à :",
+    "options": [
+      "A) \\( \\frac{1}{2e} \\)",
+      "B) \\( \\frac{1}{e} \\)",
+      "C) 1",
+      "D) e",
+      "E) 2e"
+    ]
+  },
+  {
+    "id": "Q02",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Dérivées",
+    "question": "\\( f(x) = \\frac{1}{1-x} \\ln(1+\\frac{1}{x}) \\) alors \\( f'(x) \\) est égale à :",
+    "options": [
+      "A) \\( \\frac{1}{(1-x)^2} \\ln(1+\\frac{1}{x}) + \\frac{1}{x(1-x^2)} \\)",
+      "B) \\( \\frac{1}{(1-x)^2} \\ln(1+\\frac{1}{x}) - \\frac{1}{x(1-x^2)} \\)",
+      "C) \\( \\frac{1}{1-x^2} \\ln(1+\\frac{1}{x}) - \\frac{1}{x(1-x^2)} \\)",
+      "D) \\( \\frac{1}{(1-x)^2} \\ln(1+\\frac{1}{x}) - \\frac{1}{x(1-x)^2} \\)"
+    ]
+  },
+  {
+    "id": "Q03",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Nombres complexes",
+    "question": "Le nombre complexe \\( (\\frac{7-15i}{15+7i})^{2021} \\) est égale à :",
+    "options": [
+      "A) i",
+      "B) -1",
+      "C) 7-15i",
+      "D) -i",
+      "E) 7+15i"
+    ]
+  },
+  {
+    "id": "Q04",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Suites",
+    "question": "Si \\( x \\in ]0; 1[ \\), alors \\( \\lim_{n \\to +\\infty} (1 - x + x^2 - x^3 + \\dots + (-1)^n x^n) \\) est égale à :",
+    "options": [
+      "A) \\( \\frac{1}{x-1} \\)",
+      "B) \\( \\frac{1}{1-x} \\)",
+      "C) 1",
+      "D) \\( -\\frac{1}{1+x} \\)",
+      "E) \\( \\frac{1}{1+x} \\)"
+    ]
+  },
+  {
+    "id": "Q05",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Fonctions",
+    "question": "Dans \\( \\mathbb{R} \\), le nombre de solution de l'équation \\( x^3 + x - 1 = 0 \\) est :",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3",
+      "E) 5"
+    ]
+  },
+  {
+    "id": "Q06",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Nombres complexes",
+    "question": "Dans \\( \\mathbb{C} \\), si \\( |z|\\bar{z} = 15 - 20i \\) alors \\( |(1+i)z| \\) est égale à :",
+    "options": [
+      "A) \\( \\sqrt{2} \\)",
+      "B) \\( 2\\sqrt{2} \\)",
+      "C) \\( 3\\sqrt{2} \\)",
+      "D) \\( 4\\sqrt{2} \\)",
+      "E) \\( 5\\sqrt{2} \\)"
+    ]
+  },
+  {
+    "id": "Q07",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Limites",
+    "question": "Si f est la fonction définit sur \\( \\mathbb{R}^* \\) par \\( f(x) = \\frac{\\sqrt{\\ln(1+x^2)}}{x} \\) alors :",
+    "options": [
+      "A) \\( \\lim_{x \\to 0} f(x) = 1 \\)",
+      "B) \\( \\lim_{x \\to 0} f(x) = -1 \\)",
+      "C) \\( \\lim_{x \\to 0} f(x) = 1/2 \\)",
+      "D) \\( \\lim_{x \\to 0} f(x) = 0 \\)",
+      "E) La fonction f n'admet pas de limite en 0."
+    ]
+  },
+  {
+    "id": "Q08",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Suites",
+    "question": "\\( (u_n) \\) est une suite telle que : \\( v_0 = 1 \\) et \\( \\forall n \\in \\mathbb{N} : u_{n+1} = u_n^2 + u_n \\). Alors la limite de la suite (un) si elle existe, est égale à :",
+    "options": [
+      "A) 1",
+      "B) \\( +\\infty \\)",
+      "C) 0",
+      "D) -1",
+      "E) Autre valeur"
+    ]
+  },
+  {
+    "id": "Q09",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Intégration",
+    "question": "L'intégrale \\( \\int_0^1 \\frac{x}{1+e^{-x^2}} dx \\) est égale à :",
+    "options": [
+      "A) \\( \\sqrt{\\ln(\\frac{1+e}{2})} \\)",
+      "B) \\( \\ln\\sqrt{1+e} \\)",
+      "C) \\( \\ln(1+e) \\)",
+      "D) \\( \\ln\\sqrt{\\frac{1+e}{2}} \\)",
+      "E) \\( \\sqrt{\\ln(1+e)} \\)"
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Fonctions",
+    "question": "Si \\( f(1) = 4 \\) et \\( \\forall x \\in \\mathbb{R}_+^* : f'(x) = 2x + \\ln x \\) alors \\( f(e) \\) est égale à :",
+    "options": [
+      "A) \\( e^2 \\)",
+      "B) \\( e+4 \\)",
+      "C) \\( e^2 + 4 \\)",
+      "D) \\( e \\)",
+      "E) 4"
+    ]
+  },
+  {
+    "id": "Q11",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Nombres complexes",
+    "question": "Dans \\( \\mathbb{C} \\), si \\( z = 1 + i(1 + \\sqrt{2}) \\) alors :",
+    "options": [
+      "A) \\( |z| = 2\\sqrt{2}\\cos\\frac{\\pi}{8} \\) et \\( \\text{arg}(z) \\equiv \\frac{3\\pi}{8} [2\\pi] \\)",
+      "B) \\( |z| = 2\\sqrt{2}\\cos\\frac{\\pi}{8} \\) et \\( \\text{arg}(z) \\equiv \\frac{\\pi}{8} [2\\pi] \\)",
+      "C) \\( |z| = 2\\sqrt{2}\\cos\\frac{3\\pi}{8} \\) et \\( \\text{arg}(z) \\equiv \\frac{3\\pi}{8} [2\\pi] \\)",
+      "D) \\( |z| = 2\\sqrt{2}\\cos\\frac{3\\pi}{8} \\) et \\( \\text{arg}(z) \\equiv \\frac{\\pi}{8} [2\\pi] \\)"
+    ]
+  },
+  {
+    "id": "Q12",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Intégration",
+    "question": "Si \\( \\int_1^2 f'(x)f''(x) dx = 8 \\) et \\( f'(2) - f'(1) = 2 \\) alors \\( f'(2) + f'(1) \\) égal à :",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10",
+      "E) 12"
+    ]
+  },
+  {
+    "id": "Q13",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Suites",
+    "question": "Soit \\( q \\in \\mathbb{R} \\). Pour tout \\( n \\in \\mathbb{N}^* \\), on pose \\( S_n = \\sum_{k=1}^n q^k \\). Si la suite \\( (S_n) \\) est convergente et \\( \\lim_{n \\to +\\infty} S_n = 4 \\) alors \\( q \\) est égale à :",
+    "options": [
+      "A) 2/3",
+      "B) 3/4",
+      "C) 4/5",
+      "D) 5/6",
+      "E) 6/7"
+    ]
+  },
+  {
+    "id": "Q14",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Intégration",
+    "question": "L'intégrale \\( \\int_{\\pi/6}^{\\pi/3} \\frac{\\sin x}{\\sin x + \\cos x} dx \\) est égale à :",
+    "options": [
+      "A) \\( \\pi/3 \\)",
+      "B) \\( \\pi/4 \\)",
+      "C) \\( \\pi/6 \\)",
+      "D) \\( \\pi/8 \\)",
+      "E) \\( \\pi/12 \\)"
+    ]
+  },
+  {
+    "id": "Q15",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Nombres complexes",
+    "question": "Dans \\( \\mathbb{C} \\), si \\( |z_1| = |z_2| = 1 \\) et \\( |z_1 + z_2| = \\sqrt{3} \\) alors \\( |z_1 - z_2| \\) est égale à :",
+    "options": [
+      "A) 1",
+      "B) 3",
+      "C) \\( \\sqrt{3} \\)",
+      "D) 2",
+      "E) \\( \\sqrt{2} \\)"
+    ]
+  },
+  {
+    "id": "Q16",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Suites",
+    "question": "Si \\( (u_n)_{n \\in \\mathbb{N}} \\) est une suite telle que : \\( u_0 = 0, u_1 = 1 \\) et \\( \\forall n \\in \\mathbb{N}^* : u_n = \\sqrt{\\frac{u_{n+1}^2 + u_{n-1}^2}{2}} \\). Alors la limite de \\( (u_n) \\) est égale à :",
+    "options": [
+      "A) 0",
+      "B) \\( +\\infty \\)",
+      "C) 1",
+      "D) \\( \\sqrt{2} \\)",
+      "E) \\( \\frac{\\sqrt{2}}{2} \\)"
+    ]
+  },
+  {
+    "id": "Q17",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Fonctions",
+    "question": "Soit \\( a, b \\in \\mathbb{R} \\) et \\( f \\) la fonction définit sur \\( \\mathbb{R} \\) par : \\( f(x) = \\begin{cases} ax + b & \\text{si } x \\le 0 \\\\ \\frac{1}{x+1} & \\text{si } x > 0 \\end{cases} \\). La fonction \\( f \\) est dérivable en 0 si et seulement si :",
+    "options": [
+      "A) a=1 et b=1",
+      "B) a=-1 et b=1",
+      "C) a=2 et b=1",
+      "D) a=-1 et b=-1",
+      "E) a=-1 et b=0"
+    ]
+  },
+  {
+    "id": "Q18",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Intégration",
+    "question": "Soit \\( a, b \\in \\mathbb{R} \\) et \\( f \\) la fonction définit sur \\( \\mathbb{R} \\) par : \\( \\forall x \\in \\mathbb{R} : f(x) = 3x^2 + 2ax + b \\). Si \\( \\int_{-1}^1 f(x) dx < 2 \\) alors le nombre de solution \\( \\mathbb{R} \\) dans l'équation \\( f(x) = 0 \\) est :",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3",
+      "E) 4"
+    ]
+  },
+  {
+    "id": "Q19",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Nombres complexes",
+    "question": "Le plan complexe est rapporté à un repère orthonormé direct \\( (O, \\vec{u}, \\vec{v}) \\) et \\( \\alpha \\in ]0; \\pi/2[ \\). Soient \\( z_1 \\) et \\( z_2 \\) les solutions de l'équation \\( z^2 - \\sin(2\\alpha)z + \\sin^2(\\alpha) = 0 \\). La valeur de \\( \\alpha \\) pour laquelle les points \\( O, M(z_1) \\) et \\( M'(z_2) \\) sont les sommet d'un triangle équilatéral est :",
+    "options": [
+      "A) \\( \\pi/3 \\)",
+      "B) \\( \\pi/4 \\)",
+      "C) \\( \\pi/5 \\)",
+      "D) \\( \\pi/6 \\)",
+      "E) \\( \\pi/8 \\)"
+    ]
+  },
+  {
+    "id": "Q20",
+    "source": "FConcours-medecine-2021-Corrigé",
+    "subject": "Fonctions",
+    "question": "Pour tout entier naturel non nul n et pour tout réel x on pose : \\( f_n(x) = e^{-x} - nx \\). Alors on a :",
+    "options": [
+      "A) \\( \\forall n \\in \\mathbb{N}^*, \\exists! \\alpha_n \\in ]0; 1[ : f(\\alpha_n) = 0 \\) et \\( \\lim_{n \\to +\\infty} n\\alpha_n = 1 \\)",
+      "B) \\( \\forall n \\in \\mathbb{N}^*, \\exists! \\alpha_n \\in ]0; 1[ : f(\\alpha_n) = 0 \\) et \\( \\lim_{n \\to +\\infty} n\\alpha_n = 0 \\)",
+      "C) \\( \\forall n \\in \\mathbb{N}^*, \\exists! \\alpha_n \\in ]0; 1[ : f(\\alpha_n) = 0 \\) et \\( \\lim_{n \\to +\\infty} n\\alpha_n = e \\)",
+      "D) \\( \\forall n \\in \\mathbb{N}^*, \\exists! \\alpha_n \\in ]-1; 0[ : f(\\alpha_n) = 0 \\) et \\( \\lim_{n \\to +\\infty} n\\alpha_n = 0 \\)",
+      "E) \\( \\forall n \\in \\mathbb{N}^*, \\exists! \\alpha_n \\in ]-1; 0[ : f(\\alpha_n) = 0 \\) et \\( \\lim_{n \\to +\\infty} n\\alpha_n = 1 \\)"
+    ]
+  }
+]

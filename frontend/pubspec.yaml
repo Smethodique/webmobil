@@ -1,0 +1,76 @@
+name: fmp_prep_ai
+description: "FMP Prep AI - Math preparation app for FMP concours"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Networking
+  dio: ^5.3.0
+
+  # Environment
+  flutter_dotenv: ^5.1.0
+
+  # Local Storage
+  shared_preferences: ^2.2.0
+
+  # JSON
+  json_annotation: ^4.8.0
+
+  # Math & LaTeX
+  flutter_math_fork: ^0.7.0
+
+  # UI & Animation
+  flutter_animate: ^4.0.0
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+
+  # JWT & Auth
+  flutter_secure_storage: ^9.0.0
+  jwt_decoder: ^2.0.0
+
+  # Navigation
+  go_router: ^12.0.0
+
+  # Text to Speech
+  flutter_tts: ^4.2.0
+
+  # Date/Time
+  intl: ^0.19.0
+
+  # PDF and Media
+  pdf: ^3.10.0
+  image_picker: ^1.2.0
+  record: ^6.1.0
+  audioplayers: ^6.0.0
+  path_provider: ^2.1.0
+  web_socket_channel: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+  riverpod_generator: ^2.4.0
+  mockito: ^5.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/results/
+    - .env

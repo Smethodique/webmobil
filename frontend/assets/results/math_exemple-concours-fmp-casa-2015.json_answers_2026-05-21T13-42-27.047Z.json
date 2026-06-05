@@ -1,0 +1,227 @@
+{
+  "source": "math_exemple-concours-fmp-casa-2015.json",
+  "timestamp": "2026-05-21T13:42:27.045Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "I- Soit la fonction \\( f \\) définie par : \\( f(x) = e^x (\\cos x - \\sin x) \\) et \\( C_f \\) sa courbe représentative. 1- Calculer : \\( \\lim_{x \\to -\\infty} f(x) = \\)",
+      "options": [
+        "A) 0",
+        "B) +\\infty",
+        "C) -\\infty",
+        "D) 1",
+        "E) -1"
+      ],
+      "selectedIndex": [
+        1
+
+      ],
+      "selectedOption": [
+        "A) 0"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "1-2- Donner les coordonnées du point \\( A(x, f(x)) \\) par lequel passe une tangente horizontale à \\( C_f \\).",
+      "options": [
+        "A) (0, 1)",
+        "B) (\\pi, -e^\\pi)",
+        "C) (2\\pi, e^{2\\pi})",
+        "D) (\\pi/2, -e^{\\pi/2})",
+        "E) (\\pi/4, e^{\\pi/4}(\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{2}}{2}))"
+      ],
+      "selectedIndex": [
+        0,
+        1,
+        2
+      ],
+      "selectedOption": [
+        "A) (0, 1)",
+        "B) (\\pi, -e^\\pi)",
+        "C) (2\\pi, e^{2\\pi})"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "2-2- Répondre par oui ou par non aux propositions suivantes : a- La fonction est décroissante sur \\( [\\frac{3\\pi}{4}, \\pi] \\)",
+      "options": [
+        "A) Oui",
+        "B) Non",
+        "C) ​",
+        "D) ​",
+        "E) ​"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) Oui"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "2-2- Répondre par oui ou par non aux propositions suivantes : b- La fonction est décroissante sur \\( [\\frac{5\\pi}{4}, \\frac{3\\pi}{2}] \\)",
+      "options": [
+        "A) Oui",
+        "B) Non",
+        "C) ​",
+        "D) ​",
+        "E) ​"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) Non"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "II- Calculer : \\( \\lim_{x \\to +\\infty} \\frac{3 + 2x\\sqrt{3} + x^2}{3 - x^2} = \\)",
+      "options": [
+        "A) -1",
+        "B) 1",
+        "C) 0",
+        "D) +\\infty",
+        "E) -\\infty"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) -1"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "III- Calculer : \\( J = \\int_0^1 \\frac{x}{2x^4 + 3x^2 + \\frac{9}{8}} dx \\)",
+      "options": [
+        "A) \\(\\frac{4}{21}\\)",
+        "B) \\(\\frac{2}{21}\\)",
+        "C) \\(\\frac{1}{21}\\)",
+        "D) \\(\\frac{8}{21}\\)",
+        "E) 0"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\(\\frac{4}{21}\\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "IV- Soient \\( A \\), \\( B \\) et \\( C \\) trois points du plan complexe d'affixes respectives : \\( z_A = 2 - 4i \\), \\( z_B = 4 + 2i \\), \\( z_C = 8 - 6i \\). On pose : \\( W = \\frac{z_B - z_A}{z_C - z_A} \\). 1- Calculer le module et l'argument de \\( W \\) : \\( |W| = ... \\), \\( Arg(W) = ... \\)",
+      "options": [
+        "A) \\(|W|=1\\), \\(\\arg(W)=\\frac{\\pi}{2}\\)",
+        "B) \\(|W|=1\\), \\(\\arg(W)=\\pi\\)",
+        "C) \\(|W|=\\sqrt{2}\\), \\(\\arg(W)=\\frac{\\pi}{4}\\)",
+        "D) \\(|W|=2\\), \\(\\arg(W)=\\frac{\\pi}{2}\\)",
+        "E) \\(|W|=1\\), \\(\\arg(W)=0\\)"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\(|W|=1\\), \\(\\arg(W)=\\frac{\\pi}{2}\\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "IV- 2- Déterminer la nature du triangle \\( ABC \\).",
+      "options": [
+        "A) Rectangle et isocèle",
+        "B) Rectangle seulement",
+        "C) Équilatéral",
+        "D) Scalène (quelconque)",
+        "E) Isocèle seulement"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) Rectangle et isocèle"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "V- Dans une solution nutritive, on place 1000 bactéries d'une certaine espèce. On a remarqué que ces bactéries se reproduisent à un taux de 50% par jour. On note \\( U_n \\) le nombre de bactéries présentes dans le liquide au jour \"n\". 1- Quelle est la nature de la suite \\( (U_n) \\) ?",
+      "options": [
+        "A) Arithmétique",
+        "B) Géométrique",
+        "C) Constante",
+        "D) Décroissante",
+        "E) Croissante"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) Géométrique"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "V- 2- Donner sa raison.",
+      "options": [
+        "A) 0.5",
+        "B) 1.5",
+        "C) 2",
+        "D) 1",
+        "E) 0"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) 1.5"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "VI- Une urne contient 10 boules indiscernables au toucher. Certaines sont blanches et les autres sont noires. Elles sont soit décorées, soit non décorées. Nous avons 3 boules noires, 7 décorées et une (1) boule noire et décorée. 1- On tire au hasard une boule. Calculer la probabilité \\( P \\) pour que cette boule soit noire ou décorée.",
+      "options": [
+        "A) 0.9",
+        "B) 0.8",
+        "C) 0.7",
+        "D) 0.5",
+        "E) 1"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) 0.9"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "VI- 2- On tire 3 boules successivement avec remise. Calculer la probabilité \\( P' \\) d'obtenir 3 boules blanches et décorées.",
+      "options": [
+        "A) \\(\\frac{27}{125}\\)",
+        "B) \\(\\frac{8}{125}\\)",
+        "C) \\(\\frac{64}{125}\\)",
+        "D) \\(\\frac{1}{8}\\)",
+        "E) \\(\\frac{3}{10}\\)"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\(\\frac{27}{125}\\)"
+      ],
+      "correctOption": null
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "Q01",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Logique",
+    "question": "La valeur du nombre \\( \\ln(3) + 4\\ln(2) - \\ln(60) \\) est :",
+    "options": [
+      "A) \\( \\ln(\\frac{5}{4}) \\)",
+      "B) 0",
+      "C) \\( \\ln(\\frac{4}{3}) \\)",
+      "D) \\( \\ln(15) \\)",
+      "E) \\( \\ln(\\frac{4}{5}) \\)"
+    ]
+  },
+  {
+    "id": "Q02",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Nombres complexes",
+    "question": "La partie imaginaire du nombre complexe \\( z = \\frac{1+ix}{1-ix} \\) où \\( x \\in \\mathbb{R} \\) est :",
+    "options": [
+      "A) \\( \\frac{1}{1+x^2} \\)",
+      "B) \\( \\frac{1}{1-x^2} \\)",
+      "C) \\( \\frac{1-x^2}{1+x^2} \\)",
+      "D) \\( \\frac{2x}{1+x^2} \\)",
+      "E) \\( \\frac{2x}{1-x^2} \\)"
+    ]
+  },
+  {
+    "id": "Q03",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Fonctions",
+    "question": "L'ensemble des solutions de l'équation \\( (\\frac{1}{13})^{x^2-3x} = 169 \\) est :",
+    "options": [
+      "A) \\( \\{1\\} \\)",
+      "B) \\( \\{\\frac{-1}{2}, 2\\} \\)",
+      "C) \\( \\{1, 2\\} \\)",
+      "D) \\( \\{-1, 1, 2\\} \\)",
+      "E) \\( \\emptyset \\)"
+    ]
+  },
+  {
+    "id": "Q04",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Nombres complexes",
+    "question": "Soit le nombre complexe \\( j = \\frac{-1+i\\sqrt{3}}{2} = \\cos(\\frac{2\\pi}{3}) + i\\sin(\\frac{2\\pi}{3}) \\). La valeur du nombre complexe \\( S = 1+j+j^2+...+j^{2010} = \\sum_{k=0}^{2010} j^k \\) est :",
+    "options": [
+      "A) 1",
+      "B) \\( 1+j \\)",
+      "C) \\( 1+j+j^2 \\)",
+      "D) \\( -1-j \\)",
+      "E) 0"
+    ]
+  },
+  {
+    "id": "Q05",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Suites",
+    "question": "\\( (u_n)_{n \\geq 1} \\) est une suite définie par : \\( u_1 = \\sqrt[3]{\\frac{2}{7}} \\) et \\( u_{n+1} = \\sqrt[3]{\\frac{1+u_n^3}{8}} \\). Alors la raison de la suite géométrique \\( (v_n)_{n \\geq 1} \\) telle que \\( v_n = \\frac{7}{8} u_n^3 - \\frac{1}{8} \\) est :",
+    "options": [
+      "A) \\( -1/2 \\)",
+      "B) \\( 1/8 \\)",
+      "C) n'est pas une suite géométrique",
+      "D) \\( -1/8 \\)",
+      "E) \\( 1/2 \\)"
+    ]
+  },
+  {
+    "id": "Q06",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Domaine de définition",
+    "question": "Le domaine de définition de la fonction \\( g(x) = \\sqrt{\\frac{x^2-1}{x+1}} \\) est :",
+    "options": [
+      "A) \\( \\mathbb{R} \\)",
+      "B) \\( \\mathbb{R} \\setminus \\{-1\\} \\)",
+      "C) \\( [1, +\\infty[ \\)",
+      "D) \\( ]-1, 1] \\)",
+      "E) \\( ]-1, +\\infty[ \\)"
+    ]
+  },
+  {
+    "id": "Q07",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Fonctions",
+    "question": "Soit \\( h \\) la fonction définie par : \\( h(x) = \\frac{\\cos(x) - 1 - x\\sin(3x)}{x^2} \\) si \\( x \\neq 0 \\) et \\( h(0) = a \\). La valeur de \\( a \\) pour que \\( h \\) soit continue au point \\( x=0 \\) est :",
+    "options": [
+      "A) \\( 4/3 \\)",
+      "B) \\( 7/2 \\)",
+      "C) \\( -4/3 \\)",
+      "D) 0",
+      "E) \\( -7/2 \\)"
+    ]
+  },
+  {
+    "id": "Q08",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Fonctions",
+    "question": "Soit \\( f \\) une fonction impaire sur \\( \\mathbb{R} \\). La fonction \\( f \\circ f \\) est une fonction :",
+    "options": [
+      "A) ni paire ni impaire",
+      "B) impaire",
+      "C) nulle",
+      "D) paire",
+      "E) les réponses ci-dessus sont fausses"
+    ]
+  },
+  {
+    "id": "Q09",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Limites",
+    "question": "La valeur de \\( \\lim_{x \\to 0} \\frac{4^x - 2^x}{x} \\) est :",
+    "options": [
+      "A) \\( +\\infty \\)",
+      "B) 0",
+      "C) \\( \\ln 2 \\)",
+      "D) \\( \\ln(1/2) \\)",
+      "E) les réponses ci-dessus sont fausses"
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Dérivées",
+    "question": "Soient \\( f \\) et \\( g \\) des fonctions telles que \\( h \\) est une fonction numérique définie et dérivable sur \\( I = [-1, 1] \\) et \\( g(x) = h(\\cos(\\frac{\\pi}{2}x)) \\). La valeur de \\( g'(1) \\) est :",
+    "options": [
+      "A) \\( -\\frac{\\pi}{2} h'(0) \\)",
+      "B) \\( h'(0) \\)",
+      "C) n'existe pas",
+      "D) \\( \\frac{\\pi}{2} h'(0) \\)",
+      "E) \\( -\\frac{\\pi}{2} h'(1) \\)"
+    ]
+  },
+  {
+    "id": "Q11",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Fonctions",
+    "question": "Le centre de symétrie de la courbe de la fonction \\( f(x) = \\frac{5x+1}{1-2x} \\) est le point \\( \\Omega(a, b) \\) tel que :",
+    "options": [
+      "A) \\( \\Omega(1/2, -1/2) \\)",
+      "B) \\( \\Omega(1/2, -5/2) \\)",
+      "C) \\( \\Omega(-5/2, -5/2) \\)",
+      "D) \\( \\Omega(-1/2, 5/2) \\)",
+      "E) \\( \\Omega(1/2, 5/2) \\)"
+    ]
+  },
+  {
+    "id": "Q12",
+    "source": "NNNmath_exemple-concours-fmp-marrakech-2010",
+    "subject": "Probabilités",
+    "question": "On lance simultanément trois dés de couleurs différentes (chaque dé est un cube non pipé dont les six faces sont numérotées de 1 à 6). La probabilité d'obtenir 3 chiffres (apparaissant sur la face supérieure de chaque dé) dont la somme est 5 est :",
+    "options": [
+      "A) 5/216",
+      "B) 5/36",
+      "C) 1/36",
+      "D) 1/9",
+      "E) les réponses ci-dessus sont fausses"
+    ]
+  }
+]

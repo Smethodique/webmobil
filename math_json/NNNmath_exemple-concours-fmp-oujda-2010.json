@@ -1,0 +1,132 @@
+[
+  {
+    "id": "Q1",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Domaine de définition",
+    "question": "Le domaine de définition de la fonction \\( f(x) = \\ln(\\frac{x+1}{x-1}) \\) est :",
+    "options": [
+      "A) \\( ]-1, 1[ \\)",
+      "B) \\( ]-\\infty, -1] \\cup [1, +\\infty[ \\)",
+      "C) \\( ]-\\infty, -1[ \\cup ]1, +\\infty[ \\)",
+      "D) \\( ]-\\infty, -1[ \\)",
+      "E) \\( ]-\\infty, -1[ \\cup [1, +\\infty[ \\)"
+    ]
+  },
+  {
+    "id": "Q2",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Limites",
+    "question": "\\( \\lim_{x \\to 1} \\frac{e^{1-x}-1}{x-1} \\) est égale à :",
+    "options": [
+      "A) \\( -\\infty \\)",
+      "B) -1",
+      "C) 0",
+      "D) 1",
+      "E) \\( +\\infty \\)"
+    ]
+  },
+  {
+    "id": "Q3",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Dérivées",
+    "question": "La dérivée de \\( f(x) = e^{1/x} \\cdot \\cos(2x) + \\ln(\\frac{1}{1+x}) \\) est :",
+    "options": [
+      "A) \\( -e^{1/x} (\\frac{1}{x^2}\\cos(2x) + 2\\sin(2x)) - \\frac{1}{1+x} \\)",
+      "B) \\( -e^{1/x} (\\frac{1}{x^2}\\cos(2x) - 2\\sin(2x)) - \\frac{1}{1+x} \\)",
+      "C) \\( e^{1/x} (\\frac{1}{x^2}\\cos(2x) + 2\\sin(2x)) - \\frac{1}{1+x} \\)",
+      "D) \\( -e^{1/x} (\\frac{1}{x^2}\\cos(2x) + 2\\sin(2x)) + \\frac{1}{1+x} \\)",
+      "E) \\( e^{1/x} (\\frac{1}{x^2}\\cos(2x) + 2\\sin(2x)) + \\frac{1}{1+x} \\)"
+    ]
+  },
+  {
+    "id": "Q4",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Intégration",
+    "question": "\\( I = \\int_1^{e} \\frac{(\\ln x)^2}{x} dx \\) est égale à :",
+    "options": [
+      "A) 1",
+      "B) -1",
+      "C) 0",
+      "D) 1/3",
+      "E) -1/3"
+    ]
+  },
+  {
+    "id": "Q5",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Intégration",
+    "question": "\\( J = \\int_1^{e^\\pi} \\cos(\\ln x) dx \\) est égale à :",
+    "options": [
+      "A) \\( -e^\\pi - 1 \\)",
+      "B) \\( e^\\pi + 1 \\)",
+      "C) \\( 1 - e^\\pi \\)",
+      "D) \\( -\\frac{e^\\pi + 1}{2} \\)",
+      "E) \\( \\frac{e^\\pi + 1}{2} \\)"
+    ]
+  },
+  {
+    "id": "Q6",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Nombres complexes",
+    "question": "On considère le nombre complexe \\( z = 1 - i\\sqrt{3} \\). L'argument du nombre complexe z est :",
+    "options": [
+      "A) \\( \\pi/3 [2\\pi] \\)",
+      "B) \\( -\\pi/3 [2\\pi] \\)",
+      "C) \\( \\pi/6 [2\\pi] \\)",
+      "D) \\( -\\pi/6 [2\\pi] \\)",
+      "E) \\( 2\\pi/3 [2\\pi] \\)"
+    ]
+  },
+  {
+    "id": "Q7",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Probabilités",
+    "question": "Quel est le nombre de mots de sept (7) lettres, ayant un sens ou non, que l'on peut écrire en utilisant toutes les lettres du mot \"docteur\" :",
+    "options": [
+      "A) 6",
+      "B) 120",
+      "C) 216",
+      "D) 342",
+      "E) 5040"
+    ]
+  },
+  {
+    "id": "Q8",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Suites",
+    "question": "On a \\( x \\neq 0 \\), \\( x \\neq 1 \\) et \\( n \\in \\mathbb{N}^* \\). \\( V_n = 1 + \\frac{1}{x} + \\frac{1}{x^2} + \\frac{1}{x^3} + ... + \\frac{1}{x^{n-1}} \\) est égale à :",
+    "options": [
+      "A) \\( V_n = \\frac{n(n+1)}{2} \\)",
+      "B) \\( V_n = \\frac{x^n-1}{x^n-x^{n-1}} \\)",
+      "C) \\( V_n = \\frac{x^n-x^{n-1}}{x^n-1} \\)",
+      "D) \\( V_n = 1-x^n \\)",
+      "E) \\( V_n = 1 - (1/x)^n \\)"
+    ]
+  },
+  {
+    "id": "Q9",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Fonctions",
+    "question": "L'ensemble des solutions de l'inéquation \\( \\ln(x-1) + \\ln(x-3) < \\ln 2 \\) est :",
+    "options": [
+      "A) \\( ]3, +\\infty[ \\)",
+      "B) \\( ]-\\infty, -3] \\cup [2+\\sqrt{3}, +\\infty[ \\)",
+      "C) \\( ]2+\\sqrt{3}, +\\infty[ \\)",
+      "D) \\( ]3, 2+\\sqrt{3}[ \\)",
+      "E) \\( ]-3, 2+\\sqrt{3}[ \\)"
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "NNNmath_exemple-concours-fmp-oujda-2010",
+    "subject": "Fonctions",
+    "question": "La fonction \\( g(x) \\), solution de l'équation différentielle \\( 2y' + y = 0 \\) et vérifiant la condition \\( g(0) = -1/2 \\), est :",
+    "options": [
+      "A) \\( -1/2 e^x \\)",
+      "B) \\( -1/2 \\cos(x) \\)",
+      "C) \\( -1/2 e^{x/2} \\)",
+      "D) \\( -1/2 (1-\\sin x) \\)",
+      "E) \\( -1/2 e^{-x/2} \\)"
+    ]
+  }
+]

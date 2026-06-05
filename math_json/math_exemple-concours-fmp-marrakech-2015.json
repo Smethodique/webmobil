@@ -1,0 +1,132 @@
+[
+  {
+    "id": "Q21",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Limites",
+    "question": "Soient m une constante de \\( \\mathbb{R} \\) et h la fonction définie sur \\( \\mathbb{R}_+^* \\) par \\( h(x) = x^m - (\\ln x)^2 \\).",
+    "options": [
+      "A) Si m > 0 \\( \\lim_{x \\to +\\infty} h(x) = 0 \\)",
+      "B) Si m < 0 \\( \\lim_{x \\to 0^+} h(x) = 0 \\)",
+      "C) Si m < 0 \\( \\lim_{x \\to 0^+} h(x) = -\\infty \\)",
+      "D) Si m < 0 \\( \\lim_{x \\to +\\infty} h(x) = 0 \\)",
+      "E) Si m > 0 \\( \\lim_{x \\to +\\infty} h(x) = +\\infty \\)"
+    ]
+  },
+  {
+    "id": "Q22",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Suites",
+    "question": "Soit \\( U_n \\) la suite définie par \\( U_n = \\frac{(-1)^n}{n^2} \\); \\( n \\in \\mathbb{N} \\) et \\( n \\neq 0 \\). La suite \\( (U_n)_{n \\ge 1} \\) est :",
+    "options": [
+      "A) Monotone.",
+      "B) Convergente.",
+      "C) Négative.",
+      "D) Décroissante et minorée.",
+      "E) Croissante et Majorée."
+    ]
+  },
+  {
+    "id": "Q23",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Nombres complexes",
+    "question": "Quelle est la bonne réponse parmi les propositions suivantes ?",
+    "options": [
+      "A) La partie réelle de \\( (1-i)^5 \\) est \\( \\sqrt{2} \\).",
+      "B) La partie imaginaire de \\( (1+i)^{20} \\) est 42.",
+      "C) \\( (1+i)^{20} \\) est réel.",
+      "D) L'équation \\( z^4 - 1 = 0 \\) possède une et une seule solution dans \\( \\mathbb{C} \\).",
+      "E) L'équation \\( z^4 - 1 = 0 \\) possède trois solutions distinctes dans \\( \\mathbb{R} \\)."
+    ]
+  },
+  {
+    "id": "Q24",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Fonctions",
+    "question": "Soit f la fonction définie sur \\( \\mathbb{R} \\) par : \\( f(x) = \\begin{cases} e^x, \\text{ si } x < 0 \\\\ \\cos x, \\text{ si } x \\ge 0 \\end{cases} \\)",
+    "options": [
+      "A) L'équation f(x) = 0 possède trois solutions dans l'intervalle \\( ]-\\infty, 2\\pi] \\).",
+      "B) f n'est pas continue en 0.",
+      "C) f est dérivable en 0.",
+      "D) L'équation f(x) = 0 possède deux solutions dans l'intervalle \\( ]-\\infty, \\pi] \\).",
+      "E) L'équation f(x) = 0 possède une et une seule solution dans l'intervalle \\( ]-\\infty, \\pi] \\)."
+    ]
+  },
+  {
+    "id": "Q25",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Intégration",
+    "question": "Quelle est la bonne réponse parmi les propositions suivantes ?",
+    "options": [
+      "A) \\( \\int_2^e \\frac{1}{x \\ln x} dx = -2 \\).",
+      "B) \\( \\int_0^{\\pi/4} \\tan x dx = -\\frac{1}{2} \\ln 2 \\).",
+      "C) \\( \\int_0^{\\pi/4} \\tan x dx = \\ln 2 \\).",
+      "D) \\( \\int_1^e \\frac{\\ln x}{\\sqrt{x}} dx = 4 + 2\\sqrt{e} \\).",
+      "E) \\( \\int_1^e \\frac{\\ln x}{\\sqrt{x}} dx = 4 - 2\\sqrt{e} \\)."
+    ]
+  },
+  {
+    "id": "Q26",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Intégration",
+    "question": "Soient f et g les fonctions définies respectivement sur \\( \\mathbb{R} \\) par : \\( f(x) = \\frac{1}{1+x^2} \\) et \\( g(x) = \\int_x^{x+1} f(t) dt \\).",
+    "options": [
+      "A) L'image de \\( \\mathbb{R} \\) par f est \\( ]0, 1] \\).",
+      "B) L'image de \\( \\mathbb{R} \\) par f est \\( ]0, +\\infty] \\).",
+      "C) La fonction g est dérivable sur \\( \\mathbb{R} \\) et, pour tout x, \\( g'(x) = f(x) - f(x+1) \\).",
+      "D) Pour tout x, g(x) < 0.",
+      "E) Pour tout x, \\( 0 \\le g(x) < \\frac{1}{2} \\)."
+    ]
+  },
+  {
+    "id": "Q27",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Logique",
+    "question": "Soient n et p deux entiers naturels strictement positifs.",
+    "options": [
+      "A) Si \\( n^2 + np + p^2 \\) est pair, alors n est impair et p est pair.",
+      "B) Si \\( n^2 + np + p^2 \\) est pair, alors n est pair et p est impair.",
+      "C) Si \\( n^2 + np + p^2 \\) est pair, alors np est impair.",
+      "D) Si \\( n^2 + np + p^2 \\) est pair, alors n et p sont pairs.",
+      "E) Si \\( n^2 + np + p^2 \\) est pair, alors n et p sont impairs."
+    ]
+  },
+  {
+    "id": "Q28",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Intégration",
+    "question": "Quelle est la bonne réponse parmi les propositions suivantes ?",
+    "options": [
+      "A) \\( \\int_0^{\\pi/4} \\frac{2dx}{\\cos^2(x)} = 1 - \\sqrt{2} \\).",
+      "B) \\( \\int_{-\\pi/4}^{\\pi/8} \\frac{2dx}{\\cos^2(x)} = 2(1 - \\sqrt{2}) \\).",
+      "C) \\( \\int_{-\\pi/4}^{\\pi/4} \\frac{2dx}{\\cos^2(x)} = 4(\\sqrt{2} - 1) \\).",
+      "D) \\( \\int_{-\\pi/4}^{\\pi/4} \\frac{2dx}{\\cos^2(x)} = 4 \\).",
+      "E) \\( \\int_{-\\pi/4}^{\\pi/4} \\frac{2dx}{\\cos^2(x)} = 4(1 - \\sqrt{2}) \\)."
+    ]
+  },
+  {
+    "id": "Q29",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Suites",
+    "question": "Soient \\( (u_n) \\) et \\( (v_n) \\) deux suites définies pour tout \\( n \\in \\mathbb{N}^* \\), par \\( u_n = \\frac{e^n}{n^n} \\) et \\( v_n = \\ln(u_n) \\).",
+    "options": [
+      "A) la suite \\( (v_n) \\) et la suite \\( (u_n) \\) ont la même limite.",
+      "B) la suite \\( (v_n) \\) est strictement croissante.",
+      "C) la suite \\( (u_n) \\) est strictement croissante.",
+      "D) La suite \\( (u_n) \\) est bornée.",
+      "E) la suite \\( (u_n) \\) admet une limite et cette limite est non nulle."
+    ]
+  },
+  {
+    "id": "Q30",
+    "source": "math_exemple-concours-fmp-marrakech-2015",
+    "subject": "Suites",
+    "question": "On considère la suite \\( (u_n)_{n \\in \\mathbb{N}} \\) définie par \\( u_0 = 1 \\) et pour n : \\( u_{n+1} = \\frac{1}{3} u_n + n - 2 \\). On définit la suite \\( (v_n)_{n \\in \\mathbb{N}} \\) par \\( v_n = -2u_n + 3n - \\frac{21}{2} \\).",
+    "options": [
+      "A) Pour tout entier naturel \\( n \\ge 5 \\), \\( u_n \\le n - 3 \\).",
+      "B) Pour tout entier naturel \\( n \\ge 5 \\), \\( u_n \\ge n - 3 \\).",
+      "C) La limite de la suite \\( (u_n) \\) est finie.",
+      "D) La suite \\( (v_n) \\) est une suite géométrique de raison \\( \\frac{1}{3} \\) et de premier terme \\( -\\frac{25}{2} \\).",
+      "E) Pour tout n, \\( u_n = \\frac{25}{4} (\\frac{1}{3})^n + \\frac{3}{2} n + \\frac{21}{4} \\)."
+    ]
+  }
+]

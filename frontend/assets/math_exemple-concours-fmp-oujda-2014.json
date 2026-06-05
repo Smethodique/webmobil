@@ -1,0 +1,132 @@
+[
+  {
+    "id": "Q01",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Suites",
+    "question": "On considère les suites suivantes : \\( S = \\sum_{k=1}^n (2k-1) \\), \\( u_n = \\frac{5^n + (-3)^n}{2^n + 3 \\cdot (-1)^n} \\), \\( v_n = \\frac{n + \\sin n}{n - \\sin n} \\), \\( w_n = \\sum_{k=1}^n \\frac{n}{n^2+k} \\).",
+    "options": [
+      "A) \\( S = 2n^2 - 1 \\)",
+      "B) \\( \\lim_{n \\to +\\infty} u_n = 1 \\)",
+      "C) \\( \\lim_{n \\to +\\infty} u_n = \\frac{3}{2} \\)",
+      "D) \\( \\lim_{n \\to +\\infty} v_n = +\\infty \\)",
+      "E) \\( \\lim_{n \\to +\\infty} w_n = 1 \\)"
+    ]
+  },
+  {
+    "id": "Q02",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Nombres complexes",
+    "question": "On considère les points M, N et P d'affixes respectives : \\( z_M = 2(i\\sqrt{3}+1) \\), \\( z_N = 2(1-i\\sqrt{3}) \\), \\( z_P = i\\sqrt{3}-1 \\).",
+    "options": [
+      "A) \\( |z_N| = 2 \\)",
+      "B) \\( z_M = \\frac{1}{\\bar{z}_N} \\)",
+      "C) \\( z_M = \\cos \\frac{\\pi}{3} + i \\sin \\frac{\\pi}{3} \\)",
+      "D) Les droites (MP) et (NP) sont perpendiculaires.",
+      "E) Les droites (MP) et (NP) sont parallèles."
+    ]
+  },
+  {
+    "id": "Q03",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Fonctions",
+    "question": "Soit \\( f(x) \\) une fonction dérivable sur \\( \\mathbb{R} \\), paire et périodique de période T.",
+    "options": [
+      "A) La dérivée \\( f'(x) \\) est paire et périodique.",
+      "B) La dérivée \\( f'(x) \\) est impaire et n'est pas forcément périodique.",
+      "C) \\( \\forall k \\in \\mathbb{Z}, f'(kT) = 0 \\)",
+      "D) \\( \\int_{-T}^T f(x) dx = \\frac{1}{2} \\int_0^T f(x) dx \\)",
+      "E) Toutes les réponses proposées sont fausses."
+    ]
+  },
+  {
+    "id": "Q04",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Fonctions",
+    "question": "Soit \\( f(x) \\) la fonction définie par : \\( f(x) = \\frac{e^{1-x}}{1+e^{-x}} \\) et \\( C_f \\) sa courbe représentative dans un repère orthonormé.",
+    "options": [
+      "A) Le domaine de définition de la fonction f est \\( D_f = ]-\\infty, 0[ \\cup ]0, +\\infty[ \\).",
+      "B) La fonction f est croissante sur son domaine de définition.",
+      "C) \\( \\lim_{x \\to +\\infty} f(x) = 1 \\)",
+      "D) L'équation \\( f(x) = e^{-x} \\) n'a pas de solution.",
+      "E) La tangente à la courbe \\( C_f \\) au point M d'abscisse \\( x_M = 0 \\) coupe l'axe des abscisses au point \\( N(2; 0) \\)."
+    ]
+  },
+  {
+    "id": "Q05",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Intégration",
+    "question": "Soient \\( f(x) \\) et \\( g(x) \\) deux fonctions définies sur l'intervalle \\( [0, 1] \\) par : \\( f(x) = 2x \\) et \\( g(x) = x^2 \\). Soient \\( C_f \\) la courbe représentative de f et \\( C_g \\) celle de g dans un repère orthonormé. L'aire S (en unité d'aire) de la partie du plan délimitée par les deux courbes \\( C_f \\) et \\( C_g \\) et les droites d'équations \\( x=0 \\) et \\( x=1 \\) est :",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2/3",
+      "D) 2",
+      "E) 1/3"
+    ]
+  },
+  {
+    "id": "Q06",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Suites",
+    "question": "La population d'un pays était de 32 millions d'habitants en 2012. Cette population augmente naturellement de 5 % par an et le pays accueille chaque année un demi-million d'immigrés. Soit \\( v_n \\) la population de ce pays en millions d'habitants en l'an \\( (2012+n) \\). On pose \\( u_n = v_n + 10 \\).",
+    "options": [
+      "A) \\( v_{n+1} = 32.5 + 0.05 v_n \\)",
+      "B) \\( u_n \\) est une suite géométrique de raison 1,05.",
+      "C) Le nombre d'années n pour que la population de ce pays dépasse 158 millions d'habitants est 29 ans.",
+      "D) Le nombre d'années n pour que la population de ce pays dépasse 158 millions d'habitants est 20 ans.",
+      "E) Toutes les réponses proposées sont fausses."
+    ]
+  },
+  {
+    "id": "Q07",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Fonctions",
+    "question": "Choisir la réponse correcte :",
+    "options": [
+      "A) La droite d'équation \\( x=1 \\) représente un axe de symétrie pour la courbe représentative de la fonction \\( f(x) = x^2 + 2x - 1 \\).",
+      "B) La courbe représentative d'une fonction et son asymptote oblique ne se coupent jamais.",
+      "C) Soit \\( g(x) \\) une fonction numérique dérivable sur \\( \\mathbb{R} \\). L'équation \\( g(x) = 2g(x) \\) n'a pas de solution dans \\( \\mathbb{R} \\).",
+      "D) La fonction \\( h(x) = |4x(x-5)| \\) n'est pas dérivable au point \\( x_0 = 5 \\).",
+      "E) La fonction \\( f(x) = |x+5| - |3-x| + 2x - 3 \\) n'admet pas de fonction primitive sur \\( \\mathbb{R} \\)."
+    ]
+  },
+  {
+    "id": "Q08",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Fonctions",
+    "question": "On considère le cube ABCDEFGH de côté a.",
+    "options": [
+      "A) \\( \\vec{AG} = \\vec{AB} + \\vec{AD} + \\vec{EA} \\)",
+      "B) \\( \\vec{AG} \\) est un vecteur normal au plan (BDE).",
+      "C) \\( \\vec{AG} \\cdot \\vec{BE} = a^2 \\)",
+      "D) La droite (AG) n'est pas perpendiculaire à la droite (DE).",
+      "E) \\( \\vec{BC} \\wedge \\vec{BA} = \\vec{BG} \\)"
+    ]
+  },
+  {
+    "id": "Q09",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Probabilités",
+    "question": "Une étude sur la propagation de deux types de maladies M1 et M2 dans un pays a montré que 18 % sont atteints de la maladie M1. Parmi les personnes atteintes de M1, 8 % sont atteintes de M2, et parmi celles non atteintes de M1, 7 % sont atteintes de M2. On choisit au hasard une personne de ce pays et on définit les événements suivants : C : \"la personne est atteinte de M1\", D : \"la personne est atteinte de M2\".",
+    "options": [
+      "A) La probabilité que cette personne soit atteinte de M2 est \\( 7.18 \\cdot 10^{-2} \\).",
+      "B) La probabilité que cette personne soit atteinte de M1 et de M2 est 0,18.",
+      "C) La probabilité que cette personne soit atteinte de M1 et de M2 est 0,0144.",
+      "D) Sachant que cette personne est atteinte de M2, la probabilité qu'elle ne soit pas atteinte de M1 est 0,2.",
+      "E) Toutes les réponses proposées sont fausses."
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "math_exemple-concours-fmp-oujda-2014",
+    "subject": "Intégration",
+    "question": "\\( I_n = (n+1) \\int_a^1 t^n \\ln(t) dt \\).",
+    "options": [
+      "A) \\( I_n = \\frac{1}{(n+1)^2} (a^{n+1} - 1) - a^{n+1} \\ln a \\frac{1}{n+1} \\)",
+      "B) \\( I_n = \\frac{1}{(n+1)} (1 - a^{n+1}) - a^{n+1} \\ln a \\)",
+      "C) \\( I_n = \\frac{1}{(n+1)} (a^{n+1} - 1) - a^{n+1} \\ln a \\)",
+      "D) \\( I_n = \\frac{1}{(n+1)^2} (a^{n+1} - 1) - a^{n+1} \\ln a \\)",
+      "E) Lorsque a prend la valeur \\( a = e^{-\\frac{1}{n+1}} \\), alors \\( \\lim_{n \\to +\\infty} I_n = +\\infty \\)"
+    ]
+  }
+]

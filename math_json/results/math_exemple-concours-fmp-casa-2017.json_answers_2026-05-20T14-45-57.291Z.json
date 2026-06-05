@@ -1,0 +1,174 @@
+{
+  "source": "math_exemple-concours-fmp-casa-2017.json",
+  "timestamp": "2026-05-20T14:45:57.289Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "I- Soit la fonction \\( f \\) définie sur \\( \\mathbb{R} \\) par : \\( f(x) = -x\\sqrt{1-4x^2} \\) et \\( C_f \\) sa courbe représentative. 1- Parmi les propositions suivantes, cochez l'expression appropriée de la dérivée \\( f' \\) de \\( f \\), sachant que \\( f \\) est décroissante sur l'intervalle \\( [-\\frac{\\sqrt{2}}{6}, \\frac{\\sqrt{2}}{6}] \\).",
+      "options": [
+        "A) \\( f'(x) = \\frac{8x^2-1}{\\sqrt{1-4x^2}} \\)",
+        "B) \\( f'(x) = \\frac{8x^2+1}{\\sqrt{1-4x^2}} \\)",
+        "C) \\( f'(x) = \\frac{|8x^2-1|}{\\sqrt{1-4x^2}} \\)",
+        "D) \\( f'(x) = \\frac{1-8x^2}{\\sqrt{1-4x^2}} \\)",
+        "E) \\( f'(x) = \\frac{4x^2-1}{\\sqrt{1-4x^2}} \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( f'(x) = \\frac{8x^2-1}{\\sqrt{1-4x^2}} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "2- \\( C_f \\) admet deux tangentes horizontales. Donner les coordonnées des deux points de la courbe \\( A_1(x_1, f(x_1)) \\) et \\( A_2(x_2, f(x_2)) \\) par lesquels passent ces tangentes.",
+      "options": [
+        "A) \\( A_1\\left(\\frac{\\sqrt{2}}{4}, -\\frac{1}{4}\\right), \\; A_2\\left(-\\frac{\\sqrt{2}}{4}, \\frac{1}{4}\\right) \\)",
+        "B) \\( A_1\\left(\\frac{1}{2}, 0\\right), \\; A_2\\left(-\\frac{1}{2}, 0\\right) \\)",
+        "C) \\( A_1\\left(0, 0\\right), \\; A_2\\left(\\frac{1}{2}, 0\\right) \\)",
+        "D) \\( A_1\\left(\\frac{\\sqrt{2}}{4}, \\frac{1}{4}\\right), \\; A_2\\left(-\\frac{\\sqrt{2}}{4}, -\\frac{1}{4}\\right) \\)",
+        "E) \\( A_1\\left(\\frac{1}{\\sqrt{2}}, -\\frac{1}{2}\\right), \\; A_2\\left(-\\frac{\\sqrt{2}}{4}, \\frac{1}{2}\\right) \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( A_1\\left(\\frac{\\sqrt{2}}{4}, -\\frac{1}{4}\\right), \\; A_2\\left(-\\frac{\\sqrt{2}}{4}, \\frac{1}{4}\\right) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "3- Répondre par oui ou par non aux propositions suivantes : a- La fonction \\( f \\) est paire",
+      "options": [
+        "A) Oui",
+        "B) Non",
+        "C) ​",
+        "D) ​",
+        "E) ​"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) Non",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "3- Répondre par oui ou par non aux propositions suivantes : b- La courbe \\( C_f \\) est symétrique par rapport à l'origine",
+      "options": [
+        "A) Oui",
+        "B) Non",
+        "C) ​",
+        "D) ​",
+        "E) ​"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) Oui",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "4- Calculer \\( A \\), l'aire de la région délimitée par la courbe de la fonction et l'axe des abscisses.",
+      "options": [
+        "A) \\(\\frac{1}{6}\\)",
+        "B) \\(\\frac{1}{4}\\)",
+        "C) \\(\\frac{1}{3}\\)",
+        "D) \\(\\frac{1}{2}\\)",
+        "E) \\(\\frac{2}{3}\\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\(\\frac{1}{6}\\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "II- Calculer : \\( \\lim_{x \\to +\\infty} \\frac{\\ln(1+2x)}{x^2+x} = \\)",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) +\\infty",
+        "D) -\\infty",
+        "E) 2"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "III- Calculer : \\( \\int_2^3 |x^2 - 4x + 3| dx = \\)",
+      "options": [
+        "A) \\(\\frac{2}{3}\\)",
+        "B) \\(\\frac{1}{3}\\)",
+        "C) 1",
+        "D) \\(\\frac{4}{3}\\)",
+        "E) 0"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\(\\frac{2}{3}\\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "IV- Dans l'espace muni d'un repère orthonormé \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\) : Soit le plan \\( (P) \\) d'équation : \\( x - 4y + z - 2 = 0 \\) et la sphère \\( (S) \\) de centre \\( \\Omega(1, 9, 1) \\) passant par le point \\( A(9, 5, 2) \\). On donne : \\( d(\\Omega, (P)) = 6\\sqrt{2} \\). L'intersection du plan \\( (P) \\) avec la sphère \\( (S) \\) est un cercle, déterminer son rayon \\( r \\).",
+      "options": [
+        "A) 3",
+        "B) 6",
+        "C) 9",
+        "D) \\(3\\sqrt{2}\\)",
+        "E) 1"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 3",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "IV- Déterminer les coordonnées du centre du cercle \\( C(a, b, c) \\).",
+      "options": [
+        "A) \\((3, 1, 3)\\)",
+        "B) \\((1, 3, 3)\\)",
+        "C) \\((2, 5, 2)\\)",
+        "D) \\((5, 2, 1)\\)",
+        "E) \\((0, 9, 0)\\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\((3, 1, 3)\\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "V- Soit la suite numérique \\( (U_n) \\) définie par : \\( U_0 = 0 \\) et \\( U_{n+1} = \\frac{1}{\\sqrt{2}} \\sqrt{U_n^2 + 2} \\). On pose : \\( V_n = U_n^2 - 2 \\). 1- Donner la nature de la suite \\( (V_n) \\) et sa raison.",
+      "options": [
+        "A) Géométrique de raison \\(\\frac{1}{2}\\)",
+        "B) Arithmétique de raison \\(\\frac{1}{2}\\)",
+        "C) Géométrique de raison 2",
+        "D) Arithmétique de raison 2",
+        "E) Constante de raison 0"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) Géométrique de raison \\(\\frac{1}{2}\\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "V- 2- Calculer \\( \\lim_{n \\to +\\infty} V_n \\).",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) -2",
+        "D) 2",
+        "E) +\\infty"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "V- 3- En déduire \\( \\lim_{n \\to +\\infty} U_n \\).",
+      "options": [
+        "A) \\(\\sqrt{2}\\)",
+        "B) 1",
+        "C) 0",
+        "D) 2",
+        "E) \\(\\frac{\\sqrt{2}}{2}\\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\(\\sqrt{2}\\)",
+      "correctOption": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "source": "math_exemple-concours-fmp-agadir-2016.json",
+  "timestamp": "2026-05-21T13:49:26.759Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Les deux premiers termes d'une suite arithmétique sont 5 et 8, donc la somme des 20 premiers termes de cette suite est :",
+      "options": [
+        "A) 1340",
+        "B) 620",
+        "C) 700",
+        "D) 1240",
+        "E) 670"
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) 670"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "\\( (u_n) \\) est une suite géométrique telle que \\( u_1 = 15 \\) et \\( u_4 = 60 \\), alors sa raison positive est :",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) \\( \\frac{1}{2} \\)",
+        "D) \\( \\frac{1}{4} \\)",
+        "E) 3"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) 2"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "On considère deux sacs S1 et S2 contenant chacun 5 boules numérotées de 1 à 5. On tire simultanément et au hasard deux boules de S1 et une boule de S2. La probabilité d'obtenir deux nombres impairs et un nombre pair est :",
+      "options": [
+        "A) \\( \\frac{3}{25} \\)",
+        "B) \\( \\frac{12}{25} \\)",
+        "C) 1",
+        "D) \\( \\frac{1}{10} \\)",
+        "E) \\( \\frac{18}{25} \\)"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) \\( \\frac{12}{25} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "Le domaine de définition de la fonction f définie par : \\( f(x) = \\sqrt{\\frac{1-\\sin x}{1+\\sin x}} \\) est :",
+      "options": [
+        "A) \\( \\mathbb{R} \\)",
+        "B) \\( \\mathbb{R} \\setminus \\{2k\\pi, k \\in \\mathbb{Z}\\} \\)",
+        "C) \\( \\mathbb{R} \\setminus \\{-\\frac{\\pi}{2} + 2k\\pi, k \\in \\mathbb{Z}\\} \\)",
+        "D) \\( \\mathbb{R} \\setminus \\{\\frac{3\\pi}{2} + 2k\\pi, k \\in \\mathbb{Z}\\} \\)",
+        "E) \\( \\mathbb{R} \\setminus \\{\\frac{3\\pi}{2} + k\\pi, k \\in \\mathbb{Z}\\} \\)"
+      ],
+      "selectedIndex": [
+        2,
+        3
+      ],
+      "selectedOption": [
+        "C) \\( \\mathbb{R} \\setminus \\{-\\frac{\\pi}{2} + 2k\\pi, k \\in \\mathbb{Z}\\} \\)",
+        "D) \\( \\mathbb{R} \\setminus \\{\\frac{3\\pi}{2} + 2k\\pi, k \\in \\mathbb{Z}\\} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Le nombre complexe \\( z = \\left(\\frac{1+i}{1-i}\\right)^2 \\) est égal à :",
+      "options": [
+        "A) 1",
+        "B) -1",
+        "C) \\( i \\)",
+        "D) \\( 1-i \\)",
+        "E) \\( 1+i \\)"
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) -1"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "La somme des solutions de l'équation \\( 3e^{2x} - 4e^x + 1 = 0 \\) dans \\( \\mathbb{R} \\) est :",
+      "options": [
+        "A) 0",
+        "B) \\( \\{0, \\ln(3)\\} \\)",
+        "C) \\( \\{1\\} \\)",
+        "D) \\( \\{0\\} \\)",
+        "E) \\( \\{-\\ln(3), 0\\} \\)"
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) \\( \\{-\\ln(3), 0\\} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "La partie imaginaire du nombre complexe \\( z = \\frac{(1+i\\sqrt{3})}{(1-i\\sqrt{3})^2} \\) est égale à :",
+      "options": [
+        "A) \\( \\frac{-1}{2} \\)",
+        "B) \\( \\sqrt{3} \\)",
+        "C) 0",
+        "D) \\( \\frac{1}{2} \\)",
+        "E) \\( \\frac{\\sqrt{3}}{4} \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) 0"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "On lance ensemble deux dés de couleurs différentes une seule fois (chacun d'eux est un cube non truqué dont les six faces sont numérotées de 1 à 6). La probabilité d'obtenir deux nombres (affichés par la face supérieure de chaque dé) dont la somme est 8 est :",
+      "options": [
+        "A) \\( \\frac{5}{36} \\)",
+        "B) \\( \\frac{4}{36} = \\frac{1}{12} \\)",
+        "C) \\( \\frac{6}{36} = \\frac{1}{6} \\)",
+        "D) \\( \\frac{1}{36} \\)",
+        "E) \\( \\frac{8}{36} = \\frac{2}{9} \\)"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\( \\frac{5}{36} \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "La valeur de \\( \\lim_{x \\to 0} \\frac{4^x - 2^x}{x} \\) est :",
+      "options": [
+        "A) \\( +\\infty \\)",
+        "B) 0",
+        "C) \\( \\ln(2) \\)",
+        "D) \\( \\ln(\\frac{1}{2}) \\)",
+        "E) Les autres réponses sont incorrectes"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( \\ln(2) \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "Soit f la fonction définie par : \\( f(x) = \\cos(e^x) \\) et \\( (C_f) \\) la courbe de la fonction f dans un repère orthonormé. L'équation de la droite tangente à la courbe \\( (C_f) \\) au point d'abscisse 0 est :",
+      "options": [
+        "A) \\( y = \\cos 1 \\)",
+        "B) \\( y = -\\sin 1 \\)",
+        "C) \\( y = -(\\sin 1)x + \\cos 1 \\)",
+        "D) \\( y = -(\\cos 1)x + \\sin 1 \\)",
+        "E) \\( y = 1 \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( y = -(\\sin 1)x + \\cos 1 \\)"
+      ],
+      "correctOption": null
+    }
+  ]
+}

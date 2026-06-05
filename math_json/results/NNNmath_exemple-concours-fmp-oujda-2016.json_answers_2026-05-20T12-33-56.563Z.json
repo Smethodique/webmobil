@@ -1,0 +1,146 @@
+{
+  "source": "NNNmath_exemple-concours-fmp-oujda-2016.json",
+  "timestamp": "2026-05-20T12:33:56.561Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Soit \\( n \\in \\mathbb{N}^* \\). On considère la suite \\( (V_n) \\) définie par : \\( V_n = \\sin(\\frac{\\pi}{n}) + \\sin(\\frac{2\\pi}{n}) + ... + \\sin(\\frac{(n-1)\\pi}{n}) \\). On considère le nombre complexe \\( z \\) tel que \\( z = \\cos(\\frac{\\pi}{n}) + i\\sin(\\frac{\\pi}{n}) \\).",
+      "options": [
+        "A) \\( V = 1 + z + z^2 + ... + z^{n-1} = 1 + i\\tan(\\frac{\\pi}{2n}) \\)",
+        "B) \\( V = 1 + z + z^2 + ... + z^{n-1} = 1 + i\\cot(\\frac{\\pi}{2n}) \\)",
+        "C) \\( V_n = \\frac{1}{\\tan(\\frac{\\pi}{2n})} \\)",
+        "D) \\( V_n = \\tan(\\frac{\\pi}{2n}) \\)",
+        "E) \\( \\lim_{n \\to +\\infty} \\frac{V_n}{n} = 0 \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( V = 1 + z + z^2 + ... + z^{n-1} = 1 + i\\cot(\\frac{\\pi}{2n}) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "Soit \\( S_n = \\sum_{k=1}^n \\frac{1}{k(k+1)} \\). On pose \\( S = \\sum_{n \\geq 1} \\frac{1}{n(n+1)} \\).",
+      "options": [
+        "A) \\( S_n = 1 + \\frac{1}{n+1} \\)",
+        "B) \\( S \\) est divergente",
+        "C) \\( S \\) est convergente et sa somme est 1",
+        "D) \\( S \\) est convergente et sa somme est n",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( S \\) est convergente et sa somme est 1",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "On considère la suite numérique définie par : \\( u_0 = e^2 - 1 \\) et \\( u_{n+1} = (1+u_n)e^{-2} - 1 \\). On pose \\( V_n = 3(1+u_n) \\).",
+      "options": [
+        "A) \\( (u_n) \\) est croissante",
+        "B) \\( (V_n) \\) est une suite arithmétique",
+        "C) \\( u_n = e^{2n+2} - 1 \\)",
+        "D) \\( \\lim_{n \\to \\infty} V_n = -1 \\)",
+        "E) \\( \\ln V_0 + \\ln V_1 + ... + \\ln V_n = (n+1)(2-n+\\ln 3) \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( \\ln V_0 + \\ln V_1 + ... + \\ln V_n = (n+1)(2-n+\\ln 3) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "On considère la fonction \\( f(x) = x - \\frac{1-2\\ln(1+x)}{x+1} \\).",
+      "options": [
+        "A) Le domaine de définition de la fonction \\( f(x) \\) est \\( [-1, +\\infty[ \\)",
+        "B) \\( \\lim_{x \\to -1^+} f(x) = +\\infty \\)",
+        "C) \\( \\lim_{x \\to +\\infty} f(x) = +1 \\)",
+        "D) \\( \\lim_{x \\to +\\infty} f(x) = -1 \\)",
+        "E) \\( f'(x) = \\frac{x^2+2x+4-2\\ln(x+1)}{(x+1)^2} \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( f'(x) = \\frac{x^2+2x+4-2\\ln(x+1)}{(x+1)^2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "On prend les mêmes données de la question précédente.",
+      "options": [
+        "A) La solution de l'équation \\( f(x) = x \\) est \\( x = 1 - \\sqrt{e} \\)",
+        "B) Dans l'intervalle \\( ]-1; -1+\\sqrt{e}] \\), \\( f(x)-x \\geq 0 \\)",
+        "C) Dans l'intervalle \\( [\\sqrt{e}-1; +\\infty[ \\), \\( f(x)-x \\leq 0 \\)",
+        "D) La droite d'équation \\( y = x + \\frac{2}{\\sqrt{e^3}} \\) est tangente à la courbe \\( C_f \\) au point d'abscisse \\( x_0 = \\sqrt{e^3} - 1 \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) La droite d'équation \\( y = x + \\frac{2}{\\sqrt{e^3}} \\) est tangente à la courbe \\( C_f \\) au point d'abscisse \\( x_0 = \\sqrt{e^3} - 1 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "Dans un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\), on considère les points : \\( A(-1, 2, 0), B(3, 0, 4), C(-2, 1, 2) \\).",
+      "options": [
+        "A) L'aire du triangle ABC est \\( \\frac{5\\sqrt{2}}{2} \\)",
+        "B) L'aire du triangle ABC est \\( 5\\sqrt{3} \\)",
+        "C) La longueur de la hauteur issue de A dans le triangle ABC est \\( \\sqrt{5} \\)",
+        "D) La longueur de la hauteur issue de A dans le triangle ABC est \\( \\sqrt{6} \\)",
+        "E) Les points A, B et C sont alignés"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) La longueur de la hauteur issue de A dans le triangle ABC est \\( \\sqrt{6} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Choisir la réponse correcte.",
+      "options": [
+        "A) Le périmètre d'un cercle de rayon R est \\( \\pi R \\)",
+        "B) Le nombre complexe \\( e^{i\\frac{\\pi}{4}} + e^{i\\frac{3\\pi}{4}} \\) est égal à \\( i\\sqrt{2} \\)",
+        "C) Parmi 9 personnes, on peut choisir un comité de 5 personnes de 256 façons possibles",
+        "D) L'hectare est une unité de longueur",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) Le nombre complexe \\( e^{i\\frac{\\pi}{4}} + e^{i\\frac{3\\pi}{4}} \\) est égal à \\( i\\sqrt{2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "Soit \\( I = 2 \\int_0^{\\pi/4} (\\tan^3 x + \\tan x) dx \\) et \\( J = \\int_0^{\\pi/a} \\cos^3(2t) dt \\).",
+      "options": [
+        "A) \\( I = 1 - \\frac{1}{\\cos^2 a} \\)",
+        "B) \\( I = 2 - \\frac{1}{\\cos^2 a} \\)",
+        "C) \\( J = \\sin a (\\frac{\\cos a \\sin^2 2a}{3} + \\cos a) \\)",
+        "D) \\( J = \\frac{\\sin a}{2} (\\frac{\\cos a \\sin^2 2a}{3} + \\cos a) \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) Toutes les réponses proposées sont fausses",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Soit \\( I_n = \\int_0^{\\pi/2} x^n \\cos x dx \\) avec \\( n \\in \\mathbb{N} \\).",
+      "options": [
+        "A) \\( I_0 = -1 \\)",
+        "B) \\( I_1 = \\pi/2 \\)",
+        "C) \\( I_{n+2} = (\\pi/2)^{n+1} + (n+1)I_n \\)",
+        "D) \\( I_{n+2} = (\\pi/2)^{n+2} - (n+1)(n+2)I_n \\)",
+        "E) \\( I_2 = 2 - \\pi^2/4 \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( I_{n+2} = (\\pi/2)^{n+2} - (n+1)(n+2)I_n \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "Choisir la réponse correcte.",
+      "options": [
+        "A) \\( \\cos^2 \\frac{3\\pi}{12} + \\cos^2 \\frac{5\\pi}{12} + \\cos^2 \\frac{9\\pi}{12} + \\cos^2 \\frac{11\\pi}{12} = 3 \\)",
+        "B) Le point (2,0) est centre de symétrie de la courbe représentative de la fonction \\( f(x) = x^3 - 6x^2 + 9x - 2 \\)",
+        "C) \\( \\sqrt{1-\\sin 2x} = \\cos 2x \\)",
+        "D) La période de la fonction \\( f(x) = 1 - 8\\cos x - 4\\cos 2x \\) est \\( \\pi \\)",
+        "E) La propriété suivante est fausse : \\( (g \\circ f)' = f' \\cdot g'(f) \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) Le point (2,0) est centre de symétrie de la courbe représentative de la fonction \\( f(x) = x^3 - 6x^2 + 9x - 2 \\)",
+      "correctOption": null
+    }
+  ]
+}

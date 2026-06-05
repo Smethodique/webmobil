@@ -1,0 +1,284 @@
+{
+  "source": "FConcours-medecine-2022-Corrigé-.json",
+  "timestamp": "2026-05-19T12:50:44.437Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Dans \\( \\mathbb{C} \\), l'ensemble des solutions de l'équation \\( \\frac{2z-1}{z+1} = z \\) est :",
+      "options": [
+        "A) \\( \\{-1; 1/2\\} \\)",
+        "B) \\( \\{1+i\\sqrt{3}; 1-i\\sqrt{3}\\} \\)",
+        "C) \\( \\{\\frac{1+i\\sqrt{3}}{2}; \\frac{1-i\\sqrt{3}}{2}\\} \\)",
+        "D) \\( \\{i\\sqrt{3}; -i\\sqrt{3}\\} \\)",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( \\{\\frac{1+i\\sqrt{3}}{2}; \\frac{1-i\\sqrt{3}}{2}\\} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "Si \\( f \\) est une solution sur \\( \\mathbb{R} \\) de l'équation différentielle \\( y'' + 2y' + 4y = 0 \\) alors \\( g = 2f \\) est une solution sur \\( \\mathbb{R} \\) de l'équation différentielle :",
+      "options": [
+        "A) \\( y'' + 2y' + 4y = 0 \\)",
+        "B) \\( y'' + y' + y = 0 \\)",
+        "C) \\( y'' + 4y' + 4y = 0 \\)",
+        "D) \\( 2y'' + 4y' + y = 0 \\)",
+        "E) Autre"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( y'' + 2y' + 4y = 0 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "Si \\( z = e^{ix} - e^{-ix} \\) avec \\( x \\in ]0; \\pi[ \\), alors \\( |z| \\) est égale à :",
+      "options": [
+        "A) 2",
+        "B) \\( 2\\cos x \\)",
+        "C) \\( 2\\cos\\frac{x}{2} \\)",
+        "D) \\( 2\\sin x \\)",
+        "E) \\( 2\\sin\\frac{x}{2} \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( 2\\sin x \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "\\( \\lim_{n \\to +\\infty} n - \\sqrt{n^2 - n} \\) est égale à :",
+      "options": [
+        "A) \\( -\\infty \\)",
+        "B) 0",
+        "C) 1/2",
+        "D) 1",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Dans \\( \\mathbb{C} \\), si \\( \\text{arg}(iz) \\equiv \\frac{7\\pi}{6} [2\\pi] \\) and \\( |z| = \\sqrt{2} \\) alors la partie imaginaire de \\( z^3 \\) est :",
+      "options": [
+        "A) 0",
+        "B) \\( 2\\sqrt{2} \\)",
+        "C) \\( \\sqrt{2} \\)",
+        "D) \\( -\\sqrt{2} \\)",
+        "E) \\( -2\\sqrt{2} \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "Dans l'espace rapporté à un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\), on considère les deux points A(1; 2; 3) et B(2; 0; 1). L'ensemble des points M(x; y; z) équidistants des points A and B est :",
+      "options": [
+        "A) Le plan \\( x - y + z = 6 \\)",
+        "B) Le plan \\( 2x - 4y - 4z = -9 \\)",
+        "C) Le plan \\( 2x - 4y - 4z = 9 \\)",
+        "D) La droite : \\( x + y + z = 6 \\) et \\( 2x - 4y - 4z = -9 \\)",
+        "E) Autre"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) Le plan \\( 2x - 4y - 4z = -9 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Soit \\( a \\in \\mathbb{R}^* \\). Si \\( \\int_0^1 \\frac{e^{ax}}{e^{ax}+1} dx = \\frac{1}{a} \\) alors \\( a \\) est égal à :",
+      "options": [
+        "A) \\( \\ln(e-1) \\)",
+        "B) \\( 2e-1 \\)",
+        "C) \\( \\ln(2e+1) \\)",
+        "D) \\( \\ln(2e-1) \\)",
+        "E) \\( 2e+1 \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( \\ln(2e-1) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "Le plan complexe est rapporté à un repère orthonormé direct. Soit \\( z \\) un nombre complexe et \\( \\Omega, M \\) et \\( M' \\) les points d'affixes respectivement \\( -\\frac{\\sqrt{3}}{3}, z \\) and \\( z' \\) tel que : \\( z' = (1+i\\sqrt{3})z + i \\). Alors une mesure de l'angle \\( (\\vec{\\Omega M}, \\vec{\\Omega M'}) \\) est :",
+      "options": [
+        "A) \\( \\frac{2\\pi}{3} \\)",
+        "B) \\( \\frac{\\pi}{3} \\)",
+        "C) \\( -\\frac{2\\pi}{3} \\)",
+        "D) \\( -\\frac{\\pi}{3} \\)",
+        "E) \\( \\frac{\\pi}{6} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( \\frac{\\pi}{3} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "ABCD est un carré de coté 1. On place les points E and F respectivement sur les coté [AB] ET [BC] tels que BE = CF = x. La valeur de \\( x \\) pour laquelle l'aire du triangle EFD est minimale est :",
+      "options": [
+        "A) 0",
+        "B) 1/4",
+        "C) 1/3",
+        "D) 1/2",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "Dans \\( \\mathbb{C} \\), si \\( |z| - z = 3 - i\\sqrt{3} \\) alors \\( |z| \\) est égale à :",
+      "options": [
+        "A) 0",
+        "B) 2",
+        "C) \\( 2\\sqrt{3} \\)",
+        "D) \\( 3\\sqrt{2} \\)",
+        "E) \\( 7\\sqrt{2} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 2",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "Le plan complexe est rapporté à un repère orthonormé direct. Soient A and B les points d'affixes respectives -i and i. L'ensemble des points M d'affixe \\( z \\) tel que \\( |\\frac{iz-1}{\\bar{z}+i}| = 1 \\) est :",
+      "options": [
+        "A) La médiatrice du [AB]",
+        "B) La droite (AB)",
+        "C) La droite (AB) privé du point B",
+        "D) Le cercle de diamètre [AB]",
+        "E) Le cercle de diamètre [AB] privé du point B"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) La médiatrice du [AB]",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "Soit \\( x \\in \\mathbb{R}^*; \\lim_{n \\to +\\infty} (1 + \\frac{x}{7n})^{29n} = 2022 \\) alors \\( x \\) est égal à :",
+      "options": [
+        "A) \\( \\frac{29}{7} \\ln 2022 \\)",
+        "B) \\( 2022 \\ln\\frac{7}{29} \\)",
+        "C) \\( 2022 \\ln\\frac{29}{7} \\)",
+        "D) \\( \\frac{7}{29} \\ln 2022 \\)",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( \\frac{7}{29} \\ln 2022 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q13",
+      "question": "Dans l'espace rapporté à un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\), on considère le plan (P) d'équation \\( 3x - 2z + 3 = 0 \\). On dispose d'un dé régulier dont les faces sont numérotées de 1 à 6. On lance le dé and on obtient ainsi de manière équiprobable un nombre \\( a \\) (\\( 1 \\le a \\le 6 \\)). La probabilité que le point \\( A(a^2; 2a; 6a-3) \\) appartient au plan (P) est :",
+      "options": [
+        "A) 1/6",
+        "B) 1/3",
+        "C) 1/2",
+        "D) 2/3",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 1/3",
+      "correctOption": null
+    },
+    {
+      "id": "Q14",
+      "question": "Soit \\( f \\) la fonction définit sur \\( \\mathbb{R} \\) par \\( f(x) = 2e^{3x} - 6 \\). La primitive de la fonction sur \\( \\mathbb{R} \\) dont la courbe coupe l'axe des ordonnées en 3 est définit par :",
+      "options": [
+        "A) \\( F(x) = \\frac{2}{3}e^{3x} - 6x - \\frac{2}{3} \\)",
+        "B) \\( F(x) = \\frac{2}{3}e^{3x} - 6x + \\frac{7}{3} \\)",
+        "C) \\( F(x) = \\frac{2}{3}e^{3x} - 6x - \\frac{7}{3} \\)",
+        "D) \\( F(x) = \\frac{2}{3}e^{3x} - 6x + \\frac{2}{3} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( F(x) = \\frac{2}{3}e^{3x} - 6x + \\frac{7}{3} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q15",
+      "question": "L'intégrale \\( \\int_0^3 \\frac{x^2+2}{\\sqrt{x^3+6x+4}} dx \\) est égale à :",
+      "options": [
+        "A) 1/3",
+        "B) 8/3",
+        "C) 10/3",
+        "D) 14/3",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 10/3",
+      "correctOption": null
+    },
+    {
+      "id": "Q16",
+      "question": "Si \\( (v_n)_{n \\in \\mathbb{N}^*} \\) est une suite telle que : \\( \\forall n \\in \\mathbb{N}^* : v_1 + v_2 + \\dots + v_{n-1} + v_n = 2n^2 + n \\). Alors :",
+      "options": [
+        "A) \\( v_8 = 31 \\)",
+        "B) \\( v_8 = 53 \\)",
+        "C) \\( v_8 = 54 \\)",
+        "D) \\( v_8 = 62 \\)",
+        "E) \\( v_8 = 64 \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( v_8 = 31 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q17",
+      "question": "Soit \\( f \\) la fonction définit sur \\( \\mathbb{R} \\) par : \\( \\forall x \\in \\mathbb{R} : f(2x-1) = x^2 + 3x \\). Alors \\( f(1) + f'(1) \\) est égale à :",
+      "options": [
+        "A) 5/2",
+        "B) 4",
+        "C) 9/2",
+        "D) 13/2",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 13/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q18",
+      "question": "Si pour tout entier naturel n, \\( I_n = \\int_1^e x(\\ln x)^n dx \\). Alors \\( \\forall n \\in \\mathbb{N}^* : 2I_{n+1} + (n+1)I_n \\) égal à :",
+      "options": [
+        "A) \\( e \\)",
+        "B) \\( e^2 \\)",
+        "C) 1",
+        "D) \\( \\frac{e-1}{2} \\)",
+        "E) \\( \\frac{e+1}{2} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( e^2 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q19",
+      "question": "Soit \\( f \\) la fonction définie sur \\( \\mathbb{R} \\) par : \\( f(x) = \\sum_{k=0}^n x^k = 1 + x + x^2 + \\dots + x^n \\). Et (C) sa courbe dans un repère orthonormé. L'équation réduite de la tangente à (C) au point d'abscisse 1 est :",
+      "options": [
+        "A) \\( y = \\frac{n(n+1)}{2}x - \\frac{(n-2)(n+1)}{2} \\)",
+        "B) \\( y = \\frac{n(n-1)}{2}x - \\frac{(n-2)(n+1)}{2} \\)",
+        "C) \\( y = \\frac{n(n+1)}{2}x + \\frac{(n-2)(n+1)}{2} \\)",
+        "D) \\( y = \\frac{n(n-1)}{2}x - \\frac{n^2-1}{2} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( y = \\frac{n(n+1)}{2}x + \\frac{(n-2)(n+1)}{2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q20",
+      "question": "Soit la suite \\( (u_n)_{n \\in \\mathbb{N}} \\) définit par : \\( u_0 \\in ]0; 1[ \\) and \\( \\forall n \\in \\mathbb{N} : u_{n+1} = f(u_n) \\). Ou \\( f \\) la fonction définie sur [0; 1] par : \\( f(x) = \\frac{\\sqrt{x}}{\\sqrt{x}+\\sqrt{1-x}} \\). On a alors :",
+      "options": [
+        "A) \\( \\lim_{n \\to +\\infty} u_n = 0 \\)",
+        "B) \\( \\lim_{n \\to +\\infty} u_n = 1/3 \\)",
+        "C) \\( \\lim_{n \\to +\\infty} u_n = 1 \\)",
+        "D) \\( \\lim_{n \\to +\\infty} u_n = +\\infty \\)",
+        "E) Autre réponse"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) Autre réponse",
+      "correctOption": null
+    }
+  ]
+}

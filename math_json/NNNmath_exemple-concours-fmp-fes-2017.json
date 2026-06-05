@@ -1,0 +1,210 @@
+[
+  {
+    "id": "Q01",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Logique",
+    "question": "Pour les nombres irrationnels \\( \\pi \\) et \\( e \\), on a :",
+    "options": [
+      "A) \\( \\pi \\) et \\( e \\) sont des nombres rationnels",
+      "B) \\( e^\\pi = \\pi^e \\)",
+      "C) \\( e^\\pi + \\pi^e = 1 \\)",
+      "D) \\( e^\\pi > \\pi^e \\)",
+      "E) \\( e^\\pi \\times \\pi^e = 1 \\)"
+    ]
+  },
+  {
+    "id": "Q02",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Domaine de définition",
+    "question": "Le domaine de définition D de la fonction numérique de la variable réelle \\( x \\) définie par : \\( f(x) = e^{-x} - \\ln(x^2 - 2x + 2) + \\sqrt[2017]{-x} \\) est :",
+    "options": [
+      "A) \\( D = \\mathbb{R} \\)",
+      "B) \\( D = [0, +\\infty[ \\)",
+      "C) \\( D = ]-\\infty, 0] \\)",
+      "D) \\( D = \\{0\\} \\)",
+      "E) \\( D = ]-\\infty, 0[ \\)"
+    ]
+  },
+  {
+    "id": "Q03",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Intégration",
+    "question": "La valeur de l'intégrale : \\( I = \\int_1^2 (\\frac{2}{x} - 1) \\ln x dx \\) est :",
+    "options": [
+      "A) \\( (\\ln 2 - 1) \\ln 2 \\)",
+      "B) \\( (\\ln(2) - 1)^2 \\)",
+      "C) 0",
+      "D) \\( \\ln(2) \\)",
+      "E) \\( 2(\\ln 2 - 1) \\ln 2 \\)"
+    ]
+  },
+  {
+    "id": "Q04",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Suites",
+    "question": "La limite de la suite récurrente définie par \\( u_0 = -2017 \\) et \\( u_{n+1} = e^{u_n} + u_n \\) est :",
+    "options": [
+      "A) \\( +\\infty \\)",
+      "B) 0",
+      "C) \\( -\\infty \\)",
+      "D) n'existe pas",
+      "E) -2017"
+    ]
+  },
+  {
+    "id": "Q05",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Limites",
+    "question": "La limite à droite en 0 de la fonction numérique \\( f \\) de la variable réelle \\( x \\) définie par \\( f(x) = e^{e^{-\\frac{\\ln x}{e^x}}} \\frac{\\ln x}{e^x} \\) est :",
+    "options": [
+      "A) \\( +\\infty \\)",
+      "B) \\( -\\infty \\)",
+      "C) 0",
+      "D) 1",
+      "E) n'existe pas"
+    ]
+  },
+  {
+    "id": "Q06",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Probabilités",
+    "question": "Une urne contient 5 boules blanches et 4 boules vertes indiscernables au toucher. On tire de cette urne successivement 3 boules selon la règle suivante : si la boule tirée est verte, on la remet dans l'urne ; si elle est blanche, on ne la remet pas. La probabilité que la première boule tirée soit la seule de couleur blanche est :",
+    "options": [
+      "A) 4/36",
+      "B) 5/36",
+      "C) 1/9",
+      "D) 4/9^3",
+      "E) 0"
+    ]
+  },
+  {
+    "id": "Q07",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Limites",
+    "question": "La limite \\( l \\) à droite en 0 de la fonction numérique de la variable réelle \\( x \\) définie par : \\( f(x) = \\int_x^1 (1 + \\frac{1}{t}) e^{-\\frac{1}{t}} dt \\) est :",
+    "options": [
+      "A) \\( l = +\\infty \\)",
+      "B) \\( l = -\\infty \\)",
+      "C) \\( l = e^{-1} \\)",
+      "D) \\( l = 1 \\)",
+      "E) n'existe pas"
+    ]
+  },
+  {
+    "id": "Q08",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Nombres complexes",
+    "question": "Dans le plan complexe, on considère les points \\( A(\\sqrt{2}) \\), \\( B(-i) \\), \\( D(1) \\), \\( E(i\\sqrt{2}) \\). Alors :",
+    "options": [
+      "A) Les points A, B, D et E sont alignés.",
+      "B) Les points A, B, D et E sont cocycliques.",
+      "C) ABDE est un losange.",
+      "D) \\( (AB) \\perp (DE) \\) et \\( AB = DE \\).",
+      "E) ABDE est un rectangle."
+    ]
+  },
+  {
+    "id": "Q09",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Nombres complexes",
+    "question": "L'équation \\( e^{ix} + 1 = 0 \\) d'inconnue réelle x :",
+    "options": [
+      "A) admet exactement deux solutions",
+      "B) admet l'unique solution \\( \\pi \\)",
+      "C) n'admet pas de solution",
+      "D) admet une infinité de solutions",
+      "E) admet \\( \\pi \\) et \\( -\\pi \\) comme seules solutions"
+    ]
+  },
+  {
+    "id": "Q10",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Suites",
+    "question": "La limite de la suite \\( (u_n) \\) vérifiant \\( \\frac{u_n}{u_{n-1}} = e^{-n} \\) est égale à :",
+    "options": [
+      "A) e",
+      "B) \\( e^{-1} \\)",
+      "C) 0",
+      "D) \\( -\\infty \\)",
+      "E) \\( +\\infty \\)"
+    ]
+  },
+  {
+    "id": "Q11",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Limites",
+    "question": "La limite \\( \\lim_{x \\to -\\infty} \\frac{\\sin x}{x} \\) est égale à :",
+    "options": [
+      "A) \\( -\\infty \\)",
+      "B) 0",
+      "C) -1",
+      "D) 1",
+      "E) \\( +\\infty \\)"
+    ]
+  },
+  {
+    "id": "Q12",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Fonctions",
+    "question": "Si \\( f^{-1} \\) est la fonction réciproque de la fonction : \\( f: ]1, +\\infty[ \\to \\mathbb{R}, x \\mapsto \\frac{x}{\\sqrt[3]{x^3-1}} \\). Alors pour tout x de l'intervalle \\( ]1, +\\infty[ \\) :",
+    "options": [
+      "A) \\( f^{-1}(x) = \\frac{x}{\\sqrt[3]{x^3-1}} \\)",
+      "B) \\( f^{-1}(x) = x \\)",
+      "C) \\( f^{-1}(f(x)) = x^3 \\)",
+      "D) \\( f^{-1}(x) = \\frac{\\sqrt[3]{x^3-1}}{x} \\)",
+      "E) \\( f(f^{-1}(x)) = \\sqrt[3]{x} \\)"
+    ]
+  },
+  {
+    "id": "Q13",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Logique",
+    "question": "Dans l'ensemble des entiers naturels, l'équation \\( \\sum_{k=0}^n C_n^k = 2^6 \\) d'inconnue n :",
+    "options": [
+      "A) admet l'unique solution n = 6",
+      "B) admet l'unique solution n = 5",
+      "C) admet une infinité de solutions",
+      "D) admet 6 solutions différentes",
+      "E) n'admet aucune solution"
+    ]
+  },
+  {
+    "id": "Q14",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Suites",
+    "question": "Pour tout réel x tel que \\( |x| < 1 \\) et \\( x > 0 \\), la suite \\( (u_n) \\) définie par : \\( u_n = (1 + |x|)^n \\).",
+    "options": [
+      "A) admet la limite 1 quand n tend vers \\( +\\infty \\)",
+      "B) est divergente",
+      "C) est constante",
+      "D) est strictement négative",
+      "E) est strictement décroissante"
+    ]
+  },
+  {
+    "id": "Q15",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Logique",
+    "question": "L'équation \\( e^x - i \\ln x = 0 \\) d'inconnue réelle x :",
+    "options": [
+      "A) admet une infinité de solutions dans \\( ]0, +\\infty[ \\)",
+      "B) admet au moins une solution dans \\( ]-\\infty, +\\infty[ \\)",
+      "C) n'admet pas de solution dans \\( [0, +\\infty[ \\)",
+      "D) admet deux solutions dans \\( ]0, +\\infty[ \\)",
+      "E) admet une solution unique dans \\( ]0, +\\infty[ \\)"
+    ]
+  },
+  {
+    "id": "Q16",
+    "source": "NNNmath_exemple-concours-fmp-fes-2017",
+    "subject": "Fonctions",
+    "question": "Dans l'espace rapporté à un repère orthonormé \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\), l'intersection des deux plans \\( (P): x-y+z=0 \\) et \\( (Q): x+y-z+1=0 \\) est :",
+    "options": [
+      "A) un plan",
+      "B) une droite dirigée par le vecteur \\( \\vec{u}(1, 1, -1) \\)",
+      "C) une droite passant par le point \\( A(0, 0, -1) \\)",
+      "D) une droite dirigée par le vecteur \\( \\vec{v}(0, 2, 2) \\)",
+      "E) une droite dirigée par le vecteur \\( \\vec{w}(1, -1, 1) \\)"
+    ]
+  }
+]

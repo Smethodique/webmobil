@@ -1,0 +1,146 @@
+{
+  "source": "math_exemple-concours-fmp-oujda-2011.json",
+  "timestamp": "2026-05-20T21:00:00.217Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "On considère le nombre complexe : \\( z = 1 + \\frac{\\sqrt{3}+i}{2} \\). Le nombre \\( z^{12} \\) est égal à :",
+      "options": [
+        "A) 1",
+        "B) \\( (2\\cos\\frac{\\pi}{12})^{12} \\)",
+        "C) \\( -(2\\cos\\frac{\\pi}{12})^{12} \\)",
+        "D) -1",
+        "E) \\( -2^{12} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( -(2\\cos\\frac{\\pi}{12})^{12} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "On considère la suite \\( (u_n) \\) définie par : \\( u_0 = 0 \\), \\( u_1 = 1 \\) et \\( u_{n+2} = \\frac{2}{5} u_{n+1} - \\frac{1}{25} u_n \\) pour tout n. On pose pour tout n : \\( v_n = u_{n+1} - \\frac{1}{5} u_n \\) et \\( S_n = v_0 + v_1 + ... + v_n \\).",
+      "options": [
+        "A) La suite \\( (v_n) \\) est géométrique de raison 5.",
+        "B) La suite \\( (v_n) \\) est arithmétique de raison 5.",
+        "C) \\( v_n = 5^n \\)",
+        "D) \\( S_n = \\frac{1}{4}(5 - \\frac{1}{5^n}) \\)",
+        "E) \\( S_n = \\frac{1}{4}(5 - \\frac{1}{5^{n - 1}}) \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( S_n = \\frac{1}{4}(5 - \\frac{1}{5^n}) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "Soit f la fonction numérique de la variable réelle x définie par : \\( f(x) = 1 - \\frac{1}{2}x - \\frac{2}{e^x+1} \\)",
+      "options": [
+        "A) Le domaine de définition de la fonction f est \\( ]-\\infty; -1] \\cup [1; +\\infty[ \\)",
+        "B) La fonction f est une fonction paire",
+        "C) La courbe représentative de la fonction f admet une asymptote oblique au voisinage de \\( +\\infty \\) d'équation \\( y = -1 + \\frac{1}{2}x \\)",
+        "D) La courbe représentative de la fonction f admet une asymptote oblique au voisinage de \\( +\\infty \\) d'équation \\( y = 1 - \\frac{1}{2}x \\)",
+        "E) La fonction f est croissante sur l'intervalle \\( [0; +\\infty[ \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) La courbe représentative de la fonction f admet une asymptote oblique au voisinage de \\( +\\infty \\) d'équation \\( y = 1 - \\frac{1}{2}x \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "On considère la fonction numérique \\( f(x) = \\ln\\left(\\frac{x}{2-x}\\right) \\)",
+      "options": [
+        "A) Le domaine de définition de \\( f(x) \\) est : \\( ]-\\infty; 0[ \\cup ]2; +\\infty[ \\)",
+        "B) \\( f'(x) = \\frac{2}{(2-x)^2} \\)",
+        "C) Le point A(1,0) est un centre de symétrie de la courbe représentative de la fonction f dans un repère orthonormé.",
+        "D) La fonction inverse : \\( f^{-1}(x) = \\frac{e^x}{1+e^x} \\)",
+        "E) \\( \\lim_{x \\to 2^-} f(x) = -\\infty \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) Le point A(1,0) est un centre de symétrie de la courbe représentative de la fonction f dans un repère orthonormé.",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "On considère la fonction numérique f de la variable réelle x définie par : \\( f(x) = \\frac{x}{x+e^{-x}} \\). L'équation de la tangente à la courbe représentative de la fonction f au point O origine du repère est :",
+      "options": [
+        "A) y = -x",
+        "B) y = x",
+        "C) y = 1 - x",
+        "D) y = x - 1",
+        "E) y = -2x"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) y = x",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "La valeur de \\(J = \\int_{0}^{\\pi/2} \\cos(x) \\ln(1 + \\cos(x)) \\, dx \\) est :",
+      "options": [
+        "A) \\( \\pi/2 \\)",
+        "B) -1",
+        "C) e - 1",
+        "D) \\( \\pi - 1 \\)",
+        "E) \\( \\frac{\\pi}{2} - 1 \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( \\frac{\\pi}{2} - 1 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Un sac contient trois jetons blancs et quatre jetons noirs. On tire au hasard et simultanément trois jetons du sac. La probabilité d'obtenir trois jetons de la même couleur est :",
+      "options": [
+        "A) 1/35",
+        "B) 1/7",
+        "C) 1/5",
+        "D) 12/35",
+        "E) 31/35"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 1/7",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "\\( \\lim_{x \\to +\\infty} \\frac{1}{x} \\ln(x^2 - 2x + 2) \\) est égale à :",
+      "options": [
+        "A) 0",
+        "B) \\( +\\infty \\)",
+        "C) \\( -\\infty \\)",
+        "D) 2",
+        "E) -2"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "L'abscisse du point d'inflexion de la courbe représentative de la fonction \\( f(x) = \\frac{x}{x+1} - \\ln\\left(\\frac{x+1}{2}\\right) \\) est :",
+      "options": [
+        "A) -1/2",
+        "B) 0",
+        "C) 1/2",
+        "D) 1",
+        "E) 2"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 1",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "La fonction f solution de l'équation différentielle \\( 4y'' + 25y = 0 \\) et qui vérifie les conditions initiales \\( f(0) = 3 \\) et \\( f'(\\pi/5) = 0 \\) est :",
+      "options": [
+        "A) \\( 3(\\cos\\frac{5}{2}x - \\sin\\frac{5}{2}x) \\)",
+        "B) \\( 3(\\cos\\frac{5}{2}x + \\sin\\frac{5}{2}x) \\)",
+        "C) \\( 3\\cos\\frac{5}{2}x \\)",
+        "D) \\( 3\\sin\\frac{5}{2}x + 3 \\)",
+        "E) \\( 3(\\sin\\frac{5}{2}x - \\cos\\frac{5}{2}x) \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( 3\\sin\\frac{5}{2}x + 3 \\)",
+      "correctOption": null
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "source": "math_exemple-concours-fmp-fes-2012.json",
+  "timestamp": "2026-05-20T14:56:28.616Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Le domaine de définition de la fonction numérique f de la variable réelle x définie par : \\( f(x) = \\ln\\left(\\frac{x-1}{x+1}\\right) \\) est :",
+      "options": [
+        "A) \\( [1, +\\infty[ \\)",
+        "B) \\( \\mathbb{R} \\)",
+        "C) \\( ]-\\infty, -1[ \\cup ]1, +\\infty[ \\)",
+        "D) \\( ]-\\infty, -1[ \\)",
+        "E) \\( ]1, +\\infty[ \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( ]-\\infty, -1[ \\cup ]1, +\\infty[ \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "La fonction dérivée de la fonction : \\( g: \\mathbb{R} \\to \\mathbb{R} \\), \\( x \\mapsto \\ln(\\sqrt[3]{e^x}) \\) est la fonction \\( g' \\) définie sur \\( \\mathbb{R} \\) par :",
+      "options": [
+        "A) \\( g'(x) = \\frac{1}{3\\sqrt[3]{e^{2x}}} \\)",
+        "B) \\( g'(x) = \\frac{1}{3\\sqrt[3]{e^x}} \\)",
+        "C) \\( g'(x) = \\frac{e^x}{3} \\)",
+        "D) \\( g'(x) = \\frac{1}{3} \\)",
+        "E) \\( g'(x) = \\frac{1}{3e^x} \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( g'(x) = \\frac{1}{3} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "La valeur de l'intégrale : \\( I = \\int_0^\\pi 2e^x \\sin(x) dx \\) est :",
+      "options": [
+        "A) \\( I = e^\\pi \\)",
+        "B) \\( I = e^\\pi - 1 \\)",
+        "C) \\( I = e^\\pi + 1 \\)",
+        "D) \\( I = 0 \\)",
+        "E) \\( I = 1 - e^\\pi \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( I = e^\\pi + 1 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "Soit m un nombre réel non nul. La solution générale de l'équation différentielle : \\( y'' - 2my' + 2m^2y = 0 \\) est l'ensemble des fonctions y définies sur \\( \\mathbb{R} \\) par :",
+      "options": [
+        "A) \\( y(x) = e^{mx} (a\\cos(mx) + b\\sin(mx)) \\)",
+        "B) \\( y(x) = ae^{mx} + be^{-mx} \\)",
+        "C) \\( y(x) = ae^{mx} + b \\)",
+        "D) \\( y(x) = (ax+b)e^{mx} \\)",
+        "E) \\( y(x) = a\\cos(mx) + b\\sin(mx) \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( y(x) = e^{mx} (a\\cos(mx) + b\\sin(mx)) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "L'intersection de la sphère : \\( S(\\Omega(1,1,1), R=1) \\) et du plan : \\( (P): x-y+z+\\sqrt{3}-1 = 0 \\) est :",
+      "options": [
+        "A) Un segment",
+        "B) Un demi-cercle",
+        "C) Un point",
+        "D) L'ensemble vide",
+        "E) Un cercle"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) Un point",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "On considère trois urnes \\( U_1, U_2, U_3 \\) contenant 20 boules réparties comme suit : (\\( U_1 \\) : 4 blanches, 3 vertes), (\\( U_2 \\) : 3 blanches, 4 vertes), (\\( U_3 \\) : 1 blanche, 5 vertes). On choisit au hasard une urne puis on en tire une boule. Sachant que la boule tirée est blanche, la probabilité p qu'elle provienne de l'urne \\( U_1 \\) est :",
+      "options": [
+        "A) \\( p = \\frac{24}{49} \\)",
+        "B) \\( p = \\frac{4}{21} \\)",
+        "C) \\( p = \\frac{7}{18} \\)",
+        "D) \\( p = \\frac{8}{20} \\)",
+        "E) \\( p = \\frac{4}{7} \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( p = \\frac{24}{49} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "L'écriture exponentielle du nombre complexe : \\( \\frac{\\sqrt{3}-i}{-1+i\\sqrt{3}} \\) est :",
+      "options": [
+        "A) \\( e^{i\\frac{-5\\pi}{6}} \\)",
+        "B) \\( -e^{i\\frac{-5\\pi}{6}} \\)",
+        "C) \\( 2e^{i\\frac{-5\\pi}{6}} \\)",
+        "D) \\( e^{i\\frac{4\\pi}{3}} \\)",
+        "E) 2"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( e^{i\\frac{-5\\pi}{6}} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "La forme algébrique du nombre complexe : \\( (-1+i)^{2012} \\) est :",
+      "options": [
+        "A) \\( 2^{2012} \\)",
+        "B) \\( 2^{2012} \\cos(\\frac{3\\pi}{4}) \\)",
+        "C) \\( -2^{1011} \\sqrt{2} \\cos(\\frac{3\\pi}{4}) \\)",
+        "D) \\( -2^{1006} \\)",
+        "E) \\( -2^{2013} \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( -2^{1006} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "La limite de la suite de terme général : \\( S_n = \\ln\\left(\\sum_{k=0}^n \\frac{e^k}{3^{k+1}}\\right) \\) est :",
+      "options": [
+        "A) \\( \\ln(3) \\)",
+        "B) \\( -\\infty \\)",
+        "C) \\( \\ln(e) \\)",
+        "D) \\( +\\infty \\)",
+        "E) \\( -\\ln(3-e) \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( -\\ln(3-e) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "La limite en 1 de la fonction numérique R de la variable réelle x définie par : \\( R(x) = \\frac{1}{x-1} \\int_1^x e^{-t^2} dt \\) est :",
+      "options": [
+        "A) \\( l = \\frac{1}{e^2} \\)",
+        "B) \\( l = \\frac{1}{e} \\)",
+        "C) N'existe pas",
+        "D) \\( l = +\\infty \\)",
+        "E) \\( l = 0 \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( l = \\frac{1}{e} \\)",
+      "correctOption": null
+    }
+  ]
+}

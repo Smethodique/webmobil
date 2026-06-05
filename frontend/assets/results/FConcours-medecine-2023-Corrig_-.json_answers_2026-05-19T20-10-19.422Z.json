@@ -1,0 +1,202 @@
+{
+  "source": "FConcours-medecine-2023-Corrigé-.json",
+  "timestamp": "2026-05-19T20:10:19.420Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Dans \\( \\mathbb{C} \\), si \\( z = \\sqrt{5}e^{-i\\pi/8} \\) alors :",
+      "options": [
+        "A) \\( z = \\frac{\\sqrt{10+5\\sqrt{2}}}{2} - i \\frac{\\sqrt{10-5\\sqrt{2}}}{2} \\)",
+        "B) \\( z = \\frac{\\sqrt{2+\\sqrt{2}}}{2} - i \\frac{\\sqrt{2-\\sqrt{2}}}{2} \\)",
+        "C) \\( z = \\frac{\\sqrt{10+5\\sqrt{2}}}{2} + i \\frac{\\sqrt{10-5\\sqrt{2}}}{2} \\)",
+        "D) \\( z = \\frac{\\sqrt{2+\\sqrt{2}}}{2} + i \\frac{\\sqrt{2-\\sqrt{2}}}{2} \\)",
+        "E) \\( z = \\frac{\\sqrt{10+5\\sqrt{2}}}{2} - i \\frac{\\sqrt{10+5\\sqrt{2}}}{2} \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( z = \\frac{\\sqrt{10+5\\sqrt{2}}}{2} - i \\frac{\\sqrt{10-5\\sqrt{2}}}{2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "Le nombre complexe \\( z = (\\frac{1}{\\sqrt{2}}(1-i\\sqrt{3}))^{18} \\) est égale à :",
+      "options": [
+        "A) z = -512",
+        "B) \\( z = \\frac{\\sqrt{3}}{2} - \\frac{1}{2}i \\)",
+        "C) z = 512",
+        "D) z = 251",
+        "E) \\( z = \\frac{1}{2} - i\\frac{\\sqrt{3}}{2} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) z = 512",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "Pour \\( z \\in \\mathbb{C} - \\{1\\} \\), l'ensemble des points \\( M \\) d'affixe \\( z \\) tels que \\( \\frac{z+1}{z-1} \\in i\\mathbb{R} \\) est :",
+      "options": [
+        "A) La droite (Ox) privée du point (1, 0)",
+        "B) La droite (Oy) privée du point (0, 1)",
+        "C) Le cercle de centre O et de rayon 1",
+        "D) La droite (Ox)",
+        "E) Le cercle de centre O et de rayon 1 privée du point (1, 0)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) Le cercle de centre O et de rayon 1 privée du point (1, 0)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "Pour tout n entier et \\( n \\ge 2 \\), on pose : \\( U_n = (1-\\frac{1}{2^2}) \\times (1-\\frac{1}{3^2}) \\times \\dots \\times (1-\\frac{1}{n^2}) \\). Alors \\( \\lim_{n \\to +\\infty} U_n \\) est égale à :",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) \\( +\\infty \\)",
+        "D) 1/2",
+        "E) La limite n'existe pas"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 1/2",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Pour tout n entier et \\( n \\ge 1 \\), on pose : \\( U_n = \\frac{1}{2} + \\frac{1}{2^2} + \\dots + \\frac{1}{2^n} \\) et \\( \\ln(V_n) = U_n \\ln(2) \\). Alors :",
+      "options": [
+        "A) \\( \\lim_{n \\to +\\infty} U_n = 1 \\) et \\( \\lim_{n \\to +\\infty} V_n = \\ln(2) \\)",
+        "B) \\( \\lim_{n \\to +\\infty} U_n = 1/2 \\) et \\( \\lim_{n \\to +\\infty} V_n = \\ln(2) \\)",
+        "C) \\( \\lim_{n \\to +\\infty} U_n = 2 \\) et \\( \\lim_{n \\to +\\infty} V_n = 1 \\)",
+        "D) \\( \\lim_{n \\to +\\infty} U_n = 1/2 \\) et \\( \\lim_{n \\to +\\infty} V_n = 2 \\)",
+        "E) \\( \\lim_{n \\to +\\infty} U_n = 1 \\) et \\( \\lim_{n \\to +\\infty} V_n = 2 \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( \\lim_{n \\to +\\infty} U_n = 1 \\) et \\( \\lim_{n \\to +\\infty} V_n = 2 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "Soit \\( f \\) une fonction définie sur \\( ]0; +\\infty[ \\) par : \\( f(x) = \\frac{\\sqrt{x}}{\\sqrt{x+2\\sqrt{x}}} \\). Alors \\( \\lim_{x \\to 0^+} f(x) \\) est égale à :",
+      "options": [
+        "A) \\( +\\infty \\)",
+        "B) 0",
+        "C) 1",
+        "D) 1/2",
+        "E) La limite n'existe pas"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Soit \\( g \\) une fonction définie sur \\( ]0; +\\infty[ \\) par : \\( g(x) = \\frac{(2x)^x}{x^{2x}} \\). Alors \\( \\lim_{x \\to +\\infty} g(x) \\) est égale à :",
+      "options": [
+        "A) \\( +\\infty \\)",
+        "B) 1",
+        "C) 2",
+        "D) 0",
+        "E) La limite n'existe pas"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "Soit \\( f \\) une fonction réelle tels que \\( f(1) = 3 \\) et \\( f'(1) = -3 \\). La courbe de la fonction \\( f \\) admet au point A(1; 3) une tangente d'équation :",
+      "options": [
+        "A) y = 3x - 2",
+        "B) y = 3x - 6",
+        "C) y = -3x + 6",
+        "D) y = 3x",
+        "E) y = -3x + 2"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) y = -3x + 6",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Soient \\( f \\) et \\( g \\) deux fonctions définies par : \\( f(x) = \\ln(x-1) \\) et \\( g(x) = \\sqrt{x+1} \\). Alors le domaine de définition de \\( g \\circ f \\) est :",
+      "options": [
+        "A) \\( [-1; +\\infty[ \\)",
+        "B) \\( ]1; +\\infty[ \\)",
+        "C) \\( [1 + 1/e; +\\infty[ \\)",
+        "D) \\( ]e; +\\infty[ \\)",
+        "E) \\( ]-e; +\\infty[ \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( [1 + 1/e; +\\infty[ \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "L'intégrale \\( \\int_{\\pi/6}^{\\pi/4} \\frac{1}{\\sin(x)\\tan(x)} dx \\) est égale à :",
+      "options": [
+        "A) \\( \\frac{1}{2} - \\frac{\\sqrt{2}}{2} \\)",
+        "B) \\( 2 - \\sqrt{2} \\)",
+        "C) \\( \\sqrt{2} - 2 \\)",
+        "D) \\( \\frac{\\sqrt{2}}{2} - \\frac{1}{2} \\)",
+        "E) \\( 1 - \\sqrt{2} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( 2 - \\sqrt{2} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "L'intégrale \\( \\int_0^{\\pi/2} \\frac{\\sin(2x)}{1+\\sin^2(x)} dx \\) est égale à :",
+      "options": [
+        "A) 0",
+        "B) \\( \\ln(2) + 1 \\)",
+        "C) \\( \\ln(2) \\)",
+        "D) 1",
+        "E) \\( -\\ln(2) \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( \\ln(2) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "Dans l'espace rapporté à un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\). Soit les plans (P) : \\( x - y - z + 2 = 0 \\) and (P') : \\( x + z - 2 = 0 \\) and la droite \\( (\\Delta) \\) telle que \\( x=1+t, y=2+2t, z=1-t \\). Alors :",
+      "options": [
+        "A) \\( (\\Delta) \\subset (P) \\)",
+        "B) \\( (\\Delta) \\perp (P) \\)",
+        "C) \\( (\\Delta) \\cap (P) = \\emptyset \\)",
+        "D) \\( (\\Delta) \\cap (P') = \\emptyset \\)",
+        "E) \\( (\\Delta) \\perp (P') \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( (\\Delta) \\subset (P) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q13",
+      "question": "Soit \\( f \\) une fonction réelle définie par \\( f(x) = x + x^2\\sin(1/x) \\) si \\( x \\ne 0 \\) and \\( f(0) = 0 \\). Alors :",
+      "options": [
+        "A) \\( f \\) est dérivable en 0",
+        "B) \\( f'(0) = 0 \\)",
+        "C) \\( f'(0) = 1 \\)",
+        "D) Pour tout \\( x \\ne 0, f'(x) = 1 + 2x\\sin(1/x) + \\cos(1/x) \\)",
+        "E) \\( f \\) est dérivable en 0 et \\( f'(0) = 2 \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( f'(0) = 1 \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q14",
+      "question": "Une urne contient 5 boules bleus, 4 boules blanches and 3 boules noires. On tire au hasard and simultanément 3 boules de ce sac, on répète cette expérience \\( n \\) fois de suite (\\( n \\ge 5 \\)) en remettant dans l'urne les boules tirées après chaque tirage. La probabilité d'obtenir 3 boules de couleurs deux à deux distinctes (n-1) fois exactement est :",
+      "options": [
+        "A) \\( \\frac{8 \\times 3^n}{11^n} \\)",
+        "B) \\( \\frac{8n \\times 3^n}{11^n} \\)",
+        "C) \\( \\frac{8n \\times 3^{n-1}}{11^n} \\)",
+        "D) \\( \\frac{8^n \\times 3^{n-1}}{11^n} \\)",
+        "E) \\( \\frac{8 \\times 3^n}{11^{n-1}} \\)"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) \\( \\frac{8n \\times 3^{n-1}}{11^n} \\)",
+      "correctOption": null
+    }
+  ]
+}

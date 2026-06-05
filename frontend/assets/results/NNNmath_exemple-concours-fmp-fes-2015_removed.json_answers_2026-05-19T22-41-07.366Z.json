@@ -1,0 +1,230 @@
+{
+  "source": "NNNmath_exemple-concours-fmp-fes-2015_removed.json",
+  "timestamp": "2026-05-19T22:41:07.358Z",
+  "answers": [
+    {
+      "id": "Q01",
+      "question": "Le domaine de définition de la fonction numérique \\( f \\) de la variable réelle \\( x \\) définie par: \\( f(x) = \\frac{\\sqrt[3]{e^{-2x} - e}}{x+e} \\) est :",
+      "options": [
+        "A) \\( ]-\\infty, -e[ \\cup ]-e, -\\frac{1}{2}[ \\)",
+        "B) \\( ]-\\infty, -\\frac{1}{2}] \\)",
+        "C) \\( ]-\\infty, -e[ \\cup ]-e, -\\frac{1}{2}] \\)",
+        "D) \\( \\mathbb{R} \\setminus \\{-e\\} \\)",
+        "E) \\( ]-\\infty, -e[ \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) \\( \\mathbb{R} \\setminus \\{-e\\} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q02",
+      "question": "La fonction dérivée de la fonction: \\( g: ]0, \\frac{\\pi}{4}[ \\to \\mathbb{R} \\) définie par: \\( x \\mapsto \\ln(\\cos(x^2)) \\) est :",
+      "options": [
+        "A) \\( f(x) = -2 \\)",
+        "B) \\( f(x) = 2x \\tan(x^2) \\)",
+        "C) \\( f(x) = 2x \\frac{\\cos(x^2)}{\\sin(x^2)} \\)",
+        "D) \\( f(x) = -2x \\frac{\\cos(x^2)}{\\sin(x^2)} \\)",
+        "E) \\( f(x) = -2x \\tan(x^2) \\)"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) \\( f(x) = -2x \\tan(x^2) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q03",
+      "question": "La valeur de l'intégrale : \\( I = \\int_1^{\\sqrt{e}} \\frac{1}{x(1-\\ln(x))} dx \\) est :",
+      "options": [
+        "A) \\( I = \\sqrt{e}-1 \\)",
+        "B) \\( I = \\ln(2) \\)",
+        "C) \\( I = \\sqrt{e} - \\ln(2) \\)",
+        "D) \\( I = \\ln(2)-1 \\)",
+        "E) \\( I = \\sqrt{e} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( I = \\ln(2) \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q04",
+      "question": "La limite de la suite de terme général : \\( u_n = \\frac{(-1)^n}{n} \\) définie pour tout n de \\( \\mathbb{N}^* \\) est :",
+      "options": [
+        "A) \\( +\\infty \\)",
+        "B) 0",
+        "C) \\( -\\infty \\)",
+        "D) n'existe pas",
+        "E) -1"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q05",
+      "question": "Dans le plan rapporté à un repère orthonormé, l'ensemble des points M vérifiant \\( \\vec{MA} \\cdot \\vec{MB} = 0 \\), où A et B sont deux points donnés distincts de ce plan, est :",
+      "options": [
+        "A) Le doublet \\( \\{A, B\\} \\)",
+        "B) Le cercle de centre A",
+        "C) L'ensemble vide",
+        "D) Le cercle de centre B",
+        "E) Le cercle de diamètre AB"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) Le cercle de diamètre AB",
+      "correctOption": null
+    },
+    {
+      "id": "Q06",
+      "question": "Deux urnes \\( U_1 \\) et \\( U_2 \\) contiennent 12 jetons indiscernables au toucher répartis comme suit : \\( U_1 \\) (4 rouges, 3 verts) et \\( U_2 \\) (3 rouges, 2 verts). On tire au hasard et simultanément deux jetons de l'urne \\( U_1 \\) puis un jeton de l'urne \\( U_2 \\). La probabilité d'obtenir trois jetons rouges est :",
+      "options": [
+        "A) \\( p = \\frac{6}{35} \\)",
+        "B) \\( p = \\frac{C_7^3}{C_{12}^3} \\)",
+        "C) \\( p = \\frac{C_4^2}{C_7^2} \\times \\frac{C_3^1}{C_5^1} \\)",
+        "D) \\( p = \\frac{C_4^3}{C_7^3} \\times \\frac{C_3^1}{C_5^1} \\)",
+        "E) p = 1,2"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( p = \\frac{6}{35} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q07",
+      "question": "Le nombre complexe \\( 1 + e^{i 2015 \\pi} \\) est :",
+      "options": [
+        "A) Strictement positif",
+        "B) Imaginaire pur non nul",
+        "C) Strictement négatif",
+        "D) Nul",
+        "E) Égal à 2"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) Nul",
+      "correctOption": null
+    },
+    {
+      "id": "Q08",
+      "question": "La solution générale de l'équation différentielle : \\( y'' + 2\\pi y' + \\pi^2 y = 0 \\) est l'ensemble des fonctions définies sur \\( \\mathbb{R} \\) par:",
+      "options": [
+        "A) \\( y(x) = (ax+b)e^{-\\pi x} \\)",
+        "B) \\( y(x) = ae^{\\pi x} + be^{-\\pi x} \\)",
+        "C) \\( y(x) = e^{-\\pi x} (a \\cos(\\pi x) + b \\sin(\\pi x)) \\)",
+        "D) \\( y(x) = a \\cos(\\sqrt{\\pi}x + b) \\)",
+        "E) \\( y(x) = a \\cos(\\pi x + b) \\)"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) \\( y(x) = (ax+b)e^{-\\pi x} \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q09",
+      "question": "Dans l'ensemble des nombres complexes, l'équation \\( z^3 + 1 = 0 \\) admet :",
+      "options": [
+        "A) Deux solutions",
+        "B) Une seule solution",
+        "C) Trois solutions",
+        "D) Quatre solutions",
+        "E) Cinq solutions"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) Trois solutions",
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "La limite de la suite de terme général \\( v_n = 3^{n+1} - e^{n+1} \\) où \\( n \\in \\mathbb{N} \\) est :",
+      "options": [
+        "A) e/3",
+        "B) \\( +\\infty \\)",
+        "C) 3-e",
+        "D) \\( -\\infty \\)",
+        "E) 3/e"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( +\\infty \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q11",
+      "question": "On considère la fonction : \\( g: \\mathbb{R} \\to \\mathbb{R} \\), \\( x \\mapsto (1 + \\frac{1}{\\sqrt{x}})^x \\). La limite \\( \\lim_{x \\to 0^+} g(x) \\) :",
+      "options": [
+        "A) est égale à e",
+        "B) est égale à \\( +\\infty \\)",
+        "C) n'existe pas",
+        "D) est égale à 1",
+        "E) est égale à 0"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) est égale à 1",
+      "correctOption": null
+    },
+    {
+      "id": "Q12",
+      "question": "Dans l'espace rapporté à un repère orthonormé direct \\( (O, \\vec{i}, \\vec{j}, \\vec{k}) \\), le produit scalaire \\( \\vec{i} \\cdot (\\vec{i} \\wedge \\vec{j}) \\) est égal à :",
+      "options": [
+        "A) \\( \\vec{j} \\)",
+        "B) 1",
+        "C) \\( \\vec{0} \\)",
+        "D) \\( -\\vec{j} \\)",
+        "E) 0"
+      ],
+      "selectedIndex": 4,
+      "selectedOption": "E) 0",
+      "correctOption": null
+    },
+    {
+      "id": "Q13",
+      "question": "L'espérance mathématique d'une variable aléatoire binomiale X de paramètres \\( n = 16 \\) et \\( p = 0.25 \\) est :",
+      "options": [
+        "A) E(X)=4",
+        "B) E(X)=3",
+        "C) E(X)=-4",
+        "D) E(X)=16",
+        "E) E(X)=-3"
+      ],
+      "selectedIndex": 0,
+      "selectedOption": "A) E(X)=4",
+      "correctOption": null
+    },
+    {
+      "id": "Q14",
+      "question": "On considère la suite définie par : \\( u_0 = -2 \\) et \\( u_{n+1} = \\frac{u_n^3}{3} \\). La limite de la suite \\( (u_n) \\) est :",
+      "options": [
+        "A) n'existe pas",
+        "B) \\( -\\infty \\)",
+        "C) 0",
+        "D) \\( \\sqrt{3} \\)",
+        "E) \\( -\\sqrt{3} \\)"
+      ],
+      "selectedIndex": 1,
+      "selectedOption": "B) \\( -\\infty \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q15",
+      "question": "L'équation : \\( x(1 - \\ln^2(x+2)) = x \\) :",
+      "options": [
+        "A) admet une solution unique dans \\( ]-2, +\\infty[ \\)",
+        "B) n'admet pas de solution dans \\( [0, +\\infty[ \\)",
+        "C) admet une solution unique dans \\( ]0, +\\infty[ \\)",
+        "D) admet deux solutions dans \\( ]-2, +\\infty[ \\)",
+        "E) n'admet aucune solution dans l'intervalle \\( ]-2, 0[ \\)"
+      ],
+      "selectedIndex": 3,
+      "selectedOption": "D) admet deux solutions dans \\( ]-2, +\\infty[ \\)",
+      "correctOption": null
+    },
+    {
+      "id": "Q16",
+      "question": "La valeur de l'intégrale : \\( J = \\int_{-1}^1 e^{x^2} \\sin(x) dx \\) est :",
+      "options": [
+        "A) -2",
+        "B) -1",
+        "C) 0",
+        "D) 1",
+        "E) 2"
+      ],
+      "selectedIndex": 2,
+      "selectedOption": "C) 0",
+      "correctOption": null
+    }
+  ]
+}

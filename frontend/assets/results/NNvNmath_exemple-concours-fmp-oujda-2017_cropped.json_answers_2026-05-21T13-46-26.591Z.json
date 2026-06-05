@@ -1,0 +1,188 @@
+{
+  "source": "NNvNmath_exemple-concours-fmp-oujda-2017_cropped.json",
+  "timestamp": "2026-05-21T13:46:26.589Z",
+  "answers": [
+    {
+      "id": "Q1",
+      "question": "On pose \\( A = 1 + \\cos(\\frac{2\\pi}{5}) + \\cos(\\frac{4\\pi}{5}) + \\cos(\\frac{6\\pi}{5}) + \\cos(\\frac{8\\pi}{5}) \\) et \\( B = \\sin(\\frac{2\\pi}{5}) + \\sin(\\frac{4\\pi}{5}) + \\sin(\\frac{6\\pi}{5}) + \\sin(\\frac{8\\pi}{5}) \\). On considère le nombre complexe z tel que \\( z = A + iB \\). Le nombre complexe z est égal à :",
+      "options": [
+        "A) \\( z = 0 \\)",
+        "B) \\( z = -2i \\)",
+        "C) \\( z = 1/2 \\)",
+        "D) \\( z = 2i \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": [
+        0
+      ],
+      "selectedOption": [
+        "A) \\( z = 0 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q2",
+      "question": "Soit f la fonction numérique de la variable réelle x définie par : \\( f(x) = 2\\ln|x^2-2x+2| \\).",
+      "options": [
+        "A) Le domaine de définition de f est \\( \\mathbb{R}^+ \\)",
+        "B) \\( \\lim_{x \\to +\\infty} f(x) = 0 \\)",
+        "C) \\( \\lim_{x \\to +\\infty} \\frac{f(x)}{x} = 0 \\)",
+        "D) \\( f''(x) = \\frac{x(4-x)}{((x-1)^2+1)^2} \\)",
+        "E) \\( \\lim_{x \\to 0} f(x) = \\ln 2 \\)"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( \\lim_{x \\to +\\infty} \\frac{f(x)}{x} = 0 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q3",
+      "question": "On considère \\( I = \\int_0^1 5e^t \\cos(2t) dt \\) et \\( J = 5 \\int_0^1 e^t \\sin(2t) dt \\).",
+      "options": [
+        "A) \\( 2J - I = e^\\pi \\cos(2) - 1 \\)",
+        "B) \\( 2I + J = 1 - e^\\pi \\sin(2) \\)",
+        "C) \\( J = 2 + e \\sin(2) - 2e \\cos(2) \\)",
+        "D) \\( I = 2 + e \\cos(2) - 2\\sin(2) \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": [
+        2
+      ],
+      "selectedOption": [
+        "C) \\( J = 2 + e \\sin(2) - 2e \\cos(2) \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q4",
+      "question": "Si une fonction f est définie en a, alors nécessairement :",
+      "options": [
+        "A) f est continue en a",
+        "B) \\( \\ln(f) \\) est définie en a",
+        "C) \\( 1/f \\) est définie en a",
+        "D) \\( 1/e^f \\) est définie en a",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) \\( 1/e^f \\) est définie en a"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q5",
+      "question": "Le plan complexe est rapporté à un repère orthonormé \\( (O, \\vec{u}, \\vec{v}) \\). On considère les points A et B d'affixes respectives : \\( z_A = 1 \\), \\( z_B = -1/2 + i\\sqrt{3}/2 \\). Soit C le symétrique du point B par rapport à l'axe des abscisses.",
+      "options": [
+        "A) L'affixe \\( z_C \\) du point C est \\( z_C = 1/2 + i\\sqrt{3}/2 \\)",
+        "B) Le triangle ABC est équilatéral",
+        "C) Le module \\( |z_B-z_A| = 6 \\)",
+        "D) Le triangle ABC est isocèle",
+        "E) L'affixe \\( z_C \\) du point C est \\( z_C = -1/2 - i\\sqrt{3}/2 \\)"
+      ],
+      "selectedIndex": [
+        1,
+        4
+      ],
+      "selectedOption": [
+        "B) Le triangle ABC est équilatéral",
+        "E) L'affixe \\( z_C \\) du point C est \\( z_C = -1/2 - i\\sqrt{3}/2 \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q6",
+      "question": "Parmi les affirmations suivantes, laquelle est correcte ?",
+      "options": [
+        "A) La solution de l'équation différentielle \\( y'' - 2y' - 8y = 0 \\) vérifiant \\( y(0) = 2 \\) et \\( y'(0) = 1 \\) est \\( y = e^{-2x} + 2e^{4x} \\).",
+        "B) \\( (e^{i\\theta})^m = \\cos(\\theta^m) + i\\sin(\\theta^m) \\) pour \\( m \\in \\mathbb{N}, \\theta \\in \\mathbb{R} \\).",
+        "C) \\( (e^{i\\theta})^m = m(\\cos\\theta + i\\sin\\theta) \\) pour \\( m \\in \\mathbb{N}, \\theta \\in \\mathbb{R} \\).",
+        "D) L'ensemble des points \\( M(x, y, z) \\) de l'espace tels que \\( x^2 + y^2 + z^2 - 2x + 4y + 2z + 3 = 0 \\) est une sphère.",
+        "E) L'ensemble des points \\( M(x, y, z) \\) de l'espace tels que \\( x^2 + y^2 + z^2 - 2x + 4y + 2z + 3 = 0 \\) est une sphère."
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) L'ensemble des points \\( M(x, y, z) \\) de l'espace tels que \\( x^2 + y^2 + z^2 - 2x + 4y + 2z + 3 = 0 \\) est une sphère."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q7",
+      "question": "On considère la fonction \\( f_n(x) \\) définie par \\( f_n(x) = nxe^{-nx} \\) pour \\( x \\in [0, +\\infty[ \\) avec n un nombre réel tel que \\( n \\geq 1 \\).",
+      "options": [
+        "A) \\( \\lim_{x \\to +\\infty} f_n(x) = +\\infty \\)",
+        "B) \\( \\lim_{x \\to +\\infty} f_n(x) = -\\infty \\)",
+        "C) \\( \\lim_{x \\to +\\infty} f_n(x) = n \\)",
+        "D) \\( f_n'(x) = ne^{-nx}(nx-1) \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q8",
+      "question": "On prend les mêmes données de la question précédente.",
+      "options": [
+        "A) La courbe \\( C_n \\) admet une asymptote d'équation \\( y=1 \\)",
+        "B) La courbe \\( C_n \\) admet une asymptote d'équation \\( y=e \\)",
+        "C) La fonction \\( f_n(x) \\) admet une valeur maximale au point de coordonnées \\( (1/e, n) \\)",
+        "D) La fonction \\( f_n(x) \\) admet une valeur maximale au point de coordonnées \\( (1/n, 1/e) \\)",
+        "E) La fonction \\( f_n(x) \\) admet une valeur maximale au point de coordonnées \\( (1/e, 1/n) \\)"
+      ],
+      "selectedIndex": [
+        3
+      ],
+      "selectedOption": [
+        "D) La fonction \\( f_n(x) \\) admet une valeur maximale au point de coordonnées \\( (1/n, 1/e) \\)"
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q9",
+      "question": "On utilise les mêmes données de la question 7. On note \\( C_1 \\) et \\( C_2 \\) les courbes représentatives de \\( f_1(x) \\) et \\( f_2(x) \\).",
+      "options": [
+        "A) Les deux courbes \\( C_1 \\) et \\( C_2 \\) se coupent en deux points P et Q d'abscisses respectives \\( p=e^2 \\) et \\( q=\\ln 4 \\).",
+        "B) Dans l'intervalle \\( ]\\ln 2, +\\infty[ \\), \\( C_2 \\) est au-dessous de \\( C_1 \\).",
+        "C) Les deux courbes \\( C_1 \\) et \\( C_2 \\) ne se coupent pas.",
+        "D) Dans l'intervalle \\( ]0, \\ln 2[ \\), \\( C_2 \\) est au-dessous de \\( C_1 \\).",
+        "E) Les deux courbes \\( C_1 \\) et \\( C_2 \\) se coupent en deux points P et Q d'abscisses respectives \\( p=e^2 \\) et \\( q=e \\)."
+      ],
+      "selectedIndex": [
+        1
+      ],
+      "selectedOption": [
+        "B) Dans l'intervalle \\( ]\\ln 2, +\\infty[ \\), \\( C_2 \\) est au-dessous de \\( C_1 \\)."
+      ],
+      "correctOption": null
+    },
+    {
+      "id": "Q10",
+      "question": "On utilise les mêmes données de la question 7. L'aire de la partie délimitée par \\( C_1 \\), l'axe des abscisses et les droites \\( x=0 \\) et \\( x=\\ln 2 \\) est :",
+      "options": [
+        "A) \\( \\frac{1}{2}(\\ln 2 - 1) \\)",
+        "B) \\( \\ln 2 - 1 \\)",
+        "C) \\( 1 - \\ln 2 \\)",
+        "D) \\( \\frac{\\ln 2}{2} \\)",
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "selectedIndex": [
+        4
+      ],
+      "selectedOption": [
+        "E) Toutes les réponses proposées sont fausses"
+      ],
+      "correctOption": null
+    }
+  ]
+}
