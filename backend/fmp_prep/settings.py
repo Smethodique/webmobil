@@ -85,21 +85,20 @@ WSGI_APPLICATION = "fmp_prep.wsgi.application"
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-if DATABASE_URL:
+if DATABASE_URL and DATABASE_URL.startswith("postgres"):
     # Render PostgreSQL
-    import re
-    match = re.match(r"postgres://(.+):(.+)@(.+):(\d+)/(.+)", DATABASE_URL)
-    if match:
-        DATABASES = {
-            "default": {
-                "ENGINE": "django.db.backends.postgresql",
-                "NAME": match.group(5),
-                "USER": match.group(1),
-                "PASSWORD": match.group(2),
-                "HOST": match.group(3),
-                "PORT": match.group(4),
-            }
+    from urllib.parse import urlparse
+    url = urlparse(DATABASE_URL)
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": url.path.lstrip("/"),
+            "USER": url.username,
+            "PASSWORD": url.password,
+            "HOST": url.hostname,
+            "PORT": url.port or 5432,
         }
+    }
 else:
     DATABASES = {
         "default": {
