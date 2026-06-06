@@ -161,6 +161,13 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+# CSRF and security for Render proxy
+CSRF_TRUSTED_ORIGINS = [
+    "https://webmobil.onrender.com",
+    "https://*.onrender.com",
+]
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+
 ASGI_APPLICATION = "fmp_prep.asgi.application"
 
 # Try Redis first (for multi-process scaling), fall back to in-memory
