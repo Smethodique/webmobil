@@ -17,3 +17,12 @@ services:
         sync: false
       - key: GEMINI_API_KEY
         sync: false
+
+  - type: web
+    name: fmp-prep-frontend
+    runtime: docker
+    dockerfilePath: ./frontend/Dockerfile.web
+    dockerContext: ./frontend
+    envVars:
+      - key: API_BASE_URL
+        value: https://webmobil.onrender.com/api/v1

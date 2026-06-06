@@ -28,6 +28,11 @@ COPY pubspec.yaml pubspec.lock ./
 RUN flutter pub get
 
 COPY . .
+
+# Set API URL from build arg or default to Render backend
+ARG API_BASE_URL=https://webmobil.onrender.com/api/v1
+RUN echo "API_BASE_URL=$API_BASE_URL" > .env
+
 RUN flutter build web --release
 
 FROM nginx:alpine
