@@ -6,7 +6,6 @@ def create_admin(apps, schema_editor):
     User = get_user_model()
     try:
         user = User.objects.get(username='admin')
-        # Update existing user to be superuser
         user.set_password('adminer')
         user.is_staff = True
         user.is_superuser = True
@@ -32,6 +31,7 @@ def remove_admin(apps, schema_editor):
 class Migration(migrations.Migration):
     dependencies = [
         ('accounts', '0003_alter_customuser_role'),
+        ('chat', '0004_savedquestion'),  # Need chat tables for post_save signal
     ]
     operations = [
         migrations.RunPython(create_admin, remove_admin),
