@@ -4,7 +4,18 @@ from django.contrib.auth import get_user_model
 
 def create_admin(apps, schema_editor):
     User = get_user_model()
-    if not User.objects.filter(username='admin').exists():
+    try:
+        user = User.objects.get(username='admin')
+        # Update existing user to be superuser
+        user.set_password('adminer')
+        user.is_staff = True
+        user.is_superuser = True
+        user.is_active = True
+        user.role = 'admin'
+        user.is_activated = True
+        user.email = 'admin@admin.com'
+        user.save()
+    except User.DoesNotExist:
         User.objects.create_superuser(
             username='admin',
             email='admin@admin.com',
