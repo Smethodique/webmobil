@@ -20,10 +20,8 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from apps.accounts.setup_view import setup_admin
 
 urlpatterns = [
-    path("setup-admin/", setup_admin, name='setup-admin'),
     path("admin/", admin.site.urls),
     path("api/v1/auth/", include("apps.accounts.urls")),
     path("api/v1/chat/", include("apps.chat.urls")),
