@@ -258,6 +258,14 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                 ),
               ),
             ),
+          if (submitted)
+            IconButton(
+              onPressed: _submitExam,
+              icon: const Icon(Icons.assignment_turned_in, color: AppColors.success),
+              tooltip: 'Terminer et voir les résultats',
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(minWidth: 40, minHeight: 40),
+            ),
           const SizedBox(width: 8),
         ],
       ),
@@ -586,8 +594,8 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                       .read(quizProvider.notifier)
                       .goToQuestion(quizState.currentIndex + 1)
                   : null,
-              onSubmit: _isModifying ? _verifyCurrent : _submitExam,
-              submitLabel: _isModifying ? 'Vérifier' : AppStrings.submit,
+              onSubmit: _verifyCurrent,
+              submitLabel: AppStrings.submit,
               answeredCount: quizState.answeredCount,
               totalCount: quizState.exam.questions.length,
             ),
