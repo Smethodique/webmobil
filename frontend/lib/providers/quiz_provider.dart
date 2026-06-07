@@ -157,6 +157,12 @@ class QuizNotifier extends StateNotifier<QuizState?> {
     );
   }
 
+  void unsubmit() {
+    final s = state;
+    if (s == null) return;
+    state = s.copyWith(submitted: false);
+  }
+
   void reset() {
     state = null;
   }

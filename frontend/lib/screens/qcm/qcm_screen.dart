@@ -356,6 +356,28 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                         ],
                       ),
                     ),
+                  if (submitted)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: SizedBox(
+                        width: double.infinity,
+                        child: OutlinedButton.icon(
+                          onPressed: () => ref
+                              .read(quizProvider.notifier)
+                              .unsubmit(),
+                          icon: const Icon(Icons.edit, size: 18),
+                          label: const Text('Modifier ma réponse'),
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: AppColors.primary,
+                            side: const BorderSide(color: AppColors.primary),
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
                   Container(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 10, vertical: 4),
