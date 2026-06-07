@@ -12,6 +12,7 @@ import '../../providers/chat_provider.dart';
 import '../../services/chat_service.dart';
 import '../../services/auth_service.dart';
 import '../../services/websocket_service.dart';
+import '../../widgets/math_formula_renderer.dart';
 
 String _absoluteUrl(String? path) {
   if (path == null || path.isEmpty) return '';
@@ -848,11 +849,7 @@ class _MessageBubble extends StatelessWidget {
                 if (text != null && text.isNotEmpty)
                   Padding(
                     padding: const EdgeInsets.only(bottom: 4),
-                    child: Text(text,
-                        style: const TextStyle(
-                          color: AppColors.textPrimary,
-                          fontSize: 14,
-                        )),
+                    child: MathFormulaRenderer(text: text),
                   ),
                 if (image != null && image.isNotEmpty)
                   Padding(
