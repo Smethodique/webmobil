@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../constants/colors.dart';
 import '../../providers/auth_provider.dart';
 
@@ -13,6 +14,12 @@ class ActivationScreen extends ConsumerStatefulWidget {
 class _ActivationScreenState extends ConsumerState<ActivationScreen> {
   final _codeCtrl = TextEditingController();
   bool _loading = false;
+
+  static const _whatsappNumber = '+212771281276';
+  static const _whatsappMessage =
+      'Bonjour, je souhaite m\'abonner à FMP Prep AI. '
+      'Pouvez-vous me donner les détails pour l\'activation ?';
+  static const _whatsappGreen = Color(0xFF25D366);
 
   @override
   void dispose() {
@@ -33,6 +40,23 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(err),
+          backgroundColor: AppColors.error,
+        ),
+      );
+    }
+  }
+
+  Future<void> _openWhatsApp() async {
+    final encoded = Uri.encodeComponent(_whatsappMessage);
+    final uri = Uri.parse('https://wa.me/$_whatsappNumber?text=$encoded');
+    try {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Impossible d\'ouvrir WhatsApp. '
+              'Contactez-nous au $_whatsappNumber'),
           backgroundColor: AppColors.error,
         ),
       );
@@ -64,13 +88,75 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
                 'Activation du compte',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: 12),
               const Text(
-                'Entrez le code d\'activation reçu\npar le support pour commencer',
+                "Votre compte n'est pas encore activé.\n"
+                'Abonnez-vous via WhatsApp pour recevoir\n'
+                'votre code d\'activation.',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: AppColors.textSecondary),
               ),
-              const SizedBox(height: 32),
+              const SizedBox(height: 24),
+
+              // ── WhatsApp Subscribe ──
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: _openWhatsApp,
+                  icon: const Icon(Icons.chat, color: Colors.white),
+                  label: const Text(
+                    "S'abonner via WhatsApp",
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white,
+                    ),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: _whatsappGreen,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const Text(
+                '200 DH — Discussion & activation via WhatsApp',
+                style: TextStyle(
+                  color: AppColors.textMuted,
+                  fontSize: 12,
+                ),
+              ),
+
+              const SizedBox(height: 28),
+
+              // ── Divider ──
+              Row(
+                children: [
+                  const Expanded(
+                    child: Divider(color: AppColors.surfaceBorder),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Text(
+                      'Déjà abonné ?',
+                      style: TextStyle(
+                        color: AppColors.textMuted,
+                        fontSize: 13,
+                      ),
+                    ),
+                  ),
+                  const Expanded(
+                    child: Divider(color: AppColors.surfaceBorder),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20),
+
+              // ── Activation Code Input ──
               TextField(
                 controller: _codeCtrl,
                 textCapitalization: TextCapitalization.characters,
@@ -80,7 +166,7 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
                   fontSize: 18,
                 ),
                 decoration: InputDecoration(
-                  labelText: 'Code d\'activation',
+                  labelText: "Code d'activation",
                   hintText: 'XXXX-XXXX-XXXX',
                   hintStyle: const TextStyle(
                     color: AppColors.textSecondary,
