@@ -19,9 +19,10 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
 
   static const _whatsappNumber = '+212771281276';
   static const _whatsappMessage =
-      'Bonjour, je souhaite m\'abonner à FMP Prep AI. '
-      'Pouvez-vous me donner les détails pour l\'activation ?';
-  static const _whatsappGreen = Color(0xFF25D366);
+      'Bonjour, je souhaite m\'abonner à FMP Prep AI — '
+      'la plateforme de préparation au concours avec IA et profs experts. '
+      'Pouvez-vous m\'activer ?';
+  static const _whatsappGreen = Color(0xFF075E54);
 
   @override
   void dispose() {
@@ -141,7 +142,7 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
               ),
               const SizedBox(height: 8),
               const Text(
-                '200 DH — Discussion & activation via WhatsApp',
+                '300 DH — Discussion & activation via WhatsApp',
                 style: TextStyle(
                   color: AppColors.textMuted,
                   fontSize: 12,
