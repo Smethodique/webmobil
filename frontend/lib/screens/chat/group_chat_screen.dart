@@ -271,9 +271,9 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
         _audioBytes.clear();
 
         if (kIsWeb) {
-          // Web: use start() with a path (record_web uses blob URL internally)
+          // Web: use opus encoder (widely supported by browsers)
           await _audioRecorder.start(
-            const RecordConfig(encoder: AudioEncoder.aacLc),
+            const RecordConfig(encoder: AudioEncoder.opus),
             path: 'voice_recording',
           );
         } else {
