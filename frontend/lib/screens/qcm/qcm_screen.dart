@@ -473,11 +473,6 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                         bgColor = AppColors.error.withValues(alpha: 0.1);
                         letterBg = AppColors.error;
                         letterText = Colors.white;
-                      } else if (isCorrectOption) {
-                        borderColor = AppColors.success;
-                        bgColor = AppColors.success.withValues(alpha: 0.05);
-                        letterBg = AppColors.success;
-                        letterText = Colors.white;
                       } else {
                         borderColor = AppColors.surfaceBorder;
                         bgColor = AppColors.surface;
