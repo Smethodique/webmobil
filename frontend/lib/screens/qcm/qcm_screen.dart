@@ -171,7 +171,12 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
 
     if (quizState == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text(AppStrings.qcm)),
+        appBar: AppBar(
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.pop(context),
+          ),
+          title: const Text(AppStrings.qcm)),
         body: const Center(child: Text(AppStrings.noExams)),
       );
     }
@@ -186,6 +191,10 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
 
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+        ),
         title: Text(
             '${quizState.currentIndex + 1} / ${quizState.exam.questions.length}'),
         actions: [
