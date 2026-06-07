@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:url_launcher/url_launcher.dart';
 import '../../constants/colors.dart';
 import '../../providers/auth_provider.dart';
+import 'dart:html' as html;
 
 class ActivationScreen extends ConsumerStatefulWidget {
   const ActivationScreen({super.key});
@@ -48,19 +50,34 @@ class _ActivationScreenState extends ConsumerState<ActivationScreen> {
 
   Future<void> _openWhatsApp() async {
     final encoded = Uri.encodeComponent(_whatsappMessage);
-    final uri = Uri.parse('https://wa.me/$_whatsappNumber?text=$encoded');
-    try {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } catch (_) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Impossible d\'ouvrir WhatsApp. '
-              'Contactez-nous au $_whatsappNumber'),
-          backgroundColor: AppColors.error,
-        ),
-      );
+    final url = 'https://wa.me/$_whatsappNumber?text=$encoded';
+
+    if (kIsWeb) {
+      // Web: use dart:html window.open() — reliable, no popup blocking
+      html.window.open(url, '_blank');
+      return;
     }
+
+    // Mobile: use url_launcher
+    try {
+      final uri = Uri.parse(url);
+      final launched = await launchUrl(uri);
+      if (!launched && mounted) {
+        _showError();
+      }
+    } catch (_) {
+      if (mounted) _showError();
+    }
+  }
+
+  void _showError() {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: const Text('Impossible d\'ouvrir WhatsApp. '
+            'Contactez-nous au $_whatsappNumber'),
+        backgroundColor: AppColors.error,
+      ),
+    );
   }
 
   @override
