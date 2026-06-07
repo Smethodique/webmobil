@@ -42,6 +42,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
   final List<int> _audioBytes = [];
   bool _isRecording = false;
   bool _isPlaying = false;
+  String? _playingVoiceUrl; // Track which voice URL is currently playing
   bool _isSending = false;
   int? _currentUserId;
   bool _autoScroll = true;
@@ -58,9 +59,16 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _playerStateSub = _audioPlayer.onPlayerStateChanged.listen((state) {
+    _playerStateSub ??= _audioPlayer.onPlayerStateChanged.listen((state) {
       if (!mounted) return;
-      setState(() => _isPlaying = state == PlayerState.playing);
+      if (state == PlayerState.stopped || state == PlayerState.completed) {
+        setState(() {
+          _isPlaying = false;
+          _playingVoiceUrl = null;
+        });
+      } else {
+        setState(() => _isPlaying = state == PlayerState.playing);
+      }
     });
     _scrollController.addListener(_onScroll);
     _loadCurrentUserId();
@@ -319,10 +327,15 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
   }
 
   void _playVoice(String url) {
-    if (_isPlaying) {
+    if (_isPlaying && _playingVoiceUrl == url) {
       _audioPlayer.stop();
+      _playingVoiceUrl = null;
+      setState(() => _isPlaying = false);
     } else {
+      if (_isPlaying) _audioPlayer.stop();
+      _playingVoiceUrl = url;
       _audioPlayer.play(UrlSource(url));
+      setState(() => _isPlaying = true);
     }
   }
 
@@ -392,6 +405,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
                   playVoice: _playVoice,
                   currentUserId: _currentUserId,
                   isPlaying: _isPlaying,
+                  playingVoiceUrl: _playingVoiceUrl,
                   scrollController: _scrollController,
                   onMessagesChanged: _scrollToBottom,
                 ),
@@ -597,6 +611,7 @@ class _MessageList extends ConsumerWidget {
   final void Function(String url) playVoice;
   final int? currentUserId;
   final bool isPlaying;
+  final String? playingVoiceUrl;
   final ScrollController scrollController;
   final VoidCallback onMessagesChanged;
 
@@ -605,6 +620,7 @@ class _MessageList extends ConsumerWidget {
     required this.playVoice,
     required this.currentUserId,
     this.isPlaying = false,
+    this.playingVoiceUrl,
     required this.scrollController,
     required this.onMessagesChanged,
   });
@@ -664,11 +680,15 @@ class _MessageList extends ConsumerWidget {
         final m = messages[i];
         final isOwn = currentUserId != null &&
             m['sender'] == currentUserId;
+        final voice = m['voice'] as String?;
+        final voiceIsPlaying = isPlaying && 
+            playingVoiceUrl != null && 
+            _absoluteUrl(voice ?? '') == playingVoiceUrl;
         return _MessageBubble(
           message: m,
           playVoice: playVoice,
           isOwn: isOwn,
-          isPlaying: isPlaying,
+          isPlaying: voiceIsPlaying,
         );
       },
     );
