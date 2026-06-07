@@ -33,17 +33,19 @@ class MathFormulaRenderer extends StatelessWidget {
     s = s.replaceAllMapped(RegExp(r'\\{1,3}\[(.+?)\\{1,3}\]', dotAll: true),
         (m) => _marker + m.group(1)! + _marker);
 
-    // 4. AI content: $...$ with math content
-    if (isAiContent) {
-      s = s.replaceAllMapped(RegExp(r'\$([^$]{2,}?)\$'), (m) {
-        final c = m.group(1)!;
-        if (c.contains('\\') || c.contains('^') || c.contains('_') ||
-            c.contains('{') || c.contains('=') || RegExp(r'\d').hasMatch(c)) {
-          return _marker + c + _marker;
-        }
-        return m.group(0)!;
-      });
-    }
+    // 5. $...$ with math content (convert all in math context)
+    s = s.replaceAllMapped(RegExp(r'\$([^$]{1,}?)\$'), (m) {
+      final c = m.group(1)!;
+      // Always convert if it contains any LaTeX-like content
+      if (c.contains('\\') || c.contains('^') || c.contains('_') ||
+          c.contains('{') || c.contains('=') || c.contains('(') ||
+          c.contains('+') || c.contains('-') || c.contains('*') ||
+          c.contains('/') || c.contains('<') || c.contains('>') ||
+          RegExp(r'\d').hasMatch(c)) {
+        return _marker + c + _marker;
+      }
+      return m.group(0)!;
+    });
     return s;
   }
 
