@@ -141,6 +141,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
         imagePath: imagePath,
         voicePath: voicePath,
         voiceBytes: voiceBytes,
+        voiceExtension: kIsWeb ? '.webm' : '.m4a',
       );
     } catch (e) {
       if (mounted) {

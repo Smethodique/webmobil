@@ -30,6 +30,7 @@ class ChatService {
     String? imagePath,
     String? voicePath,
     List<int>? voiceBytes,
+    String voiceExtension = '.m4a',
   }) async {
     final form = FormData();
     if (text != null && text.isNotEmpty) {
@@ -45,7 +46,7 @@ class ChatService {
       final voiceFile = MultipartFile(
         Stream.fromIterable([Uint8List.fromList(voiceBytes)]),
         voiceBytes.length,
-        filename: 'voice_${DateTime.now().millisecondsSinceEpoch}.m4a',
+        filename: 'voice_${DateTime.now().millisecondsSinceEpoch}$voiceExtension',
       );
       form.files.add(MapEntry('voice', voiceFile));
     } else if (voicePath != null && voicePath.isNotEmpty) {
