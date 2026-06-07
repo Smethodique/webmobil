@@ -26,8 +26,21 @@ class MathFormulaRenderer extends StatelessWidget {
     s = s.replaceAll('\\[', _dd);
     s = s.replaceAll('\\]', _dd);
     if (isAiContent) {
-      final singleDollar = RegExp(r'\$([^$]+)\$');
-      s = s.replaceAllMapped(singleDollar, (m) => _dd + m.group(1)! + _dd);
+      // Only match $...$ with math content (contains backslash, ^, _, numbers, etc.)
+      final singleDollar = RegExp(r'\$([^$]{2,}?)\$');
+      s = s.replaceAllMapped(singleDollar, (m) {
+        final content = m.group(1)!;
+        // Only convert if it looks like math (has LaTeX commands or math symbols)
+        if (content.contains('\\') || 
+            content.contains('^') || 
+            content.contains('_') ||
+            content.contains('{') ||
+            content.contains('=') ||
+            RegExp(r'\d').hasMatch(content)) {
+          return _dd + content + _dd;
+        }
+        return m.group(0)!; // Not math, keep as-is
+      });
     }
     return s;
   }
