@@ -12,7 +12,8 @@ class ApiClient {
       baseUrl: ApiEndpoints.baseUrl,
       connectTimeout: const Duration(seconds: 10),
       receiveTimeout: const Duration(seconds: 10),
-      headers: {'Content-Type': 'application/json'},
+      // Content-Type auto-detected: JSON for regular requests,
+      // multipart/form-data when sending files (images/voice)
     ));
     dio.interceptors.add(AuthInterceptor());
   }

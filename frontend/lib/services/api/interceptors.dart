@@ -12,6 +12,11 @@ class AuthInterceptor extends Interceptor {
     if (token != null) {
       options.headers['Authorization'] = 'Bearer $token';
     }
+    // Set Content-Type only for JSON requests, not multipart (images/voice)
+    final hasFile = options.data is FormData;
+    if (!hasFile && !options.headers.containsKey('Content-Type')) {
+      options.headers['Content-Type'] = 'application/json';
+    }
     handler.next(options);
   }
 
