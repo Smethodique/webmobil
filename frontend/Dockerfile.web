@@ -1,25 +1,5 @@
-# Build stage - install Flutter via git clone (Google Storage blocks Render)
-FROM debian:bookworm-slim AS builder
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    ca-certificates \
-    curl \
-    git \
-    unzip \
-    xz-utils \
-    zip \
-    libglu1-mesa \
-    && rm -rf /var/lib/apt/lists/*
-
-ENV FLUTTER_HOME=/opt/flutter
-ENV PATH=$FLUTTER_HOME/bin:$PATH
-
-# Clone Flutter stable from GitHub (--depth 1 for speed)
-RUN git clone https://github.com/flutter/flutter.git \
-    -b stable --depth 1 $FLUTTER_HOME \
-    && git -C $FLUTTER_HOME config --global --add safe.directory $FLUTTER_HOME
-
-RUN flutter --disable-analytics && dart --version && flutter --version
+# Build stage - use pre-built Flutter Docker image
+FROM cirrusci/flutter:stable AS builder
 
 WORKDIR /app
 
@@ -27,7 +7,7 @@ WORKDIR /app
 COPY . .
 RUN flutter pub get
 
-# Set API URL from build arg or default to Render backend
+# Set API URL
 ARG API_BASE_URL=https://webmobil.onrender.com/api/v1
 RUN echo "API_BASE_URL=$API_BASE_URL" > .env
 
