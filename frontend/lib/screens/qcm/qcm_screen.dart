@@ -24,6 +24,7 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
   Timer? _timer;
   bool _aiLoading = false;
   String? _aiResult;
+  bool _isModifying = false; // Track if user clicked "Modifier ma réponse"
 
   @override
   void initState() {
@@ -50,6 +51,13 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(builder: (_) => const ReviewScreen()),
     );
+  }
+
+  Future<void> _verifyCurrent() async {
+    final quiz = ref.read(quizProvider.notifier);
+    await quiz.submit();
+    // Stay on this question showing the result
+    if (mounted) setState(() => _isModifying = false);
   }
 
   Future<void> _saveQuestion(QuestionModel question) async {
@@ -362,9 +370,10 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                       child: SizedBox(
                         width: double.infinity,
                         child: OutlinedButton.icon(
-                          onPressed: () => ref
-                              .read(quizProvider.notifier)
-                              .unsubmit(),
+                          onPressed: () {
+                            ref.read(quizProvider.notifier).unsubmit();
+                            setState(() => _isModifying = true);
+                          },
                           icon: const Icon(Icons.edit, size: 18),
                           label: const Text('Modifier ma réponse'),
                           style: OutlinedButton.styleFrom(
@@ -577,7 +586,8 @@ class _QcmScreenState extends ConsumerState<QcmScreen>
                       .read(quizProvider.notifier)
                       .goToQuestion(quizState.currentIndex + 1)
                   : null,
-              onSubmit: _submitExam,
+              onSubmit: _isModifying ? _verifyCurrent : _submitExam,
+              submitLabel: _isModifying ? 'Vérifier' : AppStrings.submit,
               answeredCount: quizState.answeredCount,
               totalCount: quizState.exam.questions.length,
             ),
@@ -921,6 +931,7 @@ class _BottomBar extends StatelessWidget {
   final VoidCallback? onPrevious;
   final VoidCallback? onNext;
   final VoidCallback onSubmit;
+  final String submitLabel;
   final int answeredCount;
   final int totalCount;
 
@@ -931,6 +942,7 @@ class _BottomBar extends StatelessWidget {
     required this.onPrevious,
     required this.onNext,
     required this.onSubmit,
+    this.submitLabel = 'Soumettre',
     required this.answeredCount,
     required this.totalCount,
   });
@@ -976,7 +988,7 @@ class _BottomBar extends StatelessWidget {
           ElevatedButton.icon(
             onPressed: onSubmit,
             icon: const Icon(Icons.check_circle, size: 18),
-            label: const Text(AppStrings.submit,
+            label: Text(submitLabel,
                 style: TextStyle(fontSize: 13)),
             style: ElevatedButton.styleFrom(
               padding:
