@@ -53,11 +53,22 @@ class AiService {
     return res.data['result'] as String;
   }
 
-  static Future<String?> ocrImage({required String imagePath}) async {
+  static Future<String?> ocrImage({required String imagePath, List<int>? imageBytes}) async {
     final form = FormData();
-    form.files.add(MapEntry(
-      'image', await MultipartFile.fromFile(imagePath),
-    ));
+    if (imageBytes != null && imageBytes.isNotEmpty) {
+      // Web: use bytes (blob URLs can't use fromFile)
+      form.files.add(MapEntry(
+        'image',
+        MultipartFile.fromBytes(
+          imageBytes,
+          filename: 'ocr_image.jpg',
+        ),
+      ));
+    } else {
+      form.files.add(MapEntry(
+        'image', await MultipartFile.fromFile(imagePath),
+      ));
+    }
     final res = await ApiClient().dio.post(
       ApiEndpoints.aiOcr,
       data: form,

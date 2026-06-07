@@ -1,5 +1,7 @@
 import 'dart:io';
+import 'dart:typed_data';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:image_picker/image_picker.dart';
 import '../../constants/colors.dart';
 import '../../services/ai_service.dart';
@@ -18,6 +20,7 @@ class _AiChatScreenState extends State<AiChatScreen> {
   final _picker = ImagePicker();
   final _scrollCtrl = ScrollController();
   final List<String> _imagePaths = [];
+  final List<Uint8List> _imageBytesList = [];
   bool _loading = false;
   bool _ocrLoading = false;
   String? _result;
@@ -39,13 +42,29 @@ class _AiChatScreenState extends State<AiChatScreen> {
     );
     if (picked == null) return;
 
-    setState(() { _imagePaths.add(picked.path); _ocrLoading = true; });
+    setState(() {
+      _imagePaths.add(picked.path);
+      _ocrLoading = true;
+    });
+
+    // Read bytes on web (blob URLs can't use fromFile)
+    if (kIsWeb) {
+      final bytes = await picked.readAsBytes();
+      _imageBytesList.add(Uint8List.fromList(bytes));
+    }
 
     // OCR all images and combine text
     final ocrParts = <String>[];
-    for (final path in _imagePaths) {
+    for (int i = 0; i < _imagePaths.length; i++) {
       try {
-        final ocrText = await AiService.ocrImage(imagePath: path);
+        final path = _imagePaths[i];
+        final bytes = kIsWeb && i < _imageBytesList.length
+            ? _imageBytesList[i]
+            : null;
+        final ocrText = await AiService.ocrImage(
+          imagePath: path,
+          imageBytes: bytes,
+        );
         if (ocrText != null && ocrText.isNotEmpty) {
           ocrParts.add(ocrText);
         }
@@ -92,7 +111,10 @@ class _AiChatScreenState extends State<AiChatScreen> {
     });
 
     _textCtrl.clear();
-    setState(() => _imagePaths.clear());
+    setState(() {
+      _imagePaths.clear();
+      _imageBytesList.clear();
+    });
 
     try {
       final result = await AiService.aiChat(text: text);
