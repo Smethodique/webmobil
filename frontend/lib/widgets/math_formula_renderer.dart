@@ -16,39 +16,41 @@ class MathFormulaRenderer extends StatelessWidget {
     this.isAiContent = false,
   });
 
-  // Two literal dollar signs — safe from Dart $ interpolation
-  static final _dd = '\x24\x24';
+  // Marker used to split text and math segments (replaced with actual $$ later)
+  static const _marker = '\x00MATH\x00';
 
   String _normalizeLatex(String input) {
     String s = input;
-    s = s.replaceAll('\\(', _dd);
-    s = s.replaceAll('\\)', _dd);
-    s = s.replaceAll('\\[', _dd);
-    s = s.replaceAll('\\]', _dd);
+
+    // 1. Replace $$...$$ (already in LaTeX display math format)
+    s = s.replaceAllMapped(RegExp(r'\$\$(.+?)\$\$', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+
+    // 2. Replace \[...\] (display math)
+    s = s.replaceAllMapped(RegExp(r'\\\[(.+?)\\\]', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+
+    // 3. Replace \(...\) (inline math) — handles single and double-escaped
+    s = s.replaceAllMapped(RegExp(r'\\\\?\((.+?)\\\\?\)', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+
+    // 4. For AI content: $...$ with math-looking content
     if (isAiContent) {
-      // Only match $...$ with math content (contains backslash, ^, _, numbers, etc.)
-      final singleDollar = RegExp(r'\$([^$]{2,}?)\$');
-      s = s.replaceAllMapped(singleDollar, (m) {
+      s = s.replaceAllMapped(RegExp(r'\$([^$]{2,}?)\$'), (m) {
         final content = m.group(1)!;
-        // Only convert if it looks like math (has LaTeX commands or math symbols)
-        if (content.contains('\\') || 
-            content.contains('^') || 
-            content.contains('_') ||
-            content.contains('{') ||
-            content.contains('=') ||
-            RegExp(r'\d').hasMatch(content)) {
-          return _dd + content + _dd;
+        if (content.contains('\\') || content.contains('^') || 
+            content.contains('_') || content.contains('{') ||
+            content.contains('=') || RegExp(r'\d').hasMatch(content)) {
+          return _marker + content + _marker;
         }
-        return m.group(0)!; // Not math, keep as-is
+        return m.group(0)!;
       });
     }
+
     return s;
   }
 
   List<InlineSpan> _buildSpans(String input) {
     final spans = <InlineSpan>[];
     final color = textColor ?? AppColors.textPrimary;
-    final parts = input.split(_dd);
+    final parts = input.split(_marker);
     for (var i = 0; i < parts.length; i++) {
       if (i.isOdd) {
         spans.add(WidgetSpan(
@@ -68,7 +70,7 @@ class MathFormulaRenderer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cleaned = _normalizeLatex(text);
-    if (!cleaned.contains(_dd)) {
+    if (!cleaned.contains(_marker)) {
       return Text(text, style: TextStyle(
         color: textColor ?? AppColors.textPrimary,
         fontSize: 14 * textScale, height: 1.5,
