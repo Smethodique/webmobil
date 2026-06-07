@@ -132,6 +132,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
     String? imagePath,
     String? voicePath,
     List<int>? voiceBytes,
+    List<int>? imageBytes,
   }) async {
     if (_isSending) return;
     setState(() => _isSending = true);
@@ -142,6 +143,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
         voicePath: voicePath,
         voiceBytes: voiceBytes,
         voiceExtension: kIsWeb ? '.webm' : '.m4a',
+        imageBytes: imageBytes,
       );
     } catch (e) {
       if (mounted) {
@@ -160,13 +162,23 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
   Future<void> _pickImage(int groupId) async {
     final picked = await _picker.pickImage(source: ImageSource.gallery);
     if (picked == null) return;
-    await _sendMessage(groupId: groupId, imagePath: picked.path);
+    if (kIsWeb) {
+      final bytes = await picked.readAsBytes();
+      await _sendMessage(groupId: groupId, imageBytes: bytes);
+    } else {
+      await _sendMessage(groupId: groupId, imagePath: picked.path);
+    }
   }
 
   Future<void> _takePhoto(int groupId) async {
     final picked = await _picker.pickImage(source: ImageSource.camera);
     if (picked == null) return;
-    await _sendMessage(groupId: groupId, imagePath: picked.path);
+    if (kIsWeb) {
+      final bytes = await picked.readAsBytes();
+      await _sendMessage(groupId: groupId, imageBytes: bytes);
+    } else {
+      await _sendMessage(groupId: groupId, imagePath: picked.path);
+    }
   }
 
   void _stopRecordTimer() {

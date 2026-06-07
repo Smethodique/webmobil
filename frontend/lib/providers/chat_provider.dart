@@ -106,6 +106,7 @@ class LiveMessagesNotifier extends StateNotifier<List<Map<String, dynamic>>> {
     String? voicePath,
     List<int>? voiceBytes,
     String voiceExtension = '.m4a',
+    List<int>? imageBytes,
   }) async {
     final sent = await ChatService.sendMessage(
       groupId: _groupId,
@@ -114,6 +115,7 @@ class LiveMessagesNotifier extends StateNotifier<List<Map<String, dynamic>>> {
       voicePath: voicePath,
       voiceBytes: voiceBytes,
       voiceExtension: voiceExtension,
+      imageBytes: imageBytes,
     );
     // Add to state immediately — don't wait for WS broadcast
     final msgId = sent['id'];

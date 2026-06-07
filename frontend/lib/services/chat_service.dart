@@ -31,6 +31,7 @@ class ChatService {
     String? voicePath,
     List<int>? voiceBytes,
     String voiceExtension = '.m4a',
+    List<int>? imageBytes,
   }) async {
     final form = FormData();
     if (text != null && text.isNotEmpty) {
@@ -52,6 +53,16 @@ class ChatService {
     } else if (voicePath != null && voicePath.isNotEmpty) {
       form.files.add(MapEntry(
         'voice', await MultipartFile.fromFile(voicePath, filename: voicePath.split('/').last),
+      ));
+    }
+    if (imageBytes != null && imageBytes.isNotEmpty) {
+      // Web: use bytes (blob URLs can't use fromFile)
+      form.files.add(MapEntry(
+        'image',
+        MultipartFile.fromBytes(
+          imageBytes,
+          filename: 'image_${DateTime.now().millisecondsSinceEpoch}.jpg',
+        ),
       ));
     }
     final res = await ApiClient().dio.post(
