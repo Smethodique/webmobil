@@ -16,34 +16,34 @@ class MathFormulaRenderer extends StatelessWidget {
     this.isAiContent = false,
   });
 
-  // Marker used to split text and math segments (replaced with actual $$ later)
   static const _marker = '\x00MATH\x00';
 
   String _normalizeLatex(String input) {
     String s = input;
 
-    // 1. Replace $$...$$ (already in LaTeX display math format)
-    s = s.replaceAllMapped(RegExp(r'\$\$(.+?)\$\$', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+    // 1. $$...$$ (display math)
+    s = s.replaceAllMapped(RegExp(r'\$\$(.+?)\$\$', dotAll: true),
+        (m) => _marker + m.group(1)! + _marker);
 
-    // 2. Replace \[...\] (display math)
-    s = s.replaceAllMapped(RegExp(r'\\\[(.+?)\\\]', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+    // 3. \(...\) — handles 1-3 backslashes (some JSON/AI responses triple-escape)
+    s = s.replaceAllMapped(RegExp(r'\\{1,3}\((.+?)\\{1,3}\)', dotAll: true),
+        (m) => _marker + m.group(1)! + _marker);
 
-    // 3. Replace \(...\) (inline math) — handles single and double-escaped
-    s = s.replaceAllMapped(RegExp(r'\\\\?\((.+?)\\\\?\)', dotAll: true), (m) => _marker + m.group(1)! + _marker);
+    // 4. \[...\] — handles 1-3 backslashes
+    s = s.replaceAllMapped(RegExp(r'\\{1,3}\[(.+?)\\{1,3}\]', dotAll: true),
+        (m) => _marker + m.group(1)! + _marker);
 
-    // 4. For AI content: $...$ with math-looking content
+    // 4. AI content: $...$ with math content
     if (isAiContent) {
       s = s.replaceAllMapped(RegExp(r'\$([^$]{2,}?)\$'), (m) {
-        final content = m.group(1)!;
-        if (content.contains('\\') || content.contains('^') || 
-            content.contains('_') || content.contains('{') ||
-            content.contains('=') || RegExp(r'\d').hasMatch(content)) {
-          return _marker + content + _marker;
+        final c = m.group(1)!;
+        if (c.contains('\\') || c.contains('^') || c.contains('_') ||
+            c.contains('{') || c.contains('=') || RegExp(r'\d').hasMatch(c)) {
+          return _marker + c + _marker;
         }
         return m.group(0)!;
       });
     }
-
     return s;
   }
 
