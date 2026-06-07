@@ -5,8 +5,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:record/record.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:path_provider/path_provider.dart';
-import 'dart:io' show File;
 import '../../config/environment.dart';
 import '../../constants/colors.dart';
 import '../../providers/chat_provider.dart';
@@ -41,7 +39,6 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
   StreamSubscription<List<int>>? _audioStreamSub;
   Completer<List<int>>? _recordCompleter;
   final List<int> _audioBytes = [];
-  String? _webRecordPath; // Web: file path for recording
   bool _isRecording = false;
   bool _isPlaying = false;
   bool _isSending = false;
@@ -195,12 +192,7 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
       try {
         await _audioRecorder.stop();
         List<int> bytes;
-        if (kIsWeb && _webRecordPath != null) {
-          // Web: read recorded file
-          final file = File(_webRecordPath!);
-          bytes = await file.readAsBytes();
-          _webRecordPath = null;
-        } else if (_recordCompleter != null) {
+        if (_recordCompleter != null) {
           bytes = await _recordCompleter!.future.timeout(
             const Duration(seconds: 30),
             onTimeout: () => List<int>.from(_audioBytes),
@@ -248,6 +240,18 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
     } else {
       // START recording
       try {
+        if (kIsWeb) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Enregistrement vocal non disponible sur le web. '
+                    'Utilisez l\'application mobile.'),
+                backgroundColor: AppColors.warning,
+              ),
+            );
+          }
+          return;
+        }
         final hasPermission = await _audioRecorder.hasPermission();
         if (!hasPermission) {
           if (mounted) {
@@ -263,43 +267,30 @@ class _GroupChatScreenState extends ConsumerState<GroupChatScreen>
         _audioBytes.clear();
         _recordCompleter = Completer<List<int>>();
 
-        if (kIsWeb) {
-          // Web: record to temp file (stream not supported on web)
-          final dir = await getTemporaryDirectory();
-          final path = '${dir.path}/voice_${DateTime.now().millisecondsSinceEpoch}.m4a';
-          _webRecordPath = path;
-          await _audioRecorder.start(
-            const RecordConfig(encoder: AudioEncoder.aacLc),
-            path: path,
-          );
-          _recordCompleter!.complete([0]); // placeholder, real bytes read on stop
-        } else {
-          // Native: use stream
-          final stream = await _audioRecorder.startStream(
-            const RecordConfig(encoder: AudioEncoder.aacLc),
-          );
-          _audioStreamSub = stream.listen(
-            (data) => _audioBytes.addAll(data),
-            onDone: () {
-              if (_recordCompleter != null && !_recordCompleter!.isCompleted) {
-                _recordCompleter!.complete(List<int>.from(_audioBytes));
-              }
-            },
-            onError: (e) {
-              if (_recordCompleter != null && !_recordCompleter!.isCompleted) {
-                _recordCompleter!.completeError(e);
-              }
-              if (mounted) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: Text('Erreur: $e'),
-                    backgroundColor: AppColors.error,
-                  ),
-                );
-              }
-            },
-          );
-        }
+        final stream = await _audioRecorder.startStream(
+          const RecordConfig(encoder: AudioEncoder.aacLc),
+        );
+        _audioStreamSub = stream.listen(
+          (data) => _audioBytes.addAll(data),
+          onDone: () {
+            if (_recordCompleter != null && !_recordCompleter!.isCompleted) {
+              _recordCompleter!.complete(List<int>.from(_audioBytes));
+            }
+          },
+          onError: (e) {
+            if (_recordCompleter != null && !_recordCompleter!.isCompleted) {
+              _recordCompleter!.completeError(e);
+            }
+            if (mounted) {
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text('Erreur: $e'),
+                  backgroundColor: AppColors.error,
+                ),
+              );
+            }
+          },
+        );
         _startRecordTimer(groupId);
         if (mounted) setState(() => _isRecording = true);
       } catch (e) {
